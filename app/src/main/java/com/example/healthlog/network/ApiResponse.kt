@@ -13,22 +13,20 @@ data class RegisterResponse(
     val message: String
 )
 
-// Groq Request Models
-data class GroqRequest(
-    val messages: List<GroqMessage>,
-    val model: String = "mixtral-8x7b-32768"
+data class AiSummarizeResponse(
+    val status: String,
+    val summary: String? = null,
+    val message: String? = null
 )
 
-data class GroqMessage(
-    val role: String,
-    val content: String
+data class AiExplainTermsResponse(
+    val status: String,
+    val explanation: String? = null,
+    val message: String? = null
 )
 
-// Groq Response Models
-data class GroqResponse(
-    val choices: List<GroqChoice>
-)
-
-data class GroqChoice(
-    val message: GroqMessage
+data class AiMedicinePurposeResponse(
+    val status: String,
+    val purpose: String? = null,
+    val message: String? = null
 )

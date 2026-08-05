@@ -132,10 +132,21 @@ interface HealthLogApi {
         @Path("id") reminderId: String
     ): Response<RegisterResponse>
 
-    @POST
-    suspend fun getGroqCompletion(
-        @Url url: String,
-        @Header("Authorization") apiKey: String,
-        @Body request: GroqRequest
-    ): Response<GroqResponse>
+    @FormUrlEncoded
+    @POST("api/v1/ai/summarize")
+    suspend fun summarizeReport(
+        @Field("report_text") reportText: String
+    ): Response<AiSummarizeResponse>
+
+    @FormUrlEncoded
+    @POST("api/v1/ai/explain-terms")
+    suspend fun explainTerms(
+        @Field("term") term: String
+    ): Response<AiExplainTermsResponse>
+
+    @FormUrlEncoded
+    @POST("api/v1/ai/medicine-purpose")
+    suspend fun medicinePurpose(
+        @Field("medicine") medicine: String
+    ): Response<AiMedicinePurposeResponse>
 }

@@ -43,8 +43,6 @@ class HealthLogViewModel : ViewModel() {
 
     var useMockAi by mutableStateOf(false) 
 
-    // Groq API Key
-    private val GROQ_API_KEY = "Bearer YOUR_GROQ_API_KEY"
     
     private val _profiles = mutableStateListOf<Profile>()
     val profiles: List<Profile> get() = _profiles
@@ -321,7 +319,7 @@ class HealthLogViewModel : ViewModel() {
         }
     }
 
-    // --- AI Methods ---
+    // --- AI Methods (Routed via Flask Backend) ---
     fun generateAiSummary(context: Context, uri: Uri) {
         viewModelScope.launch {
             isAiLoading = true
@@ -331,59 +329,85 @@ class HealthLogViewModel : ViewModel() {
                 val image = InputImage.fromFilePath(context, uri)
                 recognizer.process(image)
                     .addOnSuccessListener { visionText ->
-                        if (visionText.text.isNotBlank()) askAi("Summarize this medical report: ${visionText.text}")
-                        else { aiSummary = "No text found in image."; isAiLoading = false }
+                        if (visionText.text.isNotBlank()) {
+                            summarizeReportText(visionText.text)
+                        } else {
+                            aiSummary = "No text found in image."
+                            isAiLoading = false
+                        }
                     }
-                    .addOnFailureListener { e -> aiSummary = "OCR Error: ${e.localizedMessage}"; isAiLoading = false }
-            } catch (e: Exception) { aiSummary = "Error: ${e.localizedMessage}"; isAiLoading = false }
+                    .addOnFailureListener { e ->
+                        aiSummary = "OCR Error: ${e.localizedMessage}"
+                        isAiLoading = false
+                    }
+            } catch (e: Exception) {
+                aiSummary = "Error: ${e.localizedMessage}"
+                isAiLoading = false
+            }
         }
     }
 
-    fun explainMedicalTerms(query: String) {
-        askAi("Explain the medical term '$query' in simple language.")
-    }
-
-    fun checkMedicinePurpose(medicine: String) {
-        askAi("What is the purpose of the medicine '$medicine'?")
-    }
-
-    private fun askAi(prompt: String) {
-        if (prompt.isBlank()) return
-        
+    fun summarizeReportText(reportText: String) {
+        if (reportText.isBlank()) return
         viewModelScope.launch {
             isAiLoading = true
-            aiSummary = "Groq AI is thinking..."
-            
-            if (useMockAi) {
-                delay(2000)
-                aiSummary = "AI Result (Mock Mode): Simulated response."
-                isAiLoading = false
-                return@launch
-            }
-
+            aiSummary = "Generating AI Summary..."
             try {
-                val request = GroqRequest(
-                    messages = listOf(GroqMessage(role = "user", content = prompt)),
-                    model = "llama-3.1-8b-instant"
-                )
-                
-                val response = RetrofitClient.instance.getGroqCompletion(
-                    url = "https://api.groq.com/openai/v1/chat/completions",
-                    apiKey = GROQ_API_KEY,
-                    request = request
-                )
-
-                if (response.isSuccessful) {
-                    aiSummary = response.body()?.choices?.firstOrNull()?.message?.content ?: "No response from AI."
+                val response = RetrofitClient.instance.summarizeReport(reportText)
+                if (response.isSuccessful && response.body()?.status == "success") {
+                    aiSummary = response.body()?.summary ?: "No summary generated."
                 } else {
-                    val errorBody = response.errorBody()?.string() ?: ""
-                    aiSummary = "Groq Error ${response.code()}: $errorBody"
+                    aiSummary = response.body()?.message ?: "Failed to generate summary."
                 }
             } catch (e: Exception) {
-                aiSummary = "AI Connection Error: ${e.localizedMessage}"
+                handleNetworkError(e)
+                aiSummary = apiErrorMessage ?: "Connection error."
             } finally {
                 isAiLoading = false
             }
         }
     }
+
+    fun explainMedicalTerms(query: String) {
+        if (query.isBlank()) return
+        viewModelScope.launch {
+            isAiLoading = true
+            aiSummary = "Explaining medical term..."
+            try {
+                val response = RetrofitClient.instance.explainTerms(query)
+                if (response.isSuccessful && response.body()?.status == "success") {
+                    aiSummary = response.body()?.explanation ?: "No explanation available."
+                } else {
+                    aiSummary = response.body()?.message ?: "Failed to explain term."
+                }
+            } catch (e: Exception) {
+                handleNetworkError(e)
+                aiSummary = apiErrorMessage ?: "Connection error."
+            } finally {
+                isAiLoading = false
+            }
+        }
+    }
+
+    fun checkMedicinePurpose(medicine: String) {
+        if (medicine.isBlank()) return
+        viewModelScope.launch {
+            isAiLoading = true
+            aiSummary = "Analyzing medicine purpose..."
+            try {
+                val response = RetrofitClient.instance.medicinePurpose(medicine)
+                if (response.isSuccessful && response.body()?.status == "success") {
+                    aiSummary = response.body()?.purpose ?: "No purpose information found."
+                } else {
+                    aiSummary = response.body()?.message ?: "Failed to check medicine purpose."
+                }
+            } catch (e: Exception) {
+                handleNetworkError(e)
+                aiSummary = apiErrorMessage ?: "Connection error."
+            } finally {
+                isAiLoading = false
+            }
+        }
+    }
+
 }
