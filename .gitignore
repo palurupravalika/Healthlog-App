@@ -1,0 +1,43 @@
+# Android - HealthLog App .gitignore
+# Generated build artifacts
+*.iml
+.gradle/
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Android Studio / IntelliJ IDE files
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/gradle.xml
+.idea/.gitignore
+.kotlin/
+
+# Local machine configuration - NEVER commit this
+local.properties
+
+# Firebase - sensitive service files
+# google-services.json must NOT be committed.
+# Add it manually per-device after cloning.
+app/google-services.json
+
+# Keystore / signing files
+*.jks
+*.keystore
+release/
+keystore.properties
+
+# macOS artifacts
+.DS_Store
+
+# Windows artifacts
+Thumbs.db
+
+# Misplaced root-level file (copy of MainActivity.kt)
+/MainActivity.kt
