@@ -8,7 +8,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
 object RetrofitClient {
-    const val BASE_URL = "http://192.168.1.41:5000/"
+    const val BASE_URL = "https://healthlog-backend-u23h.onrender.com/"
 
     private val gson = GsonBuilder()
         .setLenient() 
