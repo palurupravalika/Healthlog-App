@@ -43,10 +43,16 @@ fun MedicalRecordDetailScreen(
     // Resolve the report URL: use reportUri as-is if it is already a full https:// Firebase URL.
     // If it points to the local Flask server (127.0.0.1 / 10.0.2.2 / localhost), rewrite the host
     // to the configured RetrofitClient.BASE_URL so the device can reach it on the LAN.
+    val isExpiredReport = remember(record.effectiveReportUri) {
+        val uri = record.effectiveReportUri
+        uri != null && (uri.contains("EXPIRED", ignoreCase = true) || uri.contains("/uploads/", ignoreCase = true))
+    }
+
     val fullReportUrl = remember(record.effectiveReportUri) {
         val uri = record.effectiveReportUri
         when {
             uri.isNullOrBlank() ||
+            uri.contains("EXPIRED", ignoreCase = true) ||
             uri.equals("doc", ignoreCase = true) ||
             uri.equals("/doc", ignoreCase = true) ||
             uri.equals("none", ignoreCase = true) ||
@@ -242,8 +248,8 @@ fun MedicalRecordDetailScreen(
     if (showNoReportDialog) {
         AlertDialog(
             onDismissRequest = { showNoReportDialog = false },
-            title = { Text("Document Missing", fontWeight = FontWeight.Bold) },
-            text = { Text("No medical report is attached.") },
+            title = { Text(if (isExpiredReport) "Report Unavailable" else "Document Missing", fontWeight = FontWeight.Bold) },
+            text = { Text(if (isExpiredReport) "This report was uploaded before Firebase Storage migration and is no longer available." else "No medical report is attached.") },
             confirmButton = {
                 TextButton(onClick = { showNoReportDialog = false }) {
                     Text("Understood", color = LavenderPrimary, fontWeight = FontWeight.Bold)
