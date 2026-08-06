@@ -1,3 +1,15 @@
+# =============================================================================
+# HealthLogAppium/.github/workflows/android-e2e.yml
+# (STANDALONE – runs in the healthLog App submodule repo context)
+#
+# PURPOSE: Lightweight entry-point for the Healthlog-App repository.
+# Delegates ALL testing logic to:
+#   HealthLogAppium/scripts/ci_run_tests.ps1
+#
+# NOTE ON PATHS: When this workflow runs from palurupravalika/Healthlog-App,
+# the checkout root IS the healthLog App directory. Paths use "HealthLogAppium/"
+# NOT "healthLog App/HealthLogAppium/".
+# =============================================================================
 name: HealthLog Mobile Appium E2E Automation Pipeline
 
 on:
@@ -9,7 +21,7 @@ on:
 
 jobs:
   android-e2e-tests:
-    # ── Self-hosted Windows runner (HealthLogRunner) ───────────────────────
+    # ── Windows Self-Hosted Runner: HealthLogRunner ──────────────────────────
     runs-on: [self-hosted, Windows, X64, android]
 
     defaults:
@@ -17,169 +29,49 @@ jobs:
         shell: pwsh
 
     steps:
-      # ── 1. Checkout ───────────────────────────────────────────────────────
-      - name: Checkout Code Repository
+      # ── 1. Checkout the healthLog App repository ───────────────────────────
+      - name: Checkout App Repository
         uses: actions/checkout@v4
-        with:
-          submodules: true
 
-      # ── 2. Verify pre-installed tools on the self-hosted runner ───────────
-      - name: Verify Environment Tools
-        run: |
-          Write-Host "=== Pre-installed Tool Versions ==="
-          java -version 2>&1
-          node --version
-          npm  --version
-          Write-Host "ANDROID_HOME : $env:ANDROID_HOME"
-          $adb = if (Test-Path "$env:ANDROID_HOME\platform-tools\adb.exe") {
-                   "$env:ANDROID_HOME\platform-tools\adb.exe"
-                 } else { "adb" }
-          & $adb version
-
-      # ── 3. Build Android Debug APK ────────────────────────────────────────
+      # ── 2. Build the Android Debug APK (repo root = healthLog App/) ────────
       - name: Build Android Debug APK
-        working-directory: "healthLog App"
         run: |
-          Write-Host "Building HealthLog APK..."
+          Write-Host "=== Building HealthLog Android APK ==="
           .\gradlew.bat assembleDebug --no-daemon
 
-      # ── 4. Install Node / Appium dependencies ─────────────────────────────
-      - name: Install Node Dependencies
-        working-directory: "healthLog App/HealthLogAppium"
+      # ── 3. Delegate ALL testing logic to the HealthLogAppium pipeline ─────
+      #       ci_run_tests.ps1 owns: npm install, emulator start/check,
+      #       Appium start, APK install, WDIO run, all report generation.
+      - name: Run HealthLogAppium E2E Pipeline
+        working-directory: "HealthLogAppium"
         run: |
-          npm ci --prefer-offline
-          if ($LASTEXITCODE -ne 0) {
-            Write-Host "npm ci failed, falling back to npm install..."
-            npm install
-          }
-
-      # ── 5. Verify Appium UIAutomator2 driver ─────────────────────────────
-      - name: Verify Appium UIAutomator2 Driver
-        working-directory: "healthLog App/HealthLogAppium"
-        run: |
-          npx appium driver list --installed 2>&1
-          $driverList = npx appium driver list --installed 2>&1 | Out-String
-          if ($driverList -notmatch "uiautomator2") {
-            Write-Host "Installing UIAutomator2 driver..."
-            npx appium driver install uiautomator2
-          } else {
-            Write-Host "UIAutomator2 driver already installed."
-          }
-
-      # ── 6. Create Android Virtual Device (idempotent) ─────────────────────
-      - name: Create Android Virtual Device
-        run: |
-          $avdName  = "HealthLog_Nexus6_API29"
-          $avdMgr   = if (Test-Path "$env:ANDROID_HOME\cmdline-tools\latest\bin\avdmanager.bat") {
-                        "$env:ANDROID_HOME\cmdline-tools\latest\bin\avdmanager.bat"
-                      } else {
-                        "$env:ANDROID_HOME\tools\bin\avdmanager.bat"
-                      }
-          $avdList  = & $avdMgr list avd 2>&1 | Out-String
-          if ($avdList -notmatch $avdName) {
-            Write-Host "Creating AVD: $avdName ..."
-            "no" | & $avdMgr create avd `
-              --name    $avdName `
-              --package "system-images;android-29;google_apis;x86_64" `
-              --device  "Nexus 6" `
-              --force
-          } else {
-            Write-Host "AVD '$avdName' already exists. Skipping creation."
-          }
-
-      # ── 7. Start emulator & wait for boot ────────────────────────────────
-      - name: Start Android Emulator
-        run: |
-          $avdName  = "HealthLog_Nexus6_API29"
-          $emulator = "$env:ANDROID_HOME\emulator\emulator.exe"
-          $adb      = if (Test-Path "$env:ANDROID_HOME\platform-tools\adb.exe") {
-                        "$env:ANDROID_HOME\platform-tools\adb.exe"
-                      } else { "adb" }
-
-          Write-Host "Starting emulator '$avdName' in headless mode..."
-          Start-Process -FilePath $emulator `
-            -ArgumentList @(
-              "-avd", $avdName,
-              "-no-audio",
-              "-no-window",
-              "-gpu",  "swiftshader_indirect",
-              "-no-snapshot-save"
-            ) `
-            -NoNewWindow
-
-          Write-Host "Waiting for device to appear on adb..."
-          & $adb wait-for-device
-
-          Write-Host "Polling for boot_completed property..."
-          $maxWait     = 360
-          $waited      = 0
-          $bootComplete = ""
-
-          while ($bootComplete -ne "1" -and $waited -lt $maxWait) {
-            Start-Sleep -Seconds 5
-            $waited      += 5
-            $bootComplete = (& $adb shell getprop sys.boot_completed 2>$null).Trim()
-            Write-Host "  sys.boot_completed = '$bootComplete'  (${waited}s / ${maxWait}s elapsed)"
-          }
-
-          if ($bootComplete -eq "1") {
-            Write-Host "Emulator fully booted in ${waited}s. Unlocking screen..."
-            & $adb shell input keyevent 82
-          } else {
-            Write-Host "Warning: Emulator did not fully boot within ${maxWait}s. Continuing anyway..."
-          }
-
-      # ── 8. Execute 500 Appium E2E tests ───────────────────────────────────
-      - name: Run Appium E2E Tests (500 Tests)
-        working-directory: "healthLog App/HealthLogAppium"
-        run: |
-          $env:APK_PATH = "..\app\build\outputs\apk\debug\app-debug.apk"
+          Write-Host "=== Delegating to HealthLogAppium test pipeline ==="
           pwsh -File scripts\ci_run_tests.ps1
 
-      # ── 9. Fallback report (runs even on test failure) ────────────────────
-      - name: Generate Fallback Reports on Failure
-        if: always()
-        working-directory: "healthLog App/HealthLogAppium"
-        run: |
-          node utils/generateFallbackReport.js
-          if ($LASTEXITCODE -ne 0) {
-            Write-Host "Warning: fallback report generation had issues (non-fatal)."
-          }
-
-      # ── 10. Stop emulator ─────────────────────────────────────────────────
-      - name: Stop Android Emulator
-        if: always()
-        run: |
-          $adb = if (Test-Path "$env:ANDROID_HOME\platform-tools\adb.exe") {
-                   "$env:ANDROID_HOME\platform-tools\adb.exe"
-                 } else { "adb" }
-          & $adb emu kill 2>&1 | Write-Host
-          Write-Host "Emulator shutdown requested."
-
-      # ── 11. Upload all test artifacts ─────────────────────────────────────
-      - name: Upload Test Execution Artifacts
+      # ── 4. Upload every generated artifact ────────────────────────────────
+      - name: Upload Test Artifacts
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: healthlog-appium-test-results-${{ github.run_number }}
-          path: "healthLog App/HealthLogAppium/test-results/"
+          path: "HealthLogAppium/test-results/"
           retention-days: 30
 
-      # ── 12. Deploy HTML report to GitHub Pages (latest) ───────────────────
-      - name: Deploy HTML Reports to GitHub Pages
+      # ── 5a. Deploy latest HTML report to GitHub Pages ─────────────────────
+      - name: Deploy HTML Report to GitHub Pages (latest)
         if: always() && github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: "healthLog App/HealthLogAppium/test-results/html"
+          publish_dir: "HealthLogAppium/test-results/html"
           destination_dir: reports/latest
 
-      # ── 13. Deploy per-run history to GitHub Pages ────────────────────────
-      - name: Deploy Build History Report to GitHub Pages
+      # ── 5b. Persist per-build report history ──────────────────────────────
+      - name: Deploy Report History to GitHub Pages
         if: always() && github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: "healthLog App/HealthLogAppium/test-results/html"
+          publish_dir: "HealthLogAppium/test-results/html"
           destination_dir: reports/history/build-${{ github.run_number }}
           keep_files: true
