@@ -1,0 +1,22 @@
+{
+  "name": "healthlog-appium-e2e",
+  "version": "1.0.0",
+  "description": "HealthLog Android Isolated E2E Appium Test Automation Framework & CI Reporter",
+  "main": "runner.js",
+  "scripts": {
+    "test": "node runner.js"
+  },
+  "keywords": [
+    "appium",
+    "android",
+    "healthlog",
+    "testing",
+    "e2e",
+    "ci"
+  ],
+  "author": "HealthLog QA Engineering Team",
+  "license": "MIT",
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}

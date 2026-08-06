@@ -1,0 +1,19 @@
+[2026-08-06T17:38:55.728Z] === HealthLog E2E Summary Log ===
+
+[2026-08-06T17:39:06.868Z] === FINAL TEST EXECUTION SUMMARY ===
+
+Total Tests       : 500
+Passed            : 500
+Failed            : 0
+Skipped           : 0
+Pass Rate         : 100.00%
+Execution Time    : 10.83s
+
+Reports Output:
+- HTML Report     : C:\Users\PALURU PRAVALIKA\OneDrive\Desktop\HEALTHLOG\healthLog App\HealthLog-Appium\reports\execution-report.html
+- Excel Report    : C:\Users\PALURU PRAVALIKA\OneDrive\Desktop\HEALTHLOG\healthLog App\HealthLog-Appium\reports\report.xlsx
+- Summary JSON    : C:\Users\PALURU PRAVALIKA\OneDrive\Desktop\HEALTHLOG\healthLog App\HealthLog-Appium\reports\summary.json
+- Results JSON    : C:\Users\PALURU PRAVALIKA\OneDrive\Desktop\HEALTHLOG\healthLog App\HealthLog-Appium\reports\results.json
+- Metrics JSON    : C:\Users\PALURU PRAVALIKA\OneDrive\Desktop\HEALTHLOG\healthLog App\HealthLog-Appium\reports\metrics.json
+- Screenshots     : 20 files generated in C:\Users\PALURU PRAVALIKA\OneDrive\Desktop\HEALTHLOG\healthLog App\HealthLog-Appium\reports\screenshots
+  
