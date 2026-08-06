@@ -13,8 +13,17 @@ data class MedicalRecord(
     val date: String,
     val diagnosis: String = "",
     @SerializedName("report_uri")
-    val reportUri: String? = null
-)
+    val reportUri: String? = null,
+    @SerializedName("report_url")
+    val reportUrl: String? = null,
+    @SerializedName("document_url")
+    val documentUrl: String? = null,
+    @SerializedName("image_url")
+    val imageUrl: String? = null
+) {
+    val effectiveReportUri: String?
+        get() = (reportUri ?: reportUrl ?: documentUrl ?: imageUrl)?.trim()
+}
 
 data class Profile(
     val id: String = "",

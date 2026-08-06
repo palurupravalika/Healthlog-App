@@ -43,11 +43,12 @@ fun MedicalRecordDetailScreen(
     // Resolve the report URL: use reportUri as-is if it is already a full https:// Firebase URL.
     // If it points to the local Flask server (127.0.0.1 / 10.0.2.2 / localhost), rewrite the host
     // to the configured RetrofitClient.BASE_URL so the device can reach it on the LAN.
-    val fullReportUrl = remember(record.reportUri) {
-        val uri = record.reportUri?.trim()
+    val fullReportUrl = remember(record.effectiveReportUri) {
+        val uri = record.effectiveReportUri
         when {
             uri.isNullOrBlank() ||
             uri.equals("doc", ignoreCase = true) ||
+            uri.equals("/doc", ignoreCase = true) ||
             uri.equals("none", ignoreCase = true) ||
             uri.equals("null", ignoreCase = true) ||
             uri.equals("undefined", ignoreCase = true) -> null
@@ -242,7 +243,7 @@ fun MedicalRecordDetailScreen(
         AlertDialog(
             onDismissRequest = { showNoReportDialog = false },
             title = { Text("Document Missing", fontWeight = FontWeight.Bold) },
-            text = { Text("There are no scanned reports or digital documents attached to this health record.") },
+            text = { Text("No medical report is attached.") },
             confirmButton = {
                 TextButton(onClick = { showNoReportDialog = false }) {
                     Text("Understood", color = LavenderPrimary, fontWeight = FontWeight.Bold)
