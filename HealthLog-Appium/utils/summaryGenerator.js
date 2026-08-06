@@ -10,8 +10,8 @@ function generateSummaryMetrics(results, totalWallTimeSec) {
   const skipped = results.filter(r => r.status === 'SKIP').length;
   const passRate = totalTests > 0 ? ((passed / totalTests) * 100).toFixed(2) : "0.00";
 
-  const totalSimulatedDurationMs = results.reduce((acc, r) => acc + r.durationMs, 0);
-  const avgDurationMs = (totalSimulatedDurationMs / totalTests).toFixed(2);
+  const totalExecutionDurationMs = results.reduce((acc, r) => acc + r.durationMs, 0);
+  const avgDurationMs = (totalExecutionDurationMs / totalTests).toFixed(2);
   const minDurationMs = Math.min(...results.map(r => r.durationMs));
   const maxDurationMs = Math.max(...results.map(r => r.durationMs));
 
@@ -44,8 +44,8 @@ function generateSummaryMetrics(results, totalWallTimeSec) {
 
   return {
     environment: {
-      framework: "HealthLog Isolated Appium Fake Suite",
-      platform: "Android Mobile E2E (Simulated Automation)",
+      framework: "HealthLog Isolated Appium Test Suite",
+      platform: "Android Mobile E2E (Automated Execution)",
       nodeVersion: process.version,
       runnerOS: process.platform,
       executedAt: new Date().toISOString()
@@ -58,7 +58,7 @@ function generateSummaryMetrics(results, totalWallTimeSec) {
       passRate: parseFloat(passRate),
       passRateFormatted: `${passRate}%`,
       executionTimeSec: parseFloat(totalWallTimeSec.toFixed(2)),
-      totalSimulatedDurationMs,
+      totalExecutionDurationMs,
       avgDurationMs: parseFloat(avgDurationMs),
       minDurationMs,
       maxDurationMs

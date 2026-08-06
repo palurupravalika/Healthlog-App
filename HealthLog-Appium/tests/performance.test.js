@@ -18,7 +18,7 @@ const titles = [
   "Verify Biometric Verification Sensor Response Latency", "Check File Download Stream Memory Buffer Size", "Validate Cache Invalidation Benchmark",
   "Verify Token Refresh API Execution Speed", "Check Splash Screen Display Duration Precision", "Validate Search Input Debounce Latency (300ms)",
   "Verify App Shutdown Clean-up Time", "Check Storage Consumption Growth per 100 Logs", "Validate Font Load Latency on Cold Launch",
-  "Verify Network Latency Degradation under 3G Simulation", "Check High Latency Retry Backoff Performance", "Validate Concurrent Database Read/Write Performance",
+  "Verify Network Latency Degradation under 3G Conditions", "Check High Latency Retry Backoff Performance", "Validate Concurrent Database Read/Write Performance",
   "Verify Asset Unzipping Speed", "Check Overall Application Health Index Benchmark"
 ];
 

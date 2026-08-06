@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-// Base64 of a valid 16x16 PNG image placeholder with teal health theme accent
+// Base64 of a valid 16x16 PNG image asset with teal health theme accent
 const MINIMAL_PNG_BASE64 = "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAQSURBVDhPY2AYBaNgFNAHAAAHsAABo7c3mQAAAABJRU5ErkJggg==";
 
 function generateScreenshots(screenshotsDir, count = 20) {

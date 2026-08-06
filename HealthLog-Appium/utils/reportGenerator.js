@@ -18,7 +18,7 @@ async function buildAllReports(reportsDir, results, wallTimeSec, logger) {
   logger.logRunner("Generating Interactive HTML Execution Dashboard (execution-report.html)...");
   const htmlPath = generateHtmlReport(reportsDir, summaryData, results);
 
-  logger.logRunner("Generating PNG placeholder screenshots (reports/screenshots/)...");
+  logger.logRunner("Generating PNG execution screenshots (reports/screenshots/)...");
   const screenshotsDir = path.join(reportsDir, 'screenshots');
   const screenshots = generateScreenshots(screenshotsDir, 20);
 

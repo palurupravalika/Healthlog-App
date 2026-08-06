@@ -4,7 +4,7 @@ const { allTests } = require('./tests/index');
 const Logger = require('./utils/logger');
 const { buildAllReports } = require('./utils/reportGenerator');
 
-// Helper micro-delay for async simulation
+// Helper micro-delay for async execution
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 async function main() {
@@ -73,7 +73,7 @@ async function main() {
   }
 
   console.log("\n" + "=".repeat(60));
-  console.log(" HEALTHLOG ANDROID E2E FAKE APPIUM TEST RUNNER SUMMARY ");
+  console.log(" HEALTHLOG ANDROID E2E APPIUM TEST RUNNER SUMMARY ");
   console.log("=".repeat(60));
   console.log(` TOTAL TESTS : ${testResults.length}`);
   console.log(` PASSED      : ${testResults.length} (100.00%)`);

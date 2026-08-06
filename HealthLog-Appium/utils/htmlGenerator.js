@@ -324,7 +324,7 @@ function generateHtmlReport(reportsDir, summaryData, resultsData) {
         </div>
 
         <div class="table-toolbar">
-          <input type="text" id="searchInput" class="search-input" placeholder="Search by Test ID, Title, or Category (e.g. TC-AUTH-001, OCR, Navigation)..." onkeyup="filterTable()">
+          <input type="text" id="searchInput" class="search-input" title="Search by Test ID, Title, or Category (e.g. TC-AUTH-001, OCR, Navigation)..." onkeyup="filterTable()">
           <select id="categoryFilter" class="category-select" onchange="filterTable()">
             <option value="all">All Categories (10)</option>
             ${categories.map(c => `<option value="${c.categoryName.toLowerCase()}">${c.categoryName}</option>`).join('')}

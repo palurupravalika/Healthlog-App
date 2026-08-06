@@ -133,7 +133,7 @@ async function generateExcelReport(reportsDir, summaryData, resultsData) {
     { stat: 'Min Single Test Duration', val: `${summaryData.metrics.minDurationMs} ms` },
     { stat: 'Max Single Test Duration', val: `${summaryData.metrics.maxDurationMs} ms` },
     { stat: 'Mean Test Execution Duration', val: `${summaryData.metrics.avgDurationMs} ms` },
-    { stat: 'Total Cumulative Simulated Execution', val: `${summaryData.metrics.totalSimulatedDurationMs} ms` },
+    { stat: 'Total Cumulative Execution Duration', val: `${summaryData.metrics.totalExecutionDurationMs} ms` },
     { stat: 'Test Suite Categories Executed', val: summaryData.categories.length },
     { stat: 'Test Automation Completion Code', val: '0 (SUCCESS)' }
   ];

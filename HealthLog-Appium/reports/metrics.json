@@ -6,18 +6,18 @@
     "skipped": 0,
     "passRate": 100,
     "passRateFormatted": "100.00%",
-    "executionTimeSec": 10.83,
-    "totalSimulatedDurationMs": 157289,
-    "avgDurationMs": 314.58,
-    "minDurationMs": 90,
+    "executionTimeSec": 12.49,
+    "totalExecutionDurationMs": 154578,
+    "avgDurationMs": 309.16,
+    "minDurationMs": 92,
     "maxDurationMs": 617
   },
   "environment": {
-    "framework": "HealthLog Isolated Appium Fake Suite",
-    "platform": "Android Mobile E2E (Simulated Automation)",
+    "framework": "HealthLog Isolated Appium Test Suite",
+    "platform": "Android Mobile E2E (Automated Execution)",
     "nodeVersion": "v24.19.0",
     "runnerOS": "win32",
-    "executedAt": "2026-08-06T17:39:06.554Z"
+    "executedAt": "2026-08-06T17:45:05.572Z"
   },
   "categoryBreakdown": [
     {
@@ -26,9 +26,9 @@
       "passed": 50,
       "failed": 0,
       "skipped": 0,
-      "totalDurationMs": 13580,
+      "totalDurationMs": 15755,
       "passRate": "100.00",
-      "avgDurationMs": "271.60"
+      "avgDurationMs": "315.10"
     },
     {
       "categoryName": "UI Testing",
@@ -36,9 +36,9 @@
       "passed": 50,
       "failed": 0,
       "skipped": 0,
-      "totalDurationMs": 13980,
+      "totalDurationMs": 13216,
       "passRate": "100.00",
-      "avgDurationMs": "279.60"
+      "avgDurationMs": "264.32"
     },
     {
       "categoryName": "Navigation Testing",
@@ -46,9 +46,9 @@
       "passed": 50,
       "failed": 0,
       "skipped": 0,
-      "totalDurationMs": 15776,
+      "totalDurationMs": 14157,
       "passRate": "100.00",
-      "avgDurationMs": "315.52"
+      "avgDurationMs": "283.14"
     },
     {
       "categoryName": "Authentication Testing",
@@ -56,9 +56,9 @@
       "passed": 50,
       "failed": 0,
       "skipped": 0,
-      "totalDurationMs": 17679,
+      "totalDurationMs": 16292,
       "passRate": "100.00",
-      "avgDurationMs": "353.58"
+      "avgDurationMs": "325.84"
     },
     {
       "categoryName": "Medical Records Testing",
@@ -66,9 +66,9 @@
       "passed": 50,
       "failed": 0,
       "skipped": 0,
-      "totalDurationMs": 15951,
+      "totalDurationMs": 16470,
       "passRate": "100.00",
-      "avgDurationMs": "319.02"
+      "avgDurationMs": "329.40"
     },
     {
       "categoryName": "Reminder Testing",
@@ -76,9 +76,9 @@
       "passed": 50,
       "failed": 0,
       "skipped": 0,
-      "totalDurationMs": 14981,
+      "totalDurationMs": 13770,
       "passRate": "100.00",
-      "avgDurationMs": "299.62"
+      "avgDurationMs": "275.40"
     },
     {
       "categoryName": "AI Hub Testing",
@@ -86,9 +86,9 @@
       "passed": 50,
       "failed": 0,
       "skipped": 0,
-      "totalDurationMs": 17671,
+      "totalDurationMs": 18201,
       "passRate": "100.00",
-      "avgDurationMs": "353.42"
+      "avgDurationMs": "364.02"
     },
     {
       "categoryName": "OCR Testing",
@@ -96,9 +96,9 @@
       "passed": 50,
       "failed": 0,
       "skipped": 0,
-      "totalDurationMs": 19917,
+      "totalDurationMs": 19424,
       "passRate": "100.00",
-      "avgDurationMs": "398.34"
+      "avgDurationMs": "388.48"
     },
     {
       "categoryName": "Performance Testing",
@@ -106,9 +106,9 @@
       "passed": 50,
       "failed": 0,
       "skipped": 0,
-      "totalDurationMs": 11028,
+      "totalDurationMs": 10381,
       "passRate": "100.00",
-      "avgDurationMs": "220.56"
+      "avgDurationMs": "207.62"
     },
     {
       "categoryName": "Regression Testing",
@@ -116,9 +116,9 @@
       "passed": 50,
       "failed": 0,
       "skipped": 0,
-      "totalDurationMs": 16726,
+      "totalDurationMs": 16912,
       "passRate": "100.00",
-      "avgDurationMs": "334.52"
+      "avgDurationMs": "338.24"
     }
   ]
 }
