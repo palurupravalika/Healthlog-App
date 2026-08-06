@@ -112,7 +112,8 @@ Start-Sleep -Seconds 2
 
 $deviceOutput   = & $ADB devices 2>&1 | Out-String
 Write-Host "ADB devices output:`n$deviceOutput"
-$emulatorOnline = ($deviceOutput -match "emulator-\d+\s+device")
+$deviceLines    = ($deviceOutput -split "`r?\n") | Where-Object { $_ -match "\s+device$" }
+$emulatorOnline = ($deviceLines.Count -gt 0)
 
 if (-not $emulatorOnline) {
     Write-Host "No online emulator found. Starting emulator..."
@@ -208,8 +209,9 @@ Write-Host "[4/7] Capturing ADB diagnostics..."
 Write-Host ""
 Write-Host "[5/7] Starting Appium server..."
 $appiumLog  = "$LOGS_DIR\appium.log"
+$npxCmd     = if (Get-Command "npx.cmd" -ErrorAction SilentlyContinue) { "npx.cmd" } else { "npx" }
 $appiumProc = Start-Process `
-    -FilePath       "npx" `
+    -FilePath       $npxCmd `
     -ArgumentList   "appium", "--log-level", "warn" `
     -NoNewWindow `
     -RedirectStandardOutput $appiumLog `

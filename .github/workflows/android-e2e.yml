@@ -1,14 +1,10 @@
 # =============================================================================
-# HealthLogAppium/.github/workflows/android-e2e.yml
-# (STANDALONE – runs in the healthLog App submodule repo context)
+# .github/workflows/android-e2e.yml
+# Repository: palurupravalika/Healthlog-App
 #
 # PURPOSE: Lightweight entry-point for the Healthlog-App repository.
 # Delegates ALL testing logic to:
 #   HealthLogAppium/scripts/ci_run_tests.ps1
-#
-# NOTE ON PATHS: When this workflow runs from palurupravalika/Healthlog-App,
-# the checkout root IS the healthLog App directory. Paths use "HealthLogAppium/"
-# NOT "healthLog App/HealthLogAppium/".
 # =============================================================================
 name: HealthLog Mobile Appium E2E Automation Pipeline
 
@@ -33,15 +29,13 @@ jobs:
       - name: Checkout App Repository
         uses: actions/checkout@v4
 
-      # ── 2. Build the Android Debug APK (repo root = healthLog App/) ────────
+      # ── 2. Build the Android Debug APK ─────────────────────────────────────
       - name: Build Android Debug APK
         run: |
           Write-Host "=== Building HealthLog Android APK ==="
           .\gradlew.bat assembleDebug --no-daemon
 
       # ── 3. Delegate ALL testing logic to the HealthLogAppium pipeline ─────
-      #       ci_run_tests.ps1 owns: npm install, emulator start/check,
-      #       Appium start, APK install, WDIO run, all report generation.
       - name: Run HealthLogAppium E2E Pipeline
         working-directory: "HealthLogAppium"
         run: |
