@@ -1,0 +1,35 @@
+{
+  "name": "healthlog-appium",
+  "version": "1.0.0",
+  "description": "Mobile Appium E2E Automation Testing Framework for HealthLog Android App",
+  "main": "wdio.conf.js",
+  "scripts": {
+    "test": "wdio run wdio.conf.js",
+    "test:android": "WDIO_CI_SPEC=./tests/12_e2e/mega_android_500.test.js wdio run wdio.conf.js",
+    "report": "node utils/generateHtmlReport.js && node utils/xlsxReporter.js",
+    "clean": "node -e \"const fs=require('fs'); fs.rmSync('test-results', {recursive: true, force: true}); fs.rmSync('.wdio-results.jsonl', {force: true});\"",
+    "ci": "bash scripts/ci_run_tests.sh"
+  },
+  "keywords": [
+    "appium",
+    "webdriverio",
+    "android",
+    "healthlog",
+    "e2e",
+    "testing"
+  ],
+  "author": "HealthLog Team",
+  "license": "MIT",
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^8.38.0",
+    "@wdio/local-runner": "^8.38.0",
+    "@wdio/mocha-framework": "^8.38.0",
+    "@wdio/spec-reporter": "^8.38.0",
+    "appium": "^2.11.2",
+    "appium-uiautomator2-driver": "^3.7.4",
+    "webdriverio": "^8.38.0"
+  }
+}
