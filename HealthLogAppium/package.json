@@ -8,7 +8,8 @@
     "test:android": "WDIO_CI_SPEC=./tests/12_e2e/mega_android_500.test.js wdio run wdio.conf.js",
     "report": "node utils/generateHtmlReport.js && node utils/xlsxReporter.js",
     "clean": "node -e \"const fs=require('fs'); fs.rmSync('test-results', {recursive: true, force: true}); fs.rmSync('.wdio-results.jsonl', {force: true});\"",
-    "ci": "bash scripts/ci_run_tests.sh"
+    "ci": "bash scripts/ci_run_tests.sh",
+    "ci:win": "pwsh -File scripts/ci_run_tests.ps1"
   },
   "keywords": [
     "appium",
