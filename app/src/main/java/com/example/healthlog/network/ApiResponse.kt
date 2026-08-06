@@ -5,6 +5,7 @@ import com.example.healthlog.User
 data class LoginResponse(
     val status: String,
     val message: String,
+    val access_token: String? = null,
     val user: User? = null
 )
 

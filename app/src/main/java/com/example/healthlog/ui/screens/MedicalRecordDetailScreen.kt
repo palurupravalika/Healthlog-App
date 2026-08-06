@@ -44,15 +44,20 @@ fun MedicalRecordDetailScreen(
     // If it points to the local Flask server (127.0.0.1 / 10.0.2.2 / localhost), rewrite the host
     // to the configured RetrofitClient.BASE_URL so the device can reach it on the LAN.
     val fullReportUrl = remember(record.reportUri) {
-        val uri = record.reportUri
+        val uri = record.reportUri?.trim()
         when {
-            uri.isNullOrBlank() -> null
+            uri.isNullOrBlank() ||
+            uri.equals("doc", ignoreCase = true) ||
+            uri.equals("none", ignoreCase = true) ||
+            uri.equals("null", ignoreCase = true) ||
+            uri.equals("undefined", ignoreCase = true) -> null
+            
             // Firebase Storage and other external HTTPS URLs — use directly
             uri.startsWith("https://") -> uri
-            // Local server URL stored by Flask — replace the host with the real LAN server host
+            // Local server URL stored by Flask — replace the host with the real server host
             uri.startsWith("http://") -> {
                 val serverBase = RetrofitClient.BASE_URL.trimEnd('/')
-                uri.replace(Regex("http://(127\\.0\\.0\\.1|10\\.0\\.2\\.2|localhost)(:\\d+)?"), serverBase)
+                uri.replace(Regex("http://(127\\.0\\.0\\.1|10\\.0\\.2\\.2|192\\.168\\.\\d+\\.\\d+|localhost)(:\\d+)?"), serverBase)
             }
             // Relative path — prepend server base URL
             else -> RetrofitClient.BASE_URL.trimEnd('/') + "/" + uri.trimStart('/')

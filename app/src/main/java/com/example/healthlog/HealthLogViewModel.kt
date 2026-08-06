@@ -57,10 +57,11 @@ class HealthLogViewModel : ViewModel() {
         viewModelScope.launch {
             isLoading = true
             try {
-                val response = RetrofitClient.instance.loginUser(email, password)
+                val response = RetrofitClient.instance.loginUser(email.trim(), password)
                 if (response.isSuccessful) {
                     val body = response.body()
                     if (body?.status == "success") {
+                        body.access_token?.let { RetrofitClient.authToken = it }
                         val user = body.user
                         currentUser = user
                         userName = user?.name ?: "User"
@@ -70,7 +71,15 @@ class HealthLogViewModel : ViewModel() {
                         apiErrorMessage = body?.message ?: "Login failed"
                     }
                 } else {
-                    apiErrorMessage = "Server Error: ${response.code()}"
+                    val errorBodyStr = response.errorBody()?.string()
+                    val message = try {
+                        if (!errorBodyStr.isNullOrBlank()) {
+                            org.json.JSONObject(errorBodyStr).optString("message", "Invalid email or password")
+                        } else "Invalid email or password"
+                    } catch (e: Exception) {
+                        "Invalid email or password (${response.code()})"
+                    }
+                    apiErrorMessage = message
                 }
             } catch (e: Exception) {
                 handleNetworkError(e)

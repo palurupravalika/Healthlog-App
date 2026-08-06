@@ -10,13 +10,24 @@ import java.util.concurrent.TimeUnit
 object RetrofitClient {
     const val BASE_URL = "https://healthlog-backend-u23h.onrender.com/"
 
+    @Volatile
+    var authToken: String? = null
+
     private val gson = GsonBuilder()
         .setLenient() 
         .create()
 
     private val okHttpClient = OkHttpClient.Builder()
+        .addInterceptor { chain ->
+            val requestBuilder = chain.request().newBuilder()
+            authToken?.let { token ->
+                if (token.isNotBlank()) {
+                    requestBuilder.header("Authorization", "Bearer $token")
+                }
+            }
+            chain.proceed(requestBuilder.build())
+        }
         .addInterceptor(HttpLoggingInterceptor().apply {
-            // Changed to BODY so you can see the actual error response in Logcat
             level = HttpLoggingInterceptor.Level.BODY
         })
         .connectTimeout(120, TimeUnit.SECONDS)
