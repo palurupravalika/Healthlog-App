@@ -356,7 +356,6 @@ jobs:
           path: "HealthLogAppium/test-results/videos/"
           retention-days: 30
 
-      # ── 33. Publish GitHub Summary ─────────────────────────────────────────
       - name: Publish GitHub Summary
         if: always()
         run: |
@@ -371,21 +370,10 @@ jobs:
               } catch { }
           }
           $pct = if ($total -gt 0) { [math]::Round($passed / $total * 100, 1) } else { 100 }
-          @"
-
-  ## 📱 HealthLog Mobile Appium E2E Automation Summary
-
-  | Metric | Value |
-  |--------|-------|
-  | **Build Number** | #$env:GITHUB_RUN_NUMBER |
-  | **Total Tests** | $total |
-  | **Passed** | $passed |
-  | **Failed** | $failed |
-  | **Pass Rate** | $pct% |
-  | **Platform** | Android · Appium UIAutomator2 |
-  | **Runner** | Windows Self-Hosted (HealthLogRunner) |
-  | **Dashboard Report** | test-results/html/execution-report.html |
-  "@ | Out-File -FilePath $env:GITHUB_STEP_SUMMARY -Append -Encoding utf8
+          $summary = "## 📱 HealthLog Mobile Appium E2E Automation Summary`n`n| Metric | Value |`n|--------|-------|`n| **Build Number** | #$env:GITHUB_RUN_NUMBER |`n| **Total Tests** | $total |`n| **Passed** | $passed |`n| **Failed** | $failed |`n| **Pass Rate** | $pct% |`n| **Platform** | Android · Appium UIAutomator2 |`n| **Runner** | Windows Self-Hosted (HealthLogRunner) |`n| **Dashboard Report** | test-results/html/execution-report.html |`n"
+          if ($env:GITHUB_STEP_SUMMARY) {
+              Add-Content -Path $env:GITHUB_STEP_SUMMARY -Value $summary -Encoding utf8
+          }
 
       # ── 34. Deploy HTML Report ──────────────────────────────────────────────
       - name: Deploy HTML Report
