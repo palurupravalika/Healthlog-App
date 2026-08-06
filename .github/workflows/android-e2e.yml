@@ -2,7 +2,7 @@
 # .github/workflows/android-e2e.yml
 # Repository: palurupravalika/Healthlog-App
 #
-# Professional Granular Android CI/CD Pipeline
+# Production-Quality Granular Android CI/CD Pipeline
 # Every stage is an explicit, individually visualized GitHub Actions step.
 # =============================================================================
 name: HealthLog Mobile Appium E2E Automation Pipeline
@@ -150,7 +150,7 @@ jobs:
           $devList = @((& $adb devices 2>&1 | Out-String) -split "`r?\n" | Where-Object { $_ -match "\s+device$" })
           if ($devList.Count -eq 0) {
               $avds = & $emulator -list-avds 2>&1 | Where-Object { $_ -and $_ -notmatch "INFO|WARNING|ERROR" }
-              $avd = if ($avds.Count -gt 0) { $avds[0].Trim() } else { "HealthLog_Nexus6_API29" }
+              $avd = if ($avds.Count -gt 0) { $avds[0].Trim() } else { "Medium_Phone_API_36.1" }
               Write-Host "Starting emulator: $avd"
               Start-Process -FilePath $emulator -ArgumentList "-avd", $avd, "-no-audio", "-no-window", "-gpu", "swiftshader_indirect", "-no-snapshot-save" -NoNewWindow
           } else {
@@ -256,6 +256,17 @@ jobs:
               if ($null -ne $osVal) { $env:ANDROID_PLATFORM_VERSION = $osVal.ToString().Trim() }
               $env:ANDROID_DEVICE_NAME = $target
           }
+          $appiumRunning = $false
+          try {
+              $resp = Invoke-RestMethod -Uri "http://127.0.0.1:4723/status" -TimeoutSec 2 -ErrorAction Stop
+              if ($resp.value.ready -eq $true) { $appiumRunning = $true }
+          } catch { }
+          if (-not $appiumRunning) {
+              Write-Host "Starting Appium server for WDIO..."
+              $npxCmd = if (Get-Command "npx.cmd" -ErrorAction SilentlyContinue) { "npx.cmd" } else { "npx" }
+              Start-Process -FilePath $npxCmd -ArgumentList "appium", "--log-level", "warn" -NoNewWindow -RedirectStandardOutput "test-results\logs\appium.log"
+              Start-Sleep -Seconds 5
+          }
           $env:NODE_OPTIONS = ""
           node "node_modules\@wdio\cli\bin\wdio.js" run wdio.conf.js
 
@@ -327,6 +338,7 @@ jobs:
             HealthLogAppium/test-results/excel/
             HealthLogAppium/test-results/html/
             HealthLogAppium/test-results/json/
+          if-no-files-found: ignore
           retention-days: 30
 
       # ── 30. Upload Screenshots ─────────────────────────────────────────────
@@ -336,6 +348,7 @@ jobs:
         with:
           name: healthlog-appium-screenshots-${{ github.run_number }}
           path: "HealthLogAppium/test-results/screenshots/"
+          if-no-files-found: ignore
           retention-days: 30
 
       # ── 31. Upload Logs ────────────────────────────────────────────────────
@@ -345,17 +358,20 @@ jobs:
         with:
           name: healthlog-appium-logs-${{ github.run_number }}
           path: "HealthLogAppium/test-results/logs/"
+          if-no-files-found: ignore
           retention-days: 30
 
-      # ── 32. Upload Videos (if available) ───────────────────────────────────
-      - name: Upload Videos (if available)
+      # ── 32. Upload Videos ──────────────────────────────────────────────────
+      - name: Upload Videos
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: healthlog-appium-videos-${{ github.run_number }}
           path: "HealthLogAppium/test-results/videos/"
+          if-no-files-found: ignore
           retention-days: 30
 
+      # ── 33. Publish GitHub Summary ─────────────────────────────────────────
       - name: Publish GitHub Summary
         if: always()
         run: |
