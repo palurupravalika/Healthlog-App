@@ -168,6 +168,12 @@ $devList       = @((& $ADB devices 2>&1 | Out-String) -split "`r?\n" | Where-Obj
 $TARGET_DEVICE = if ($devList.Count -gt 0) { ($devList[0].Trim() -split "\s+")[0] } else { "" }
 $adbTarget     = if ($TARGET_DEVICE) { @("-s", $TARGET_DEVICE) } else { @() }
 Write-Host "Target Device Serial: $TARGET_DEVICE"
+if ($TARGET_DEVICE) {
+    $osVal = & $ADB @adbTarget shell getprop ro.build.version.release 2>$null
+    if ($null -ne $osVal) { $env:ANDROID_PLATFORM_VERSION = $osVal.ToString().Trim() }
+    $env:ANDROID_DEVICE_NAME = $TARGET_DEVICE
+    Write-Host "Target OS Version   : $env:ANDROID_PLATFORM_VERSION"
+}
 
 # Poll for sys.boot_completed = 1
 Write-Host "Waiting for emulator boot_completed..."
