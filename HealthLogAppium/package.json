@@ -22,7 +22,8 @@
   "author": "HealthLog Team",
   "license": "MIT",
   "dependencies": {
-    "exceljs": "^4.4.0"
+    "exceljs": "^4.4.0",
+    "rxjs": "^7.8.1"
   },
   "devDependencies": {
     "@wdio/cli": "^8.38.0",

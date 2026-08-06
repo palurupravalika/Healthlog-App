@@ -43,7 +43,9 @@ $APK_PATH  = if ($env:APK_PATH -and (Test-Path $env:APK_PATH)) {
              } else {
                  "..\app\build\outputs\apk\debug\app-debug.apk"
              }
-$AVD_NAME  = "HealthLog_Nexus6_API29"
+$existingAvds = if (Test-Path $EMULATOR) { & $EMULATOR -list-avds 2>&1 | Where-Object { $_ -and $_ -notmatch "INFO|WARNING|ERROR" } } else { @() }
+$AVD_NAME     = if ($existingAvds.Count -gt 0) { $existingAvds[0].Trim() } else { "HealthLog_Nexus6_API29" }
+Write-Host "Target AVD Name: $AVD_NAME"
 
 # ── Create required output directories ─────────────────────────────────────
 $LOGS_DIR  = "test-results\logs"
@@ -80,11 +82,12 @@ npm  --version
 # STEP 1 – Install / refresh Node dependencies
 # =============================================================================
 Write-Host ""
-Write-Host "[1/7] Installing Node.js dependencies..."
-npm ci --prefer-offline
-if ($LASTEXITCODE -ne 0) {
-    Write-Host "npm ci failed. Falling back to npm install..."
+Write-Host "[1/7] Checking Node.js dependencies..."
+if (-not (Test-Path "node_modules\@wdio\cli")) {
+    Write-Host "node_modules incomplete. Running npm install..."
     npm install
+} else {
+    Write-Host "Node.js dependencies already installed."
 }
 
 # Verify Appium UIAutomator2 driver (install only if missing)
@@ -160,6 +163,12 @@ if (-not $emulatorOnline) {
     Write-Host "Emulator already online. Skipping start."
 }
 
+# Resolve active target device serial for ADB calls
+$devList       = @((& $ADB devices 2>&1 | Out-String) -split "`r?\n" | Where-Object { $_ -match "\s+device$" })
+$TARGET_DEVICE = if ($devList.Count -gt 0) { ($devList[0].Trim() -split "\s+")[0] } else { "" }
+$adbTarget     = if ($TARGET_DEVICE) { @("-s", $TARGET_DEVICE) } else { @() }
+Write-Host "Target Device Serial: $TARGET_DEVICE"
+
 # Poll for sys.boot_completed = 1
 Write-Host "Waiting for emulator boot_completed..."
 $maxWait      = 360
@@ -168,12 +177,13 @@ $bootComplete = ""
 while ($bootComplete -ne "1" -and $waited -lt $maxWait) {
     Start-Sleep -Seconds 5
     $waited      += 5
-    $bootComplete = (& $ADB shell getprop sys.boot_completed 2>$null).Trim()
+    $bootVal      = & $ADB @adbTarget shell getprop sys.boot_completed 2>$null
+    $bootComplete = if ($null -ne $bootVal) { $bootVal.ToString().Trim() } else { "" }
     Write-Host "  sys.boot_completed = '$bootComplete'  (${waited}s / ${maxWait}s)"
 }
 if ($bootComplete -eq "1") {
     Write-Host "Emulator fully booted in ${waited}s. Unlocking screen..."
-    & $ADB shell input keyevent 82 2>&1 | Out-Null
+    & $ADB @adbTarget shell input keyevent 82 2>&1 | Out-Null
 } else {
     Write-Host "WARNING: Emulator boot timed out after ${maxWait}s. Continuing..."
 }
@@ -187,7 +197,7 @@ Write-Host "[3/7] ADB device check & APK install..."
 
 if (Test-Path $APK_PATH) {
     Write-Host "Installing APK: $APK_PATH"
-    & $ADB install -r $APK_PATH
+    & $ADB @adbTarget install -r $APK_PATH
     if ($LASTEXITCODE -ne 0) {
         Write-Host "WARNING: adb install returned non-zero. Continuing test run."
     }
@@ -200,8 +210,8 @@ if (Test-Path $APK_PATH) {
 # =============================================================================
 Write-Host ""
 Write-Host "[4/7] Capturing ADB diagnostics..."
-& $ADB logcat -d      2>&1 | Out-File -FilePath "$LOGS_DIR\adb-logcat.log"  -Encoding utf8
-& $ADB shell dumpsys activity 2>&1 | Out-File -FilePath "$LOGS_DIR\adb-activity.log" -Encoding utf8
+& $ADB @adbTarget logcat -d 2>&1 | Out-File -FilePath "$LOGS_DIR\adb-logcat.log"  -Encoding utf8
+& $ADB @adbTarget shell dumpsys activity 2>&1 | Out-File -FilePath "$LOGS_DIR\adb-activity.log" -Encoding utf8
 
 # =============================================================================
 # STEP 5 – Start Appium server
@@ -238,6 +248,7 @@ if ($appiumReady) {
 # =============================================================================
 Write-Host ""
 Write-Host "[6/7] Running 500 Parameterized Appium Test Suite..."
+$env:NODE_OPTIONS = ""
 node "node_modules\@wdio\cli\bin\wdio.js" run wdio.conf.js
 $WDIO_EXIT = $LASTEXITCODE
 Write-Host "WebdriverIO exit code: $WDIO_EXIT"

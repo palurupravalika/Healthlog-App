@@ -3,6 +3,9 @@ const { APPIUM_HOST, APPIUM_PORT, PATHS } = require('../utils/constants');
 const androidCapabilities = require('./android.capabilities');
 
 exports.config = {
+  autoCompileOpts: {
+    autoCompile: false
+  },
   runner: 'local',
   hostname: APPIUM_HOST,
   port: APPIUM_PORT,
@@ -24,7 +27,7 @@ exports.config = {
   waitforTimeout: 10000,
   connectionRetryTimeout: 120000,
   connectionRetryCount: 3,
-  services: ['appium'],
+  services: [],
 
   framework: 'mocha',
   reporters: ['spec'],
