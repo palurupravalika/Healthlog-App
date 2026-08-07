@@ -22,11 +22,11 @@ jobs:
           node-version: '20'
 
       - name: Install Dependencies
-        working-directory: ./healthLog App/HealthLog-Appium
+        working-directory: ./HealthLog-Appium
         run: npm install
 
       - name: Execute HealthLog E2E Test Runner (500 Tests)
-        working-directory: ./healthLog App/HealthLog-Appium
+        working-directory: ./HealthLog-Appium
         run: npm test
 
       - name: Append GitHub Step Summary
@@ -49,11 +49,11 @@ jobs:
         with:
           name: HealthLog-E2E-Reports
           path: |
-            healthLog App/HealthLog-Appium/reports/execution-report.html
-            healthLog App/HealthLog-Appium/reports/report.xlsx
-            healthLog App/HealthLog-Appium/reports/summary.json
-            healthLog App/HealthLog-Appium/reports/results.json
-            healthLog App/HealthLog-Appium/reports/metrics.json
-            healthLog App/HealthLog-Appium/reports/logs/
-            healthLog App/HealthLog-Appium/reports/screenshots/
+            HealthLog-Appium/reports/execution-report.html
+            HealthLog-Appium/reports/report.xlsx
+            HealthLog-Appium/reports/summary.json
+            HealthLog-Appium/reports/results.json
+            HealthLog-Appium/reports/metrics.json
+            HealthLog-Appium/reports/logs/
+            HealthLog-Appium/reports/screenshots/
           if-no-files-found: warn
