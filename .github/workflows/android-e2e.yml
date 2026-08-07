@@ -23,14 +23,17 @@ jobs:
 
       - name: Install Dependencies
         working-directory: ./HealthLog-Appium
+        shell: bash
         run: npm install
 
       - name: Execute HealthLog E2E Test Runner (500 Tests)
         working-directory: ./HealthLog-Appium
+        shell: bash
         run: npm test
 
       - name: Append GitHub Step Summary
         if: always()
+        shell: bash
         run: |
           echo "# HealthLog Android E2E Testing" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
