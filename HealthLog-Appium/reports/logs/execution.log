@@ -1,1001 +1,1001 @@
-[2026-08-06T17:44:53.079Z] === Test Execution Details Log ===
-[2026-08-06T17:44:53.120Z] [PASS] [Functional Testing] TC-FUNC-001 - Verify User Profile Update (Duration: 364ms)
+[2026-08-07T01:59:59.922Z] === Test Execution Details Log ===
+[2026-08-07T01:59:59.963Z] [PASS] [Functional Testing] TC-FUNC-001 - Verify User Profile Update (Duration: 252ms)
   Description: Validate functionality for verify user profile update across edge inputs and local persistence.
-[2026-08-06T17:44:53.149Z] [PASS] [Functional Testing] TC-FUNC-002 - Validate Health Metric Input Bounds (Duration: 250ms)
+[2026-08-07T01:59:59.994Z] [PASS] [Functional Testing] TC-FUNC-002 - Validate Health Metric Input Bounds (Duration: 462ms)
   Description: Validate functionality for validate health metric input bounds across edge inputs and local persistence.
-[2026-08-06T17:44:53.162Z] [PASS] [Functional Testing] TC-FUNC-003 - Check Water Intake Tracker Increment (Duration: 392ms)
+[2026-08-07T02:00:00.009Z] [PASS] [Functional Testing] TC-FUNC-003 - Check Water Intake Tracker Increment (Duration: 424ms)
   Description: Validate functionality for check water intake tracker increment across edge inputs and local persistence.
-[2026-08-06T17:44:53.178Z] [PASS] [Functional Testing] TC-FUNC-004 - Verify Sleep Log Creation (Duration: 348ms)
+[2026-08-07T02:00:00.025Z] [PASS] [Functional Testing] TC-FUNC-004 - Verify Sleep Log Creation (Duration: 449ms)
   Description: Validate functionality for verify sleep log creation across edge inputs and local persistence.
-[2026-08-06T17:44:53.191Z] [PASS] [Functional Testing] TC-FUNC-005 - Validate Weight History Deletion (Duration: 167ms)
+[2026-08-07T02:00:00.041Z] [PASS] [Functional Testing] TC-FUNC-005 - Validate Weight History Deletion (Duration: 382ms)
   Description: Validate functionality for validate weight history deletion across edge inputs and local persistence.
-[2026-08-06T17:44:53.206Z] [PASS] [Functional Testing] TC-FUNC-006 - Check Calorie Goal Calculation (Duration: 317ms)
+[2026-08-07T02:00:00.057Z] [PASS] [Functional Testing] TC-FUNC-006 - Check Calorie Goal Calculation (Duration: 138ms)
   Description: Validate functionality for check calorie goal calculation across edge inputs and local persistence.
-[2026-08-06T17:44:53.217Z] [PASS] [Functional Testing] TC-FUNC-007 - Verify Blood Pressure Format Validation (Duration: 200ms)
+[2026-08-07T02:00:00.089Z] [PASS] [Functional Testing] TC-FUNC-007 - Verify Blood Pressure Format Validation (Duration: 464ms)
   Description: Validate functionality for verify blood pressure format validation across edge inputs and local persistence.
-[2026-08-06T17:44:53.247Z] [PASS] [Functional Testing] TC-FUNC-008 - Check Glucose Log Entry (Duration: 231ms)
+[2026-08-07T02:00:00.121Z] [PASS] [Functional Testing] TC-FUNC-008 - Check Glucose Log Entry (Duration: 272ms)
   Description: Validate functionality for check glucose log entry across edge inputs and local persistence.
-[2026-08-06T17:44:53.281Z] [PASS] [Functional Testing] TC-FUNC-009 - Validate Heart Rate Reading Export (Duration: 237ms)
+[2026-08-07T02:00:00.137Z] [PASS] [Functional Testing] TC-FUNC-009 - Validate Heart Rate Reading Export (Duration: 260ms)
   Description: Validate functionality for validate heart rate reading export across edge inputs and local persistence.
-[2026-08-06T17:44:53.313Z] [PASS] [Functional Testing] TC-FUNC-010 - Verify Step Counter Persistence (Duration: 155ms)
+[2026-08-07T02:00:00.153Z] [PASS] [Functional Testing] TC-FUNC-010 - Verify Step Counter Persistence (Duration: 296ms)
   Description: Validate functionality for verify step counter persistence across edge inputs and local persistence.
-[2026-08-06T17:44:53.329Z] [PASS] [Functional Testing] TC-FUNC-011 - Check BMI Calculator Precision (Duration: 314ms)
+[2026-08-07T02:00:00.184Z] [PASS] [Functional Testing] TC-FUNC-011 - Check BMI Calculator Precision (Duration: 421ms)
   Description: Validate functionality for check bmi calculator precision across edge inputs and local persistence.
-[2026-08-06T17:44:53.350Z] [PASS] [Functional Testing] TC-FUNC-012 - Validate Emergency Contact Save (Duration: 451ms)
+[2026-08-07T02:00:00.212Z] [PASS] [Functional Testing] TC-FUNC-012 - Validate Emergency Contact Save (Duration: 143ms)
   Description: Validate functionality for validate emergency contact save across edge inputs and local persistence.
-[2026-08-06T17:44:53.379Z] [PASS] [Functional Testing] TC-FUNC-013 - Verify Medical History Search (Duration: 458ms)
+[2026-08-07T02:00:00.229Z] [PASS] [Functional Testing] TC-FUNC-013 - Verify Medical History Search (Duration: 293ms)
   Description: Validate functionality for verify medical history search across edge inputs and local persistence.
-[2026-08-06T17:44:53.397Z] [PASS] [Functional Testing] TC-FUNC-014 - Check Allergy Tag Addition (Duration: 138ms)
+[2026-08-07T02:00:00.243Z] [PASS] [Functional Testing] TC-FUNC-014 - Check Allergy Tag Addition (Duration: 451ms)
   Description: Validate functionality for check allergy tag addition across edge inputs and local persistence.
-[2026-08-06T17:44:53.412Z] [PASS] [Functional Testing] TC-FUNC-015 - Validate Doctor Note Attachment (Duration: 368ms)
+[2026-08-07T02:00:00.259Z] [PASS] [Functional Testing] TC-FUNC-015 - Validate Doctor Note Attachment (Duration: 142ms)
   Description: Validate functionality for validate doctor note attachment across edge inputs and local persistence.
-[2026-08-06T17:44:53.428Z] [PASS] [Functional Testing] TC-FUNC-016 - Verify Prescription Renewal Request (Duration: 423ms)
+[2026-08-07T02:00:00.275Z] [PASS] [Functional Testing] TC-FUNC-016 - Verify Prescription Renewal Request (Duration: 262ms)
   Description: Validate functionality for verify prescription renewal request across edge inputs and local persistence.
-[2026-08-06T17:44:53.445Z] [PASS] [Functional Testing] TC-FUNC-017 - Check Symptom Entry Creation (Duration: 436ms)
+[2026-08-07T02:00:00.307Z] [PASS] [Functional Testing] TC-FUNC-017 - Check Symptom Entry Creation (Duration: 442ms)
   Description: Validate functionality for check symptom entry creation across edge inputs and local persistence.
-[2026-08-06T17:44:53.462Z] [PASS] [Functional Testing] TC-FUNC-018 - Validate Lab Result PDF Export (Duration: 442ms)
+[2026-08-07T02:00:00.323Z] [PASS] [Functional Testing] TC-FUNC-018 - Validate Lab Result PDF Export (Duration: 246ms)
   Description: Validate functionality for validate lab result pdf export across edge inputs and local persistence.
-[2026-08-06T17:44:53.480Z] [PASS] [Functional Testing] TC-FUNC-019 - Verify Profile Picture Compression (Duration: 413ms)
+[2026-08-07T02:00:00.347Z] [PASS] [Functional Testing] TC-FUNC-019 - Verify Profile Picture Compression (Duration: 132ms)
   Description: Validate functionality for verify profile picture compression across edge inputs and local persistence.
-[2026-08-06T17:44:53.513Z] [PASS] [Functional Testing] TC-FUNC-020 - Check Unit Converter (Kg to Lbs) (Duration: 375ms)
+[2026-08-07T02:00:00.362Z] [PASS] [Functional Testing] TC-FUNC-020 - Check Unit Converter (Kg to Lbs) (Duration: 147ms)
   Description: Validate functionality for check unit converter (kg to lbs) across edge inputs and local persistence.
-[2026-08-06T17:44:53.530Z] [PASS] [Functional Testing] TC-FUNC-021 - Validate Date Picker Range Filter (Duration: 417ms)
+[2026-08-07T02:00:00.393Z] [PASS] [Functional Testing] TC-FUNC-021 - Validate Date Picker Range Filter (Duration: 372ms)
   Description: Validate functionality for validate date picker range filter across edge inputs and local persistence.
-[2026-08-06T17:44:53.547Z] [PASS] [Functional Testing] TC-FUNC-022 - Verify Custom Metric Creation (Duration: 236ms)
+[2026-08-07T02:00:00.409Z] [PASS] [Functional Testing] TC-FUNC-022 - Verify Custom Metric Creation (Duration: 342ms)
   Description: Validate functionality for verify custom metric creation across edge inputs and local persistence.
-[2026-08-06T17:44:53.563Z] [PASS] [Functional Testing] TC-FUNC-023 - Check Activity Log Multi-Selection (Duration: 236ms)
+[2026-08-07T02:00:00.425Z] [PASS] [Functional Testing] TC-FUNC-023 - Check Activity Log Multi-Selection (Duration: 442ms)
   Description: Validate functionality for check activity log multi-selection across edge inputs and local persistence.
-[2026-08-06T17:44:53.596Z] [PASS] [Functional Testing] TC-FUNC-024 - Validate Target Heart Rate Warning (Duration: 260ms)
+[2026-08-07T02:00:00.441Z] [PASS] [Functional Testing] TC-FUNC-024 - Validate Target Heart Rate Warning (Duration: 179ms)
   Description: Validate functionality for validate target heart rate warning across edge inputs and local persistence.
-[2026-08-06T17:44:53.623Z] [PASS] [Functional Testing] TC-FUNC-025 - Verify Data Backup Generation (Duration: 288ms)
+[2026-08-07T02:00:00.473Z] [PASS] [Functional Testing] TC-FUNC-025 - Verify Data Backup Generation (Duration: 415ms)
   Description: Validate functionality for verify data backup generation across edge inputs and local persistence.
-[2026-08-06T17:44:53.651Z] [PASS] [Functional Testing] TC-FUNC-026 - Check Cloud Sync Protocol (Duration: 429ms)
+[2026-08-07T02:00:00.490Z] [PASS] [Functional Testing] TC-FUNC-026 - Check Cloud Sync Protocol (Duration: 390ms)
   Description: Validate functionality for check cloud sync protocol across edge inputs and local persistence.
-[2026-08-06T17:44:53.681Z] [PASS] [Functional Testing] TC-FUNC-027 - Validate Offline Cache Storage (Duration: 395ms)
+[2026-08-07T02:00:00.506Z] [PASS] [Functional Testing] TC-FUNC-027 - Validate Offline Cache Storage (Duration: 405ms)
   Description: Validate functionality for validate offline cache storage across edge inputs and local persistence.
-[2026-08-06T17:44:53.749Z] [PASS] [Functional Testing] TC-FUNC-028 - Verify Local Database Migration (Duration: 265ms)
+[2026-08-07T02:00:00.522Z] [PASS] [Functional Testing] TC-FUNC-028 - Verify Local Database Migration (Duration: 351ms)
   Description: Validate functionality for verify local database migration across edge inputs and local persistence.
-[2026-08-06T17:44:53.782Z] [PASS] [Functional Testing] TC-FUNC-029 - Check CSV Export Formatter (Duration: 310ms)
+[2026-08-07T02:00:00.554Z] [PASS] [Functional Testing] TC-FUNC-029 - Check CSV Export Formatter (Duration: 167ms)
   Description: Validate functionality for check csv export formatter across edge inputs and local persistence.
-[2026-08-06T17:44:53.797Z] [PASS] [Functional Testing] TC-FUNC-030 - Validate JSON Export Structure (Duration: 196ms)
+[2026-08-07T02:00:00.570Z] [PASS] [Functional Testing] TC-FUNC-030 - Validate JSON Export Structure (Duration: 325ms)
   Description: Validate functionality for validate json export structure across edge inputs and local persistence.
-[2026-08-06T17:44:53.814Z] [PASS] [Functional Testing] TC-FUNC-031 - Verify App Language Switching (Duration: 272ms)
+[2026-08-07T02:00:00.586Z] [PASS] [Functional Testing] TC-FUNC-031 - Verify App Language Switching (Duration: 331ms)
   Description: Validate functionality for verify app language switching across edge inputs and local persistence.
-[2026-08-06T17:44:53.830Z] [PASS] [Functional Testing] TC-FUNC-032 - Check Dark Theme State Persistence (Duration: 139ms)
+[2026-08-07T02:00:00.618Z] [PASS] [Functional Testing] TC-FUNC-032 - Check Dark Theme State Persistence (Duration: 372ms)
   Description: Validate functionality for check dark theme state persistence across edge inputs and local persistence.
-[2026-08-06T17:44:53.844Z] [PASS] [Functional Testing] TC-FUNC-033 - Validate Metric Graph Filtering (Duration: 235ms)
+[2026-08-07T02:00:00.649Z] [PASS] [Functional Testing] TC-FUNC-033 - Validate Metric Graph Filtering (Duration: 238ms)
   Description: Validate functionality for validate metric graph filtering across edge inputs and local persistence.
-[2026-08-06T17:44:53.880Z] [PASS] [Functional Testing] TC-FUNC-034 - Verify Daily Goal Achievement Popup (Duration: 370ms)
+[2026-08-07T02:00:00.666Z] [PASS] [Functional Testing] TC-FUNC-034 - Verify Daily Goal Achievement Popup (Duration: 393ms)
   Description: Validate functionality for verify daily goal achievement popup across edge inputs and local persistence.
-[2026-08-06T17:44:53.895Z] [PASS] [Functional Testing] TC-FUNC-035 - Check Notification Sound Preference (Duration: 451ms)
+[2026-08-07T02:00:00.682Z] [PASS] [Functional Testing] TC-FUNC-035 - Check Notification Sound Preference (Duration: 278ms)
   Description: Validate functionality for check notification sound preference across edge inputs and local persistence.
-[2026-08-06T17:44:53.931Z] [PASS] [Functional Testing] TC-FUNC-036 - Validate Biometric Sync Switch (Duration: 168ms)
+[2026-08-07T02:00:00.716Z] [PASS] [Functional Testing] TC-FUNC-036 - Validate Biometric Sync Switch (Duration: 215ms)
   Description: Validate functionality for validate biometric sync switch across edge inputs and local persistence.
-[2026-08-06T17:44:53.945Z] [PASS] [Functional Testing] TC-FUNC-037 - Verify Family Member Profile Linking (Duration: 313ms)
+[2026-08-07T02:00:00.746Z] [PASS] [Functional Testing] TC-FUNC-037 - Verify Family Member Profile Linking (Duration: 294ms)
   Description: Validate functionality for verify family member profile linking across edge inputs and local persistence.
-[2026-08-06T17:44:53.962Z] [PASS] [Functional Testing] TC-FUNC-038 - Check Insurance Card Scanner Output (Duration: 193ms)
+[2026-08-07T02:00:00.763Z] [PASS] [Functional Testing] TC-FUNC-038 - Check Insurance Card Scanner Output (Duration: 288ms)
   Description: Validate functionality for check insurance card scanner output across edge inputs and local persistence.
-[2026-08-06T17:44:53.978Z] [PASS] [Functional Testing] TC-FUNC-039 - Validate Pharmacy Finder Search (Duration: 129ms)
+[2026-08-07T02:00:00.793Z] [PASS] [Functional Testing] TC-FUNC-039 - Validate Pharmacy Finder Search (Duration: 309ms)
   Description: Validate functionality for validate pharmacy finder search across edge inputs and local persistence.
-[2026-08-06T17:44:53.993Z] [PASS] [Functional Testing] TC-FUNC-040 - Verify Appointment Scheduling Validation (Duration: 421ms)
+[2026-08-07T02:00:00.825Z] [PASS] [Functional Testing] TC-FUNC-040 - Verify Appointment Scheduling Validation (Duration: 380ms)
   Description: Validate functionality for verify appointment scheduling validation across edge inputs and local persistence.
-[2026-08-06T17:44:54.013Z] [PASS] [Functional Testing] TC-FUNC-041 - Check Telehealth Call Log Storage (Duration: 335ms)
+[2026-08-07T02:00:00.849Z] [PASS] [Functional Testing] TC-FUNC-041 - Check Telehealth Call Log Storage (Duration: 210ms)
   Description: Validate functionality for check telehealth call log storage across edge inputs and local persistence.
-[2026-08-06T17:44:54.028Z] [PASS] [Functional Testing] TC-FUNC-042 - Validate Doctor Feedback Form (Duration: 326ms)
+[2026-08-07T02:00:00.881Z] [PASS] [Functional Testing] TC-FUNC-042 - Validate Doctor Feedback Form (Duration: 162ms)
   Description: Validate functionality for validate doctor feedback form across edge inputs and local persistence.
-[2026-08-06T17:44:54.063Z] [PASS] [Functional Testing] TC-FUNC-043 - Verify Vaccine Record Upload (Duration: 462ms)
+[2026-08-07T02:00:00.910Z] [PASS] [Functional Testing] TC-FUNC-043 - Verify Vaccine Record Upload (Duration: 424ms)
   Description: Validate functionality for verify vaccine record upload across edge inputs and local persistence.
-[2026-08-06T17:44:54.097Z] [PASS] [Functional Testing] TC-FUNC-044 - Check Vital Sign Threshold Alert (Duration: 170ms)
+[2026-08-07T02:00:00.942Z] [PASS] [Functional Testing] TC-FUNC-044 - Check Vital Sign Threshold Alert (Duration: 314ms)
   Description: Validate functionality for check vital sign threshold alert across edge inputs and local persistence.
-[2026-08-06T17:44:54.131Z] [PASS] [Functional Testing] TC-FUNC-045 - Validate Exercise Log Time Calculation (Duration: 441ms)
+[2026-08-07T02:00:00.958Z] [PASS] [Functional Testing] TC-FUNC-045 - Validate Exercise Log Time Calculation (Duration: 314ms)
   Description: Validate functionality for validate exercise log time calculation across edge inputs and local persistence.
-[2026-08-06T17:44:54.162Z] [PASS] [Functional Testing] TC-FUNC-046 - Verify Mood Log Selector (Duration: 317ms)
+[2026-08-07T02:00:00.974Z] [PASS] [Functional Testing] TC-FUNC-046 - Verify Mood Log Selector (Duration: 390ms)
   Description: Validate functionality for verify mood log selector across edge inputs and local persistence.
-[2026-08-06T17:44:54.180Z] [PASS] [Functional Testing] TC-FUNC-047 - Check Daily Streak Increment (Duration: 319ms)
+[2026-08-07T02:00:00.989Z] [PASS] [Functional Testing] TC-FUNC-047 - Check Daily Streak Increment (Duration: 225ms)
   Description: Validate functionality for check daily streak increment across edge inputs and local persistence.
-[2026-08-06T17:44:54.211Z] [PASS] [Functional Testing] TC-FUNC-048 - Validate User Feedback Submission (Duration: 463ms)
+[2026-08-07T02:00:01.006Z] [PASS] [Functional Testing] TC-FUNC-048 - Validate User Feedback Submission (Duration: 197ms)
   Description: Validate functionality for validate user feedback submission across edge inputs and local persistence.
-[2026-08-06T17:44:54.231Z] [PASS] [Functional Testing] TC-FUNC-049 - Verify Account Data Deletion Request (Duration: 268ms)
+[2026-08-07T02:00:01.037Z] [PASS] [Functional Testing] TC-FUNC-049 - Verify Account Data Deletion Request (Duration: 218ms)
   Description: Validate functionality for verify account data deletion request across edge inputs and local persistence.
-[2026-08-06T17:44:54.246Z] [PASS] [Functional Testing] TC-FUNC-050 - Check Privacy Policy Acceptance Log (Duration: 452ms)
+[2026-08-07T02:00:01.069Z] [PASS] [Functional Testing] TC-FUNC-050 - Check Privacy Policy Acceptance Log (Duration: 253ms)
   Description: Validate functionality for check privacy policy acceptance log across edge inputs and local persistence.
-[2026-08-06T17:44:54.262Z] [PASS] [UI Testing] TC-UI-001 - Verify Dashboard Layout Alignment (Duration: 329ms)
+[2026-08-07T02:00:01.084Z] [PASS] [UI Testing] TC-UI-001 - Verify Dashboard Layout Alignment (Duration: 363ms)
   Description: Inspect UI elements and layout fidelity for verify dashboard layout alignment against design specifications.
-[2026-08-06T17:44:54.296Z] [PASS] [UI Testing] TC-UI-002 - Check Bottom Navigation Bar Icons (Duration: 278ms)
+[2026-08-07T02:00:01.116Z] [PASS] [UI Testing] TC-UI-002 - Check Bottom Navigation Bar Icons (Duration: 254ms)
   Description: Inspect UI elements and layout fidelity for check bottom navigation bar icons against design specifications.
-[2026-08-06T17:44:54.329Z] [PASS] [UI Testing] TC-UI-003 - Validate Dark Mode Color Palette (Duration: 325ms)
+[2026-08-07T02:00:01.132Z] [PASS] [UI Testing] TC-UI-003 - Validate Dark Mode Color Palette (Duration: 379ms)
   Description: Inspect UI elements and layout fidelity for validate dark mode color palette against design specifications.
-[2026-08-06T17:44:54.348Z] [PASS] [UI Testing] TC-UI-004 - Verify Typography Scaling on Accessibility Text (Duration: 190ms)
+[2026-08-07T02:00:01.149Z] [PASS] [UI Testing] TC-UI-004 - Verify Typography Scaling on Accessibility Text (Duration: 348ms)
   Description: Inspect UI elements and layout fidelity for verify typography scaling on accessibility text against design specifications.
-[2026-08-06T17:44:54.379Z] [PASS] [UI Testing] TC-UI-005 - Check Card Shadow Rendering (Duration: 158ms)
+[2026-08-07T02:00:01.164Z] [PASS] [UI Testing] TC-UI-005 - Check Card Shadow Rendering (Duration: 115ms)
   Description: Inspect UI elements and layout fidelity for check card shadow rendering against design specifications.
-[2026-08-06T17:44:54.394Z] [PASS] [UI Testing] TC-UI-006 - Validate FAB Button Visibility (Duration: 399ms)
+[2026-08-07T02:00:01.180Z] [PASS] [UI Testing] TC-UI-006 - Validate FAB Button Visibility (Duration: 354ms)
   Description: Inspect UI elements and layout fidelity for validate fab button visibility against design specifications.
-[2026-08-06T17:44:54.415Z] [PASS] [UI Testing] TC-UI-007 - Verify Modal Overlay Animation (Duration: 176ms)
+[2026-08-07T02:00:01.212Z] [PASS] [UI Testing] TC-UI-007 - Verify Modal Overlay Animation (Duration: 392ms)
   Description: Inspect UI elements and layout fidelity for verify modal overlay animation against design specifications.
-[2026-08-06T17:44:54.426Z] [PASS] [UI Testing] TC-UI-008 - Check Toast Notification Styling (Duration: 237ms)
+[2026-08-07T02:00:01.243Z] [PASS] [UI Testing] TC-UI-008 - Check Toast Notification Styling (Duration: 131ms)
   Description: Inspect UI elements and layout fidelity for check toast notification styling against design specifications.
-[2026-08-06T17:44:54.456Z] [PASS] [UI Testing] TC-UI-009 - Validate Pull-to-Refresh Indicator (Duration: 161ms)
+[2026-08-07T02:00:01.259Z] [PASS] [UI Testing] TC-UI-009 - Validate Pull-to-Refresh Indicator (Duration: 228ms)
   Description: Inspect UI elements and layout fidelity for validate pull-to-refresh indicator against design specifications.
-[2026-08-06T17:44:54.486Z] [PASS] [UI Testing] TC-UI-010 - Verify Skeleton Loader on Data Fetch (Duration: 181ms)
+[2026-08-07T02:00:01.275Z] [PASS] [UI Testing] TC-UI-010 - Verify Skeleton Loader on Data Fetch (Duration: 309ms)
   Description: Inspect UI elements and layout fidelity for verify skeleton loader on data fetch against design specifications.
-[2026-08-06T17:44:54.502Z] [PASS] [UI Testing] TC-UI-011 - Check Tab Indicator Transition (Duration: 389ms)
+[2026-08-07T02:00:01.307Z] [PASS] [UI Testing] TC-UI-011 - Check Tab Indicator Transition (Duration: 396ms)
   Description: Inspect UI elements and layout fidelity for check tab indicator transition against design specifications.
-[2026-08-06T17:44:54.524Z] [PASS] [UI Testing] TC-UI-012 - Validate Input Field Border Highlights (Duration: 338ms)
+[2026-08-07T02:00:01.330Z] [PASS] [UI Testing] TC-UI-012 - Validate Input Field Border Highlights (Duration: 137ms)
   Description: Inspect UI elements and layout fidelity for validate input field border highlights against design specifications.
-[2026-08-06T17:44:54.540Z] [PASS] [UI Testing] TC-UI-013 - Verify Error Message Red Color Contrast (Duration: 209ms)
+[2026-08-07T02:00:01.363Z] [PASS] [UI Testing] TC-UI-013 - Verify Error Message Red Color Contrast (Duration: 424ms)
   Description: Inspect UI elements and layout fidelity for verify error message red color contrast against design specifications.
-[2026-08-06T17:44:54.568Z] [PASS] [UI Testing] TC-UI-014 - Check Success Badge Rendering (Duration: 370ms)
+[2026-08-07T02:00:01.378Z] [PASS] [UI Testing] TC-UI-014 - Check Success Badge Rendering (Duration: 161ms)
   Description: Inspect UI elements and layout fidelity for check success badge rendering against design specifications.
-[2026-08-06T17:44:54.597Z] [PASS] [UI Testing] TC-UI-015 - Validate Grid Column Responsiveness (Duration: 426ms)
+[2026-08-07T02:00:01.409Z] [PASS] [UI Testing] TC-UI-015 - Validate Grid Column Responsiveness (Duration: 213ms)
   Description: Inspect UI elements and layout fidelity for validate grid column responsiveness against design specifications.
-[2026-08-06T17:44:54.632Z] [PASS] [UI Testing] TC-UI-016 - Verify Chart Canvas Redraw on Resize (Duration: 181ms)
+[2026-08-07T02:00:01.426Z] [PASS] [UI Testing] TC-UI-016 - Verify Chart Canvas Redraw on Resize (Duration: 189ms)
   Description: Inspect UI elements and layout fidelity for verify chart canvas redraw on resize against design specifications.
-[2026-08-06T17:44:54.648Z] [PASS] [UI Testing] TC-UI-017 - Check Floating Header Elevation (Duration: 184ms)
+[2026-08-07T02:00:01.457Z] [PASS] [UI Testing] TC-UI-017 - Check Floating Header Elevation (Duration: 158ms)
   Description: Inspect UI elements and layout fidelity for check floating header elevation against design specifications.
-[2026-08-06T17:44:54.665Z] [PASS] [UI Testing] TC-UI-018 - Validate Bottom Sheet Drag Gesture Visual (Duration: 266ms)
+[2026-08-07T02:00:01.473Z] [PASS] [UI Testing] TC-UI-018 - Validate Bottom Sheet Drag Gesture Visual (Duration: 376ms)
   Description: Inspect UI elements and layout fidelity for validate bottom sheet drag gesture visual against design specifications.
-[2026-08-06T17:44:54.681Z] [PASS] [UI Testing] TC-UI-019 - Verify Avatar Circle Aspect Ratio (Duration: 256ms)
+[2026-08-07T02:00:01.489Z] [PASS] [UI Testing] TC-UI-019 - Verify Avatar Circle Aspect Ratio (Duration: 390ms)
   Description: Inspect UI elements and layout fidelity for verify avatar circle aspect ratio against design specifications.
-[2026-08-06T17:44:54.698Z] [PASS] [UI Testing] TC-UI-020 - Check Icon Tint on Active State (Duration: 147ms)
+[2026-08-07T02:00:01.506Z] [PASS] [UI Testing] TC-UI-020 - Check Icon Tint on Active State (Duration: 198ms)
   Description: Inspect UI elements and layout fidelity for check icon tint on active state against design specifications.
-[2026-08-06T17:44:54.717Z] [PASS] [UI Testing] TC-UI-021 - Validate List Divider Margin (Duration: 413ms)
+[2026-08-07T02:00:01.538Z] [PASS] [UI Testing] TC-UI-021 - Validate List Divider Margin (Duration: 200ms)
   Description: Inspect UI elements and layout fidelity for validate list divider margin against design specifications.
-[2026-08-06T17:44:54.730Z] [PASS] [UI Testing] TC-UI-022 - Verify Multi-Select Checkbox Animation (Duration: 243ms)
+[2026-08-07T02:00:01.554Z] [PASS] [UI Testing] TC-UI-022 - Verify Multi-Select Checkbox Animation (Duration: 129ms)
   Description: Inspect UI elements and layout fidelity for verify multi-select checkbox animation against design specifications.
-[2026-08-06T17:44:54.748Z] [PASS] [UI Testing] TC-UI-023 - Check Toggle Switch Smoothness (Duration: 354ms)
+[2026-08-07T02:00:01.570Z] [PASS] [UI Testing] TC-UI-023 - Check Toggle Switch Smoothness (Duration: 248ms)
   Description: Inspect UI elements and layout fidelity for check toggle switch smoothness against design specifications.
-[2026-08-06T17:44:54.764Z] [PASS] [UI Testing] TC-UI-024 - Validate Tooltip Arrow Position (Duration: 122ms)
+[2026-08-07T02:00:01.602Z] [PASS] [UI Testing] TC-UI-024 - Validate Tooltip Arrow Position (Duration: 280ms)
   Description: Inspect UI elements and layout fidelity for validate tooltip arrow position against design specifications.
-[2026-08-06T17:44:54.782Z] [PASS] [UI Testing] TC-UI-025 - Verify Status Bar Translucency (Duration: 285ms)
+[2026-08-07T02:00:01.618Z] [PASS] [UI Testing] TC-UI-025 - Verify Status Bar Translucency (Duration: 263ms)
   Description: Inspect UI elements and layout fidelity for verify status bar translucency against design specifications.
-[2026-08-06T17:44:54.812Z] [PASS] [UI Testing] TC-UI-026 - Check System Navigation Bar Overlap (Duration: 294ms)
+[2026-08-07T02:00:01.633Z] [PASS] [UI Testing] TC-UI-026 - Check System Navigation Bar Overlap (Duration: 177ms)
   Description: Inspect UI elements and layout fidelity for check system navigation bar overlap against design specifications.
-[2026-08-06T17:44:54.827Z] [PASS] [UI Testing] TC-UI-027 - Validate Splash Screen Logo Centering (Duration: 418ms)
+[2026-08-07T02:00:01.649Z] [PASS] [UI Testing] TC-UI-027 - Validate Splash Screen Logo Centering (Duration: 215ms)
   Description: Inspect UI elements and layout fidelity for validate splash screen logo centering against design specifications.
-[2026-08-06T17:44:54.857Z] [PASS] [UI Testing] TC-UI-028 - Verify Empty State Vector Graphic (Duration: 258ms)
+[2026-08-07T02:00:01.681Z] [PASS] [UI Testing] TC-UI-028 - Verify Empty State Vector Graphic (Duration: 200ms)
   Description: Inspect UI elements and layout fidelity for verify empty state vector graphic against design specifications.
-[2026-08-06T17:44:54.878Z] [PASS] [UI Testing] TC-UI-029 - Check Search Bar Clear Icon Alignment (Duration: 374ms)
+[2026-08-07T02:00:01.713Z] [PASS] [UI Testing] TC-UI-029 - Check Search Bar Clear Icon Alignment (Duration: 379ms)
   Description: Inspect UI elements and layout fidelity for check search bar clear icon alignment against design specifications.
-[2026-08-06T17:44:54.895Z] [PASS] [UI Testing] TC-UI-030 - Validate Pill Badge Overflow Text (Duration: 405ms)
+[2026-08-07T02:00:01.728Z] [PASS] [UI Testing] TC-UI-030 - Validate Pill Badge Overflow Text (Duration: 222ms)
   Description: Inspect UI elements and layout fidelity for validate pill badge overflow text against design specifications.
-[2026-08-06T17:44:54.912Z] [PASS] [UI Testing] TC-UI-031 - Verify Circular Progress Bar Smoothness (Duration: 142ms)
+[2026-08-07T02:00:01.744Z] [PASS] [UI Testing] TC-UI-031 - Verify Circular Progress Bar Smoothness (Duration: 249ms)
   Description: Inspect UI elements and layout fidelity for verify circular progress bar smoothness against design specifications.
-[2026-08-06T17:44:54.945Z] [PASS] [UI Testing] TC-UI-032 - Check Wave Animation on Loading (Duration: 352ms)
+[2026-08-07T02:00:01.760Z] [PASS] [UI Testing] TC-UI-032 - Check Wave Animation on Loading (Duration: 418ms)
   Description: Inspect UI elements and layout fidelity for check wave animation on loading against design specifications.
-[2026-08-06T17:44:54.962Z] [PASS] [UI Testing] TC-UI-033 - Validate Custom Calendar View Cells (Duration: 128ms)
+[2026-08-07T02:00:01.792Z] [PASS] [UI Testing] TC-UI-033 - Validate Custom Calendar View Cells (Duration: 373ms)
   Description: Inspect UI elements and layout fidelity for validate custom calendar view cells against design specifications.
-[2026-08-06T17:44:54.986Z] [PASS] [UI Testing] TC-UI-034 - Verify Dialog Box Button Spacing (Duration: 336ms)
+[2026-08-07T02:00:01.825Z] [PASS] [UI Testing] TC-UI-034 - Verify Dialog Box Button Spacing (Duration: 128ms)
   Description: Inspect UI elements and layout fidelity for verify dialog box button spacing against design specifications.
-[2026-08-06T17:44:55.016Z] [PASS] [UI Testing] TC-UI-035 - Check Swipe-to-Delete Background Red Tint (Duration: 180ms)
+[2026-08-07T02:00:01.846Z] [PASS] [UI Testing] TC-UI-035 - Check Swipe-to-Delete Background Red Tint (Duration: 380ms)
   Description: Inspect UI elements and layout fidelity for check swipe-to-delete background red tint against design specifications.
-[2026-08-06T17:44:55.045Z] [PASS] [UI Testing] TC-UI-036 - Validate Accordion Menu Arrow Rotation (Duration: 265ms)
+[2026-08-07T02:00:01.877Z] [PASS] [UI Testing] TC-UI-036 - Validate Accordion Menu Arrow Rotation (Duration: 329ms)
   Description: Inspect UI elements and layout fidelity for validate accordion menu arrow rotation against design specifications.
-[2026-08-06T17:44:55.082Z] [PASS] [UI Testing] TC-UI-037 - Verify Segmented Control Active State (Duration: 174ms)
+[2026-08-07T02:00:01.893Z] [PASS] [UI Testing] TC-UI-037 - Verify Segmented Control Active State (Duration: 209ms)
   Description: Inspect UI elements and layout fidelity for verify segmented control active state against design specifications.
-[2026-08-06T17:44:55.112Z] [PASS] [UI Testing] TC-UI-038 - Check Rating Star Fill Animation (Duration: 275ms)
+[2026-08-07T02:00:01.925Z] [PASS] [UI Testing] TC-UI-038 - Check Rating Star Fill Animation (Duration: 371ms)
   Description: Inspect UI elements and layout fidelity for check rating star fill animation against design specifications.
-[2026-08-06T17:44:55.129Z] [PASS] [UI Testing] TC-UI-039 - Validate Slider Knob Drag Shadow (Duration: 300ms)
+[2026-08-07T02:00:01.941Z] [PASS] [UI Testing] TC-UI-039 - Validate Slider Knob Drag Shadow (Duration: 115ms)
   Description: Inspect UI elements and layout fidelity for validate slider knob drag shadow against design specifications.
-[2026-08-06T17:44:55.146Z] [PASS] [UI Testing] TC-UI-040 - Verify Badge Counter Dot Position (Duration: 411ms)
+[2026-08-07T02:00:01.973Z] [PASS] [UI Testing] TC-UI-040 - Verify Badge Counter Dot Position (Duration: 313ms)
   Description: Inspect UI elements and layout fidelity for verify badge counter dot position against design specifications.
-[2026-08-06T17:44:55.161Z] [PASS] [UI Testing] TC-UI-041 - Check Chip Selector Margin (Duration: 206ms)
+[2026-08-07T02:00:02.005Z] [PASS] [UI Testing] TC-UI-041 - Check Chip Selector Margin (Duration: 209ms)
   Description: Inspect UI elements and layout fidelity for check chip selector margin against design specifications.
-[2026-08-06T17:44:55.177Z] [PASS] [UI Testing] TC-UI-042 - Validate Step Tracker Progress Arc (Duration: 156ms)
+[2026-08-07T02:00:02.029Z] [PASS] [UI Testing] TC-UI-042 - Validate Step Tracker Progress Arc (Duration: 202ms)
   Description: Inspect UI elements and layout fidelity for validate step tracker progress arc against design specifications.
-[2026-08-06T17:44:55.212Z] [PASS] [UI Testing] TC-UI-043 - Verify Horizontal Scroll View Edge Glow (Duration: 202ms)
+[2026-08-07T02:00:02.046Z] [PASS] [UI Testing] TC-UI-043 - Verify Horizontal Scroll View Edge Glow (Duration: 135ms)
   Description: Inspect UI elements and layout fidelity for verify horizontal scroll view edge glow against design specifications.
-[2026-08-06T17:44:55.229Z] [PASS] [UI Testing] TC-UI-044 - Check Sticky Header Snap Effect (Duration: 373ms)
+[2026-08-07T02:00:02.062Z] [PASS] [UI Testing] TC-UI-044 - Check Sticky Header Snap Effect (Duration: 155ms)
   Description: Inspect UI elements and layout fidelity for check sticky header snap effect against design specifications.
-[2026-08-06T17:44:55.260Z] [PASS] [UI Testing] TC-UI-045 - Validate Floating Action Button Label (Duration: 270ms)
+[2026-08-07T02:00:02.092Z] [PASS] [UI Testing] TC-UI-045 - Validate Floating Action Button Label (Duration: 171ms)
   Description: Inspect UI elements and layout fidelity for validate floating action button label against design specifications.
-[2026-08-06T17:44:55.279Z] [PASS] [UI Testing] TC-UI-046 - Verify Form Input Label Floating Effect (Duration: 156ms)
+[2026-08-07T02:00:02.123Z] [PASS] [UI Testing] TC-UI-046 - Verify Form Input Label Floating Effect (Duration: 288ms)
   Description: Inspect UI elements and layout fidelity for verify form input label floating effect against design specifications.
-[2026-08-06T17:44:55.309Z] [PASS] [UI Testing] TC-UI-047 - Check Dropdown Menu Transition (Duration: 243ms)
+[2026-08-07T02:00:02.139Z] [PASS] [UI Testing] TC-UI-047 - Check Dropdown Menu Transition (Duration: 221ms)
   Description: Inspect UI elements and layout fidelity for check dropdown menu transition against design specifications.
-[2026-08-06T17:44:55.323Z] [PASS] [UI Testing] TC-UI-048 - Validate Image Crop Overlay Visual (Duration: 334ms)
+[2026-08-07T02:00:02.155Z] [PASS] [UI Testing] TC-UI-048 - Validate Image Crop Overlay Visual (Duration: 395ms)
   Description: Inspect UI elements and layout fidelity for validate image crop overlay visual against design specifications.
-[2026-08-06T17:44:55.348Z] [PASS] [UI Testing] TC-UI-049 - Verify Screen Transition Fade In/Out (Duration: 184ms)
+[2026-08-07T02:00:02.171Z] [PASS] [UI Testing] TC-UI-049 - Verify Screen Transition Fade In/Out (Duration: 204ms)
   Description: Inspect UI elements and layout fidelity for verify screen transition fade in/out against design specifications.
-[2026-08-06T17:44:55.381Z] [PASS] [UI Testing] TC-UI-050 - Check Layout Balance Across Aspect Ratios (Duration: 163ms)
+[2026-08-07T02:00:02.203Z] [PASS] [UI Testing] TC-UI-050 - Check Layout Balance Across Aspect Ratios (Duration: 398ms)
   Description: Inspect UI elements and layout fidelity for check layout balance across aspect ratios against design specifications.
-[2026-08-06T17:44:55.412Z] [PASS] [Navigation Testing] TC-NAV-001 - Verify Dashboard to Medical Records Route (Duration: 162ms)
+[2026-08-07T02:00:02.228Z] [PASS] [Navigation Testing] TC-NAV-001 - Verify Dashboard to Medical Records Route (Duration: 295ms)
   Description: Test navigation path, backstack state, and router transitions for verify dashboard to medical records route.
-[2026-08-06T17:44:55.426Z] [PASS] [Navigation Testing] TC-NAV-002 - Check Tab Switch from Vitals to Reminders (Duration: 141ms)
+[2026-08-07T02:00:02.246Z] [PASS] [Navigation Testing] TC-NAV-002 - Check Tab Switch from Vitals to Reminders (Duration: 257ms)
   Description: Test navigation path, backstack state, and router transitions for check tab switch from vitals to reminders.
-[2026-08-06T17:44:55.453Z] [PASS] [Navigation Testing] TC-NAV-003 - Validate Back Button Stack Behavior (Duration: 392ms)
+[2026-08-07T02:00:02.260Z] [PASS] [Navigation Testing] TC-NAV-003 - Validate Back Button Stack Behavior (Duration: 448ms)
   Description: Test navigation path, backstack state, and router transitions for validate back button stack behavior.
-[2026-08-06T17:44:55.469Z] [PASS] [Navigation Testing] TC-NAV-004 - Verify Deep Link Routing for Medication Alert (Duration: 376ms)
+[2026-08-07T02:00:02.275Z] [PASS] [Navigation Testing] TC-NAV-004 - Verify Deep Link Routing for Medication Alert (Duration: 295ms)
   Description: Test navigation path, backstack state, and router transitions for verify deep link routing for medication alert.
-[2026-08-06T17:44:55.499Z] [PASS] [Navigation Testing] TC-NAV-005 - Check Bottom Bar Selection State on Swipe (Duration: 439ms)
+[2026-08-07T02:00:02.291Z] [PASS] [Navigation Testing] TC-NAV-005 - Check Bottom Bar Selection State on Swipe (Duration: 272ms)
   Description: Test navigation path, backstack state, and router transitions for check bottom bar selection state on swipe.
-[2026-08-06T17:44:55.522Z] [PASS] [Navigation Testing] TC-NAV-006 - Validate Profile Screen Nav Transition (Duration: 233ms)
+[2026-08-07T02:00:02.307Z] [PASS] [Navigation Testing] TC-NAV-006 - Validate Profile Screen Nav Transition (Duration: 296ms)
   Description: Test navigation path, backstack state, and router transitions for validate profile screen nav transition.
-[2026-08-06T17:44:55.554Z] [PASS] [Navigation Testing] TC-NAV-007 - Verify Settings Nested Submenu Route (Duration: 326ms)
+[2026-08-07T02:00:02.324Z] [PASS] [Navigation Testing] TC-NAV-007 - Verify Settings Nested Submenu Route (Duration: 411ms)
   Description: Test navigation path, backstack state, and router transitions for verify settings nested submenu route.
-[2026-08-06T17:44:55.579Z] [PASS] [Navigation Testing] TC-NAV-008 - Check Exit Confirmation Dialog on Back Press (Duration: 304ms)
+[2026-08-07T02:00:02.355Z] [PASS] [Navigation Testing] TC-NAV-008 - Check Exit Confirmation Dialog on Back Press (Duration: 171ms)
   Description: Test navigation path, backstack state, and router transitions for check exit confirmation dialog on back press.
-[2026-08-06T17:44:55.603Z] [PASS] [Navigation Testing] TC-NAV-009 - Validate Breadcrumb Trail in Records Archive (Duration: 249ms)
+[2026-08-07T02:00:02.388Z] [PASS] [Navigation Testing] TC-NAV-009 - Validate Breadcrumb Trail in Records Archive (Duration: 245ms)
   Description: Test navigation path, backstack state, and router transitions for validate breadcrumb trail in records archive.
-[2026-08-06T17:44:55.618Z] [PASS] [Navigation Testing] TC-NAV-010 - Verify Push Notification Tap Destination (Duration: 282ms)
+[2026-08-07T02:00:02.403Z] [PASS] [Navigation Testing] TC-NAV-010 - Verify Push Notification Tap Destination (Duration: 178ms)
   Description: Test navigation path, backstack state, and router transitions for verify push notification tap destination.
-[2026-08-06T17:44:55.650Z] [PASS] [Navigation Testing] TC-NAV-011 - Check Quick Action Shortcut Route (Duration: 264ms)
+[2026-08-07T02:00:02.419Z] [PASS] [Navigation Testing] TC-NAV-011 - Check Quick Action Shortcut Route (Duration: 125ms)
   Description: Test navigation path, backstack state, and router transitions for check quick action shortcut route.
-[2026-08-06T17:44:55.671Z] [PASS] [Navigation Testing] TC-NAV-012 - Validate Unsaved Changes Nav Guard (Duration: 225ms)
+[2026-08-07T02:00:02.435Z] [PASS] [Navigation Testing] TC-NAV-012 - Validate Unsaved Changes Nav Guard (Duration: 172ms)
   Description: Test navigation path, backstack state, and router transitions for validate unsaved changes nav guard.
-[2026-08-06T17:44:55.687Z] [PASS] [Navigation Testing] TC-NAV-013 - Verify AI Hub Screen Launch from Home (Duration: 329ms)
+[2026-08-07T02:00:02.467Z] [PASS] [Navigation Testing] TC-NAV-013 - Verify AI Hub Screen Launch from Home (Duration: 317ms)
   Description: Test navigation path, backstack state, and router transitions for verify ai hub screen launch from home.
-[2026-08-06T17:44:55.703Z] [PASS] [Navigation Testing] TC-NAV-014 - Check OCR Camera Screen Navigation (Duration: 303ms)
+[2026-08-07T02:00:02.484Z] [PASS] [Navigation Testing] TC-NAV-014 - Check OCR Camera Screen Navigation (Duration: 230ms)
   Description: Test navigation path, backstack state, and router transitions for check ocr camera screen navigation.
-[2026-08-06T17:44:55.718Z] [PASS] [Navigation Testing] TC-NAV-015 - Validate Prescription Detail Modal Push (Duration: 198ms)
+[2026-08-07T02:00:02.500Z] [PASS] [Navigation Testing] TC-NAV-015 - Validate Prescription Detail Modal Push (Duration: 253ms)
   Description: Test navigation path, backstack state, and router transitions for validate prescription detail modal push.
-[2026-08-06T17:44:55.743Z] [PASS] [Navigation Testing] TC-NAV-016 - Verify Doctor Chat Screen Route (Duration: 147ms)
+[2026-08-07T02:00:02.512Z] [PASS] [Navigation Testing] TC-NAV-016 - Verify Doctor Chat Screen Route (Duration: 348ms)
   Description: Test navigation path, backstack state, and router transitions for verify doctor chat screen route.
-[2026-08-06T17:44:55.759Z] [PASS] [Navigation Testing] TC-NAV-017 - Check Analytics Sub-Tab Navigation (Duration: 156ms)
+[2026-08-07T02:00:02.529Z] [PASS] [Navigation Testing] TC-NAV-017 - Check Analytics Sub-Tab Navigation (Duration: 197ms)
   Description: Test navigation path, backstack state, and router transitions for check analytics sub-tab navigation.
-[2026-08-06T17:44:55.785Z] [PASS] [Navigation Testing] TC-NAV-018 - Validate Cross-Feature Link from Vital to Doctor (Duration: 329ms)
+[2026-08-07T02:00:02.559Z] [PASS] [Navigation Testing] TC-NAV-018 - Validate Cross-Feature Link from Vital to Doctor (Duration: 187ms)
   Description: Test navigation path, backstack state, and router transitions for validate cross-feature link from vital to doctor.
-[2026-08-06T17:44:55.801Z] [PASS] [Navigation Testing] TC-NAV-019 - Verify Drawer Menu Screen Navigation (Duration: 265ms)
+[2026-08-07T02:00:02.576Z] [PASS] [Navigation Testing] TC-NAV-019 - Verify Drawer Menu Screen Navigation (Duration: 415ms)
   Description: Test navigation path, backstack state, and router transitions for verify drawer menu screen navigation.
-[2026-08-06T17:44:55.828Z] [PASS] [Navigation Testing] TC-NAV-020 - Check Back Stack Clear on Logout (Duration: 133ms)
+[2026-08-07T02:00:02.591Z] [PASS] [Navigation Testing] TC-NAV-020 - Check Back Stack Clear on Logout (Duration: 235ms)
   Description: Test navigation path, backstack state, and router transitions for check back stack clear on logout.
-[2026-08-06T17:44:55.849Z] [PASS] [Navigation Testing] TC-NAV-021 - Validate Re-Authentication Nav Intercept (Duration: 337ms)
+[2026-08-07T02:00:02.606Z] [PASS] [Navigation Testing] TC-NAV-021 - Validate Re-Authentication Nav Intercept (Duration: 402ms)
   Description: Test navigation path, backstack state, and router transitions for validate re-authentication nav intercept.
-[2026-08-06T17:44:55.865Z] [PASS] [Navigation Testing] TC-NAV-022 - Verify Home Screen Return on App Resume (Duration: 395ms)
+[2026-08-07T02:00:02.639Z] [PASS] [Navigation Testing] TC-NAV-022 - Verify Home Screen Return on App Resume (Duration: 286ms)
   Description: Test navigation path, backstack state, and router transitions for verify home screen return on app resume.
-[2026-08-06T17:44:55.880Z] [PASS] [Navigation Testing] TC-NAV-023 - Check External Link Handling (Privacy Policy) (Duration: 427ms)
+[2026-08-07T02:00:02.655Z] [PASS] [Navigation Testing] TC-NAV-023 - Check External Link Handling (Privacy Policy) (Duration: 294ms)
   Description: Test navigation path, backstack state, and router transitions for check external link handling (privacy policy).
-[2026-08-06T17:44:55.912Z] [PASS] [Navigation Testing] TC-NAV-024 - Validate Help & Support WebView Navigation (Duration: 210ms)
+[2026-08-07T02:00:02.687Z] [PASS] [Navigation Testing] TC-NAV-024 - Validate Help & Support WebView Navigation (Duration: 372ms)
   Description: Test navigation path, backstack state, and router transitions for validate help & support webview navigation.
-[2026-08-06T17:44:55.930Z] [PASS] [Navigation Testing] TC-NAV-025 - Verify Appointment Detail Screen Route (Duration: 415ms)
+[2026-08-07T02:00:02.703Z] [PASS] [Navigation Testing] TC-NAV-025 - Verify Appointment Detail Screen Route (Duration: 414ms)
   Description: Test navigation path, backstack state, and router transitions for verify appointment detail screen route.
-[2026-08-06T17:44:55.962Z] [PASS] [Navigation Testing] TC-NAV-026 - Check Category Filter Deep Linking (Duration: 398ms)
+[2026-08-07T02:00:02.729Z] [PASS] [Navigation Testing] TC-NAV-026 - Check Category Filter Deep Linking (Duration: 400ms)
   Description: Test navigation path, backstack state, and router transitions for check category filter deep linking.
-[2026-08-06T17:44:55.981Z] [PASS] [Navigation Testing] TC-NAV-027 - Validate Multi-Step Form Screen Forward Route (Duration: 140ms)
+[2026-08-07T02:00:02.759Z] [PASS] [Navigation Testing] TC-NAV-027 - Validate Multi-Step Form Screen Forward Route (Duration: 243ms)
   Description: Test navigation path, backstack state, and router transitions for validate multi-step form screen forward route.
-[2026-08-06T17:44:55.997Z] [PASS] [Navigation Testing] TC-NAV-028 - Verify Multi-Step Form Screen Backward Route (Duration: 330ms)
+[2026-08-07T02:00:02.791Z] [PASS] [Navigation Testing] TC-NAV-028 - Verify Multi-Step Form Screen Backward Route (Duration: 371ms)
   Description: Test navigation path, backstack state, and router transitions for verify multi-step form screen backward route.
-[2026-08-06T17:44:56.013Z] [PASS] [Navigation Testing] TC-NAV-029 - Check Tab Restoration after Orientation Change (Duration: 159ms)
+[2026-08-07T02:00:02.807Z] [PASS] [Navigation Testing] TC-NAV-029 - Check Tab Restoration after Orientation Change (Duration: 399ms)
   Description: Test navigation path, backstack state, and router transitions for check tab restoration after orientation change.
-[2026-08-06T17:44:56.030Z] [PASS] [Navigation Testing] TC-NAV-030 - Validate Search Result Item Tap Destination (Duration: 410ms)
+[2026-08-07T02:00:02.835Z] [PASS] [Navigation Testing] TC-NAV-030 - Validate Search Result Item Tap Destination (Duration: 351ms)
   Description: Test navigation path, backstack state, and router transitions for validate search result item tap destination.
-[2026-08-06T17:44:56.046Z] [PASS] [Navigation Testing] TC-NAV-031 - Verify Notification History List Nav (Duration: 254ms)
+[2026-08-07T02:00:02.861Z] [PASS] [Navigation Testing] TC-NAV-031 - Verify Notification History List Nav (Duration: 387ms)
   Description: Test navigation path, backstack state, and router transitions for verify notification history list nav.
-[2026-08-06T17:44:56.063Z] [PASS] [Navigation Testing] TC-NAV-032 - Check Emergency Contact Call Intent Launch (Duration: 429ms)
+[2026-08-07T02:00:02.892Z] [PASS] [Navigation Testing] TC-NAV-032 - Check Emergency Contact Call Intent Launch (Duration: 448ms)
   Description: Test navigation path, backstack state, and router transitions for check emergency contact call intent launch.
-[2026-08-06T17:44:56.079Z] [PASS] [Navigation Testing] TC-NAV-033 - Validate Pharmacy Map Screen Route (Duration: 158ms)
+[2026-08-07T02:00:02.924Z] [PASS] [Navigation Testing] TC-NAV-033 - Validate Pharmacy Map Screen Route (Duration: 268ms)
   Description: Test navigation path, backstack state, and router transitions for validate pharmacy map screen route.
-[2026-08-06T17:44:56.095Z] [PASS] [Navigation Testing] TC-NAV-034 - Verify Diagnostic Test List Routing (Duration: 452ms)
+[2026-08-07T02:00:02.955Z] [PASS] [Navigation Testing] TC-NAV-034 - Verify Diagnostic Test List Routing (Duration: 167ms)
   Description: Test navigation path, backstack state, and router transitions for verify diagnostic test list routing.
-[2026-08-06T17:44:56.112Z] [PASS] [Navigation Testing] TC-NAV-035 - Check Lab Report Download Screen Route (Duration: 386ms)
+[2026-08-07T02:00:02.971Z] [PASS] [Navigation Testing] TC-NAV-035 - Check Lab Report Download Screen Route (Duration: 374ms)
   Description: Test navigation path, backstack state, and router transitions for check lab report download screen route.
-[2026-08-06T17:44:56.145Z] [PASS] [Navigation Testing] TC-NAV-036 - Validate Family Member Profile Switch Route (Duration: 412ms)
+[2026-08-07T02:00:02.987Z] [PASS] [Navigation Testing] TC-NAV-036 - Validate Family Member Profile Switch Route (Duration: 280ms)
   Description: Test navigation path, backstack state, and router transitions for validate family member profile switch route.
-[2026-08-06T17:44:56.160Z] [PASS] [Navigation Testing] TC-NAV-037 - Verify Symptom Checker Wizard Steps (Duration: 253ms)
+[2026-08-07T02:00:03.004Z] [PASS] [Navigation Testing] TC-NAV-037 - Verify Symptom Checker Wizard Steps (Duration: 248ms)
   Description: Test navigation path, backstack state, and router transitions for verify symptom checker wizard steps.
-[2026-08-06T17:44:56.178Z] [PASS] [Navigation Testing] TC-NAV-038 - Check Device Connection Screen Route (Duration: 274ms)
+[2026-08-07T02:00:03.029Z] [PASS] [Navigation Testing] TC-NAV-038 - Check Device Connection Screen Route (Duration: 316ms)
   Description: Test navigation path, backstack state, and router transitions for check device connection screen route.
-[2026-08-06T17:44:56.198Z] [PASS] [Navigation Testing] TC-NAV-039 - Validate Bluetooth Pair Setup Navigation (Duration: 227ms)
+[2026-08-07T02:00:03.044Z] [PASS] [Navigation Testing] TC-NAV-039 - Validate Bluetooth Pair Setup Navigation (Duration: 169ms)
   Description: Test navigation path, backstack state, and router transitions for validate bluetooth pair setup navigation.
-[2026-08-06T17:44:56.214Z] [PASS] [Navigation Testing] TC-NAV-040 - Verify Account Security Sub-menu Route (Duration: 350ms)
+[2026-08-07T02:00:03.059Z] [PASS] [Navigation Testing] TC-NAV-040 - Verify Account Security Sub-menu Route (Duration: 377ms)
   Description: Test navigation path, backstack state, and router transitions for verify account security sub-menu route.
-[2026-08-06T17:44:56.246Z] [PASS] [Navigation Testing] TC-NAV-041 - Verify Activity Log History Route (Duration: 227ms)
+[2026-08-07T02:00:03.092Z] [PASS] [Navigation Testing] TC-NAV-041 - Verify Activity Log History Route (Duration: 395ms)
   Description: Test navigation path, backstack state, and router transitions for verify activity log history route.
-[2026-08-06T17:44:56.279Z] [PASS] [Navigation Testing] TC-NAV-042 - Check Data Export Wizard Navigation (Duration: 129ms)
+[2026-08-07T02:00:03.108Z] [PASS] [Navigation Testing] TC-NAV-042 - Check Data Export Wizard Navigation (Duration: 351ms)
   Description: Test navigation path, backstack state, and router transitions for check data export wizard navigation.
-[2026-08-06T17:44:56.295Z] [PASS] [Navigation Testing] TC-NAV-043 - Validate Billing & Subscription Screen Route (Duration: 145ms)
+[2026-08-07T02:00:03.124Z] [PASS] [Navigation Testing] TC-NAV-043 - Validate Billing & Subscription Screen Route (Duration: 329ms)
   Description: Test navigation path, backstack state, and router transitions for validate billing & subscription screen route.
-[2026-08-06T17:44:56.312Z] [PASS] [Navigation Testing] TC-NAV-044 - Verify Feedback Form Screen Launch (Duration: 154ms)
+[2026-08-07T02:00:03.156Z] [PASS] [Navigation Testing] TC-NAV-044 - Verify Feedback Form Screen Launch (Duration: 134ms)
   Description: Test navigation path, backstack state, and router transitions for verify feedback form screen launch.
-[2026-08-06T17:44:56.345Z] [PASS] [Navigation Testing] TC-NAV-045 - Check FAQ Accordion Nav Scroll (Duration: 183ms)
+[2026-08-07T02:00:03.187Z] [PASS] [Navigation Testing] TC-NAV-045 - Check FAQ Accordion Nav Scroll (Duration: 339ms)
   Description: Test navigation path, backstack state, and router transitions for check faq accordion nav scroll.
-[2026-08-06T17:44:56.364Z] [PASS] [Navigation Testing] TC-NAV-046 - Validate Offline Notice Screen Redirection (Duration: 367ms)
+[2026-08-07T02:00:03.219Z] [PASS] [Navigation Testing] TC-NAV-046 - Validate Offline Notice Screen Redirection (Duration: 295ms)
   Description: Test navigation path, backstack state, and router transitions for validate offline notice screen redirection.
-[2026-08-06T17:44:56.399Z] [PASS] [Navigation Testing] TC-NAV-047 - Verify Server Error Screen Retry Navigation (Duration: 141ms)
+[2026-08-07T02:00:03.235Z] [PASS] [Navigation Testing] TC-NAV-047 - Verify Server Error Screen Retry Navigation (Duration: 117ms)
   Description: Test navigation path, backstack state, and router transitions for verify server error screen retry navigation.
-[2026-08-06T17:44:56.413Z] [PASS] [Navigation Testing] TC-NAV-048 - Check Session Timeout Redirect to Login (Duration: 382ms)
+[2026-08-07T02:00:03.251Z] [PASS] [Navigation Testing] TC-NAV-048 - Check Session Timeout Redirect to Login (Duration: 269ms)
   Description: Test navigation path, backstack state, and router transitions for check session timeout redirect to login.
-[2026-08-06T17:44:56.433Z] [PASS] [Navigation Testing] TC-NAV-049 - Validate Deep Link Schema healthlog://record/123 (Duration: 405ms)
+[2026-08-07T02:00:03.267Z] [PASS] [Navigation Testing] TC-NAV-049 - Validate Deep Link Schema healthlog://record/123 (Duration: 355ms)
   Description: Test navigation path, backstack state, and router transitions for validate deep link schema healthlog://record/123.
-[2026-08-06T17:44:56.447Z] [PASS] [Navigation Testing] TC-NAV-050 - Verify Deep Link Schema healthlog://reminder/456 (Duration: 355ms)
+[2026-08-07T02:00:03.283Z] [PASS] [Navigation Testing] TC-NAV-050 - Verify Deep Link Schema healthlog://reminder/456 (Duration: 417ms)
   Description: Test navigation path, backstack state, and router transitions for verify deep link schema healthlog://reminder/456.
-[2026-08-06T17:44:56.462Z] [PASS] [Authentication Testing] TC-AUTH-001 - Verify Login with Valid Credentials (Duration: 443ms)
+[2026-08-07T02:00:03.300Z] [PASS] [Authentication Testing] TC-AUTH-001 - Verify Login with Valid Credentials (Duration: 266ms)
   Description: Test authentication flows, biometric security, and session management for verify login with valid credentials.
-[2026-08-06T17:44:56.483Z] [PASS] [Authentication Testing] TC-AUTH-002 - Validate Login Failure with Wrong Password (Duration: 245ms)
+[2026-08-07T02:00:03.313Z] [PASS] [Authentication Testing] TC-AUTH-002 - Validate Login Failure with Wrong Password (Duration: 366ms)
   Description: Test authentication flows, biometric security, and session management for validate login failure with wrong password.
-[2026-08-06T17:44:56.511Z] [PASS] [Authentication Testing] TC-AUTH-003 - Check Email Format Validation on Login (Duration: 502ms)
+[2026-08-07T02:00:03.343Z] [PASS] [Authentication Testing] TC-AUTH-003 - Check Email Format Validation on Login (Duration: 234ms)
   Description: Test authentication flows, biometric security, and session management for check email format validation on login.
-[2026-08-06T17:44:56.532Z] [PASS] [Authentication Testing] TC-AUTH-004 - Verify Registration with New User Data (Duration: 326ms)
+[2026-08-07T02:00:03.359Z] [PASS] [Authentication Testing] TC-AUTH-004 - Verify Registration with New User Data (Duration: 509ms)
   Description: Test authentication flows, biometric security, and session management for verify registration with new user data.
-[2026-08-06T17:44:56.562Z] [PASS] [Authentication Testing] TC-AUTH-005 - Check Password Strength Indicator (Duration: 277ms)
+[2026-08-07T02:00:03.376Z] [PASS] [Authentication Testing] TC-AUTH-005 - Check Password Strength Indicator (Duration: 306ms)
   Description: Test authentication flows, biometric security, and session management for check password strength indicator.
-[2026-08-06T17:44:56.580Z] [PASS] [Authentication Testing] TC-AUTH-006 - Validate Duplicate Email Signup Error (Duration: 303ms)
+[2026-08-07T02:00:03.392Z] [PASS] [Authentication Testing] TC-AUTH-006 - Validate Duplicate Email Signup Error (Duration: 251ms)
   Description: Test authentication flows, biometric security, and session management for validate duplicate email signup error.
-[2026-08-06T17:44:56.611Z] [PASS] [Authentication Testing] TC-AUTH-007 - Verify OTP Generation for Password Reset (Duration: 149ms)
+[2026-08-07T02:00:03.424Z] [PASS] [Authentication Testing] TC-AUTH-007 - Verify OTP Generation for Password Reset (Duration: 396ms)
   Description: Test authentication flows, biometric security, and session management for verify otp generation for password reset.
-[2026-08-06T17:44:56.626Z] [PASS] [Authentication Testing] TC-AUTH-008 - Check OTP Expiration Timer (Duration: 181ms)
+[2026-08-07T02:00:03.440Z] [PASS] [Authentication Testing] TC-AUTH-008 - Check OTP Expiration Timer (Duration: 278ms)
   Description: Test authentication flows, biometric security, and session management for check otp expiration timer.
-[2026-08-06T17:44:56.662Z] [PASS] [Authentication Testing] TC-AUTH-009 - Validate OTP Verification Success (Duration: 260ms)
+[2026-08-07T02:00:03.471Z] [PASS] [Authentication Testing] TC-AUTH-009 - Validate OTP Verification Success (Duration: 512ms)
   Description: Test authentication flows, biometric security, and session management for validate otp verification success.
-[2026-08-06T17:44:56.689Z] [PASS] [Authentication Testing] TC-AUTH-010 - Verify Fingerprint Biometric Unlock (Duration: 334ms)
+[2026-08-07T02:00:03.487Z] [PASS] [Authentication Testing] TC-AUTH-010 - Verify Fingerprint Biometric Unlock (Duration: 462ms)
   Description: Test authentication flows, biometric security, and session management for verify fingerprint biometric unlock.
-[2026-08-06T17:44:56.711Z] [PASS] [Authentication Testing] TC-AUTH-011 - Check FaceID Authentication Trigger (Duration: 519ms)
+[2026-08-07T02:00:03.520Z] [PASS] [Authentication Testing] TC-AUTH-011 - Check FaceID Authentication Trigger (Duration: 160ms)
   Description: Test authentication flows, biometric security, and session management for check faceid authentication trigger.
-[2026-08-06T17:44:56.727Z] [PASS] [Authentication Testing] TC-AUTH-012 - Validate Fallback to PIN on Biometric Fail (Duration: 348ms)
+[2026-08-07T02:00:03.536Z] [PASS] [Authentication Testing] TC-AUTH-012 - Validate Fallback to PIN on Biometric Fail (Duration: 447ms)
   Description: Test authentication flows, biometric security, and session management for validate fallback to pin on biometric fail.
-[2026-08-06T17:44:56.744Z] [PASS] [Authentication Testing] TC-AUTH-013 - Verify JWT Access Token Storage (Duration: 508ms)
+[2026-08-07T02:00:03.552Z] [PASS] [Authentication Testing] TC-AUTH-013 - Verify JWT Access Token Storage (Duration: 251ms)
   Description: Test authentication flows, biometric security, and session management for verify jwt access token storage.
-[2026-08-06T17:44:56.765Z] [PASS] [Authentication Testing] TC-AUTH-014 - Check Refresh Token Rotation (Duration: 437ms)
+[2026-08-07T02:00:03.584Z] [PASS] [Authentication Testing] TC-AUTH-014 - Check Refresh Token Rotation (Duration: 474ms)
   Description: Test authentication flows, biometric security, and session management for check refresh token rotation.
-[2026-08-06T17:44:56.797Z] [PASS] [Authentication Testing] TC-AUTH-015 - Validate Automatic Token Renewal on 401 (Duration: 292ms)
+[2026-08-07T02:00:03.615Z] [PASS] [Authentication Testing] TC-AUTH-015 - Validate Automatic Token Renewal on 401 (Duration: 488ms)
   Description: Test authentication flows, biometric security, and session management for validate automatic token renewal on 401.
-[2026-08-06T17:44:56.828Z] [PASS] [Authentication Testing] TC-AUTH-016 - Verify Remember Me Checkbox Logic (Duration: 443ms)
+[2026-08-07T02:00:03.631Z] [PASS] [Authentication Testing] TC-AUTH-016 - Verify Remember Me Checkbox Logic (Duration: 411ms)
   Description: Test authentication flows, biometric security, and session management for verify remember me checkbox logic.
-[2026-08-06T17:44:56.860Z] [PASS] [Authentication Testing] TC-AUTH-017 - Check Logout Token Invalidation (Duration: 289ms)
+[2026-08-07T02:00:03.663Z] [PASS] [Authentication Testing] TC-AUTH-017 - Check Logout Token Invalidation (Duration: 307ms)
   Description: Test authentication flows, biometric security, and session management for check logout token invalidation.
-[2026-08-06T17:44:56.894Z] [PASS] [Authentication Testing] TC-AUTH-018 - Validate Multi-Device Active Sessions List (Duration: 483ms)
+[2026-08-07T02:00:03.695Z] [PASS] [Authentication Testing] TC-AUTH-018 - Validate Multi-Device Active Sessions List (Duration: 353ms)
   Description: Test authentication flows, biometric security, and session management for validate multi-device active sessions list.
-[2026-08-06T17:44:56.914Z] [PASS] [Authentication Testing] TC-AUTH-019 - Verify Remote Device Revocation (Duration: 348ms)
+[2026-08-07T02:00:03.712Z] [PASS] [Authentication Testing] TC-AUTH-019 - Verify Remote Device Revocation (Duration: 414ms)
   Description: Test authentication flows, biometric security, and session management for verify remote device revocation.
-[2026-08-06T17:44:56.931Z] [PASS] [Authentication Testing] TC-AUTH-020 - Check Account Lockout after 5 Failed Logins (Duration: 254ms)
+[2026-08-07T02:00:03.726Z] [PASS] [Authentication Testing] TC-AUTH-020 - Check Account Lockout after 5 Failed Logins (Duration: 257ms)
   Description: Test authentication flows, biometric security, and session management for check account lockout after 5 failed logins.
-[2026-08-06T17:44:56.945Z] [PASS] [Authentication Testing] TC-AUTH-021 - Validate Lockout Countdown Timer (Duration: 231ms)
+[2026-08-07T02:00:03.742Z] [PASS] [Authentication Testing] TC-AUTH-021 - Validate Lockout Countdown Timer (Duration: 228ms)
   Description: Test authentication flows, biometric security, and session management for validate lockout countdown timer.
-[2026-08-06T17:44:56.962Z] [PASS] [Authentication Testing] TC-AUTH-022 - Verify Social Auth (Google Sign-In) (Duration: 457ms)
+[2026-08-07T02:00:03.758Z] [PASS] [Authentication Testing] TC-AUTH-022 - Verify Social Auth (Google Sign-In) (Duration: 330ms)
   Description: Test authentication flows, biometric security, and session management for verify social auth (google sign-in).
-[2026-08-06T17:44:56.978Z] [PASS] [Authentication Testing] TC-AUTH-023 - Check Social Auth (Apple ID Sign-In) (Duration: 231ms)
+[2026-08-07T02:00:03.790Z] [PASS] [Authentication Testing] TC-AUTH-023 - Check Social Auth (Apple ID Sign-In) (Duration: 240ms)
   Description: Test authentication flows, biometric security, and session management for check social auth (apple id sign-in).
-[2026-08-06T17:44:57.009Z] [PASS] [Authentication Testing] TC-AUTH-024 - Validate OAuth Callback Token Handling (Duration: 240ms)
+[2026-08-07T02:00:03.806Z] [PASS] [Authentication Testing] TC-AUTH-024 - Validate OAuth Callback Token Handling (Duration: 443ms)
   Description: Test authentication flows, biometric security, and session management for validate oauth callback token handling.
-[2026-08-06T17:44:57.029Z] [PASS] [Authentication Testing] TC-AUTH-025 - Verify Two-Factor Authentication Setup (Duration: 209ms)
+[2026-08-07T02:00:03.830Z] [PASS] [Authentication Testing] TC-AUTH-025 - Verify Two-Factor Authentication Setup (Duration: 513ms)
   Description: Test authentication flows, biometric security, and session management for verify two-factor authentication setup.
-[2026-08-06T17:44:57.048Z] [PASS] [Authentication Testing] TC-AUTH-026 - Check 2FA Authenticator App Secret Key (Duration: 450ms)
+[2026-08-07T02:00:03.846Z] [PASS] [Authentication Testing] TC-AUTH-026 - Check 2FA Authenticator App Secret Key (Duration: 318ms)
   Description: Test authentication flows, biometric security, and session management for check 2fa authenticator app secret key.
-[2026-08-06T17:44:57.062Z] [PASS] [Authentication Testing] TC-AUTH-027 - Validate Backup Recovery Codes Generation (Duration: 362ms)
+[2026-08-07T02:00:03.877Z] [PASS] [Authentication Testing] TC-AUTH-027 - Validate Backup Recovery Codes Generation (Duration: 272ms)
   Description: Test authentication flows, biometric security, and session management for validate backup recovery codes generation.
-[2026-08-06T17:44:57.078Z] [PASS] [Authentication Testing] TC-AUTH-028 - Verify Password Change Verification (Duration: 387ms)
+[2026-08-07T02:00:03.909Z] [PASS] [Authentication Testing] TC-AUTH-028 - Verify Password Change Verification (Duration: 217ms)
   Description: Test authentication flows, biometric security, and session management for verify password change verification.
-[2026-08-06T17:44:57.113Z] [PASS] [Authentication Testing] TC-AUTH-029 - Check Security Question Answer Hash (Duration: 417ms)
+[2026-08-07T02:00:03.925Z] [PASS] [Authentication Testing] TC-AUTH-029 - Check Security Question Answer Hash (Duration: 290ms)
   Description: Test authentication flows, biometric security, and session management for check security question answer hash.
-[2026-08-06T17:44:57.129Z] [PASS] [Authentication Testing] TC-AUTH-030 - Validate Phone Number Verification SMS (Duration: 457ms)
+[2026-08-07T02:00:03.957Z] [PASS] [Authentication Testing] TC-AUTH-030 - Validate Phone Number Verification SMS (Duration: 346ms)
   Description: Test authentication flows, biometric security, and session management for validate phone number verification sms.
-[2026-08-06T17:44:57.161Z] [PASS] [Authentication Testing] TC-AUTH-031 - Verify PIN Setup on First Launch (Duration: 383ms)
+[2026-08-07T02:00:03.989Z] [PASS] [Authentication Testing] TC-AUTH-031 - Verify PIN Setup on First Launch (Duration: 338ms)
   Description: Test authentication flows, biometric security, and session management for verify pin setup on first launch.
-[2026-08-06T17:44:57.179Z] [PASS] [Authentication Testing] TC-AUTH-032 - Check PIN Change Sequence (Duration: 241ms)
+[2026-08-07T02:00:04.022Z] [PASS] [Authentication Testing] TC-AUTH-032 - Check PIN Change Sequence (Duration: 438ms)
   Description: Test authentication flows, biometric security, and session management for check pin change sequence.
-[2026-08-06T17:44:57.199Z] [PASS] [Authentication Testing] TC-AUTH-033 - Validate Session Timeout after Inactivity (Duration: 349ms)
+[2026-08-07T02:00:04.037Z] [PASS] [Authentication Testing] TC-AUTH-033 - Validate Session Timeout after Inactivity (Duration: 310ms)
   Description: Test authentication flows, biometric security, and session management for validate session timeout after inactivity.
-[2026-08-06T17:44:57.216Z] [PASS] [Authentication Testing] TC-AUTH-034 - Verify Backgrounding Lock Trigger (Duration: 484ms)
+[2026-08-07T02:00:04.053Z] [PASS] [Authentication Testing] TC-AUTH-034 - Verify Backgrounding Lock Trigger (Duration: 338ms)
   Description: Test authentication flows, biometric security, and session management for verify backgrounding lock trigger.
-[2026-08-06T17:44:57.237Z] [PASS] [Authentication Testing] TC-AUTH-035 - Check App Re-entry Security Gate (Duration: 232ms)
+[2026-08-07T02:00:04.074Z] [PASS] [Authentication Testing] TC-AUTH-035 - Check App Re-entry Security Gate (Duration: 275ms)
   Description: Test authentication flows, biometric security, and session management for check app re-entry security gate.
-[2026-08-06T17:44:57.254Z] [PASS] [Authentication Testing] TC-AUTH-036 - Validate Encrypted Shared Preferences Security (Duration: 477ms)
+[2026-08-07T02:00:04.084Z] [PASS] [Authentication Testing] TC-AUTH-036 - Validate Encrypted Shared Preferences Security (Duration: 250ms)
   Description: Test authentication flows, biometric security, and session management for validate encrypted shared preferences security.
-[2026-08-06T17:44:57.270Z] [PASS] [Authentication Testing] TC-AUTH-037 - Verify Guest Mode Restrictions (Duration: 157ms)
+[2026-08-07T02:00:04.108Z] [PASS] [Authentication Testing] TC-AUTH-037 - Verify Guest Mode Restrictions (Duration: 352ms)
   Description: Test authentication flows, biometric security, and session management for verify guest mode restrictions.
-[2026-08-06T17:44:57.285Z] [PASS] [Authentication Testing] TC-AUTH-038 - Check Upgrade Guest to Registered Account (Duration: 324ms)
+[2026-08-07T02:00:04.124Z] [PASS] [Authentication Testing] TC-AUTH-038 - Check Upgrade Guest to Registered Account (Duration: 346ms)
   Description: Test authentication flows, biometric security, and session management for check upgrade guest to registered account.
-[2026-08-06T17:44:57.293Z] [PASS] [Authentication Testing] TC-AUTH-039 - Validate Data Privacy Consent Check (Duration: 362ms)
+[2026-08-07T02:00:04.140Z] [PASS] [Authentication Testing] TC-AUTH-039 - Validate Data Privacy Consent Check (Duration: 200ms)
   Description: Test authentication flows, biometric security, and session management for validate data privacy consent check.
-[2026-08-06T17:44:57.329Z] [PASS] [Authentication Testing] TC-AUTH-040 - Verify Terms of Service Accept Gate (Duration: 219ms)
+[2026-08-07T02:00:04.172Z] [PASS] [Authentication Testing] TC-AUTH-040 - Verify Terms of Service Accept Gate (Duration: 148ms)
   Description: Test authentication flows, biometric security, and session management for verify terms of service accept gate.
-[2026-08-06T17:44:57.366Z] [PASS] [Authentication Testing] TC-AUTH-041 - Check User Role Permissions (Patient vs Doctor) (Duration: 240ms)
+[2026-08-07T02:00:04.204Z] [PASS] [Authentication Testing] TC-AUTH-041 - Check User Role Permissions (Patient vs Doctor) (Duration: 373ms)
   Description: Test authentication flows, biometric security, and session management for check user role permissions (patient vs doctor).
-[2026-08-06T17:44:57.389Z] [PASS] [Authentication Testing] TC-AUTH-042 - Validate Admin Portal Access Restrict (Duration: 443ms)
+[2026-08-07T02:00:04.221Z] [PASS] [Authentication Testing] TC-AUTH-042 - Validate Admin Portal Access Restrict (Duration: 486ms)
   Description: Test authentication flows, biometric security, and session management for validate admin portal access restrict.
-[2026-08-06T17:44:57.399Z] [PASS] [Authentication Testing] TC-AUTH-043 - Verify Account Recovery via Security Email (Duration: 182ms)
+[2026-08-07T02:00:04.235Z] [PASS] [Authentication Testing] TC-AUTH-043 - Verify Account Recovery via Security Email (Duration: 444ms)
   Description: Test authentication flows, biometric security, and session management for verify account recovery via security email.
-[2026-08-06T17:44:57.422Z] [PASS] [Authentication Testing] TC-AUTH-044 - Check Identity Verification Document Upload (Duration: 204ms)
+[2026-08-07T02:00:04.251Z] [PASS] [Authentication Testing] TC-AUTH-044 - Check Identity Verification Document Upload (Duration: 385ms)
   Description: Test authentication flows, biometric security, and session management for check identity verification document upload.
-[2026-08-06T17:44:57.434Z] [PASS] [Authentication Testing] TC-AUTH-045 - Validate Passkey Login Prompt (Duration: 277ms)
+[2026-08-07T02:00:04.267Z] [PASS] [Authentication Testing] TC-AUTH-045 - Validate Passkey Login Prompt (Duration: 312ms)
   Description: Test authentication flows, biometric security, and session management for validate passkey login prompt.
-[2026-08-06T17:44:57.454Z] [PASS] [Authentication Testing] TC-AUTH-046 - Verify Biometric Prompt Cancellation Handling (Duration: 234ms)
+[2026-08-07T02:00:04.283Z] [PASS] [Authentication Testing] TC-AUTH-046 - Verify Biometric Prompt Cancellation Handling (Duration: 152ms)
   Description: Test authentication flows, biometric security, and session management for verify biometric prompt cancellation handling.
-[2026-08-06T17:44:57.468Z] [PASS] [Authentication Testing] TC-AUTH-047 - Check Token Cleared on App Uninstall/Reinstall (Duration: 189ms)
+[2026-08-07T02:00:04.296Z] [PASS] [Authentication Testing] TC-AUTH-047 - Check Token Cleared on App Uninstall/Reinstall (Duration: 355ms)
   Description: Test authentication flows, biometric security, and session management for check token cleared on app uninstall/reinstall.
-[2026-08-06T17:44:57.489Z] [PASS] [Authentication Testing] TC-AUTH-048 - Validate Auth Header Injection (Duration: 262ms)
+[2026-08-07T02:00:04.329Z] [PASS] [Authentication Testing] TC-AUTH-048 - Validate Auth Header Injection (Duration: 480ms)
   Description: Test authentication flows, biometric security, and session management for validate auth header injection.
-[2026-08-06T17:44:57.503Z] [PASS] [Authentication Testing] TC-AUTH-049 - Verify SSL Pinning Gate on Auth Endpoint (Duration: 264ms)
+[2026-08-07T02:00:04.351Z] [PASS] [Authentication Testing] TC-AUTH-049 - Verify SSL Pinning Gate on Auth Endpoint (Duration: 360ms)
   Description: Test authentication flows, biometric security, and session management for verify ssl pinning gate on auth endpoint.
-[2026-08-06T17:44:57.532Z] [PASS] [Authentication Testing] TC-AUTH-050 - Check Rate Limiting Warning on Auth API (Duration: 387ms)
+[2026-08-07T02:00:04.367Z] [PASS] [Authentication Testing] TC-AUTH-050 - Check Rate Limiting Warning on Auth API (Duration: 307ms)
   Description: Test authentication flows, biometric security, and session management for check rate limiting warning on auth api.
-[2026-08-06T17:44:57.549Z] [PASS] [Medical Records Testing] TC-MED-001 - Verify Add New Prescription Record (Duration: 419ms)
+[2026-08-07T02:00:04.399Z] [PASS] [Medical Records Testing] TC-MED-001 - Verify Add New Prescription Record (Duration: 435ms)
   Description: Test health record management, EHR integrations, and data validation for verify add new prescription record.
-[2026-08-06T17:44:57.571Z] [PASS] [Medical Records Testing] TC-MED-002 - Validate Prescription Dosage Unit Selector (Duration: 475ms)
+[2026-08-07T02:00:04.412Z] [PASS] [Medical Records Testing] TC-MED-002 - Validate Prescription Dosage Unit Selector (Duration: 219ms)
   Description: Test health record management, EHR integrations, and data validation for validate prescription dosage unit selector.
-[2026-08-06T17:44:57.589Z] [PASS] [Medical Records Testing] TC-MED-003 - Check Doctor Name Search Autocomplete (Duration: 362ms)
+[2026-08-07T02:00:04.429Z] [PASS] [Medical Records Testing] TC-MED-003 - Check Doctor Name Search Autocomplete (Duration: 405ms)
   Description: Test health record management, EHR integrations, and data validation for check doctor name search autocomplete.
-[2026-08-06T17:44:57.616Z] [PASS] [Medical Records Testing] TC-MED-004 - Verify Edit Existing Medical Note (Duration: 310ms)
+[2026-08-07T02:00:04.459Z] [PASS] [Medical Records Testing] TC-MED-004 - Verify Edit Existing Medical Note (Duration: 337ms)
   Description: Test health record management, EHR integrations, and data validation for verify edit existing medical note.
-[2026-08-06T17:44:57.636Z] [PASS] [Medical Records Testing] TC-MED-005 - Check Delete Record Confirmation Modal (Duration: 417ms)
+[2026-08-07T02:00:04.475Z] [PASS] [Medical Records Testing] TC-MED-005 - Check Delete Record Confirmation Modal (Duration: 339ms)
   Description: Test health record management, EHR integrations, and data validation for check delete record confirmation modal.
-[2026-08-06T17:44:57.650Z] [PASS] [Medical Records Testing] TC-MED-006 - Validate Lab Test Result Value Validation (Duration: 205ms)
+[2026-08-07T02:00:04.507Z] [PASS] [Medical Records Testing] TC-MED-006 - Validate Lab Test Result Value Validation (Duration: 391ms)
   Description: Test health record management, EHR integrations, and data validation for validate lab test result value validation.
-[2026-08-06T17:44:57.688Z] [PASS] [Medical Records Testing] TC-MED-007 - Verify Blood Pressure Reading Log (Systolic/Diastolic) (Duration: 298ms)
+[2026-08-07T02:00:04.539Z] [PASS] [Medical Records Testing] TC-MED-007 - Verify Blood Pressure Reading Log (Systolic/Diastolic) (Duration: 316ms)
   Description: Test health record management, EHR integrations, and data validation for verify blood pressure reading log (systolic/diastolic).
-[2026-08-06T17:44:57.721Z] [PASS] [Medical Records Testing] TC-MED-008 - Check Glucose Level Tag (Fasting vs Post-Meal) (Duration: 472ms)
+[2026-08-07T02:00:04.554Z] [PASS] [Medical Records Testing] TC-MED-008 - Check Glucose Level Tag (Fasting vs Post-Meal) (Duration: 397ms)
   Description: Test health record management, EHR integrations, and data validation for check glucose level tag (fasting vs post-meal).
-[2026-08-06T17:44:57.748Z] [PASS] [Medical Records Testing] TC-MED-009 - Validate Cholesterol Sub-types (HDL/LDL) (Duration: 453ms)
+[2026-08-07T02:00:04.570Z] [PASS] [Medical Records Testing] TC-MED-009 - Validate Cholesterol Sub-types (HDL/LDL) (Duration: 244ms)
   Description: Test health record management, EHR integrations, and data validation for validate cholesterol sub-types (hdl/ldl).
-[2026-08-06T17:44:57.781Z] [PASS] [Medical Records Testing] TC-MED-010 - Verify Heart Rate ECG Graph Generation (Duration: 176ms)
+[2026-08-07T02:00:04.586Z] [PASS] [Medical Records Testing] TC-MED-010 - Verify Heart Rate ECG Graph Generation (Duration: 471ms)
   Description: Test health record management, EHR integrations, and data validation for verify heart rate ecg graph generation.
-[2026-08-06T17:44:57.810Z] [PASS] [Medical Records Testing] TC-MED-011 - Check Body Temperature Scale Toggle (C/F) (Duration: 401ms)
+[2026-08-07T02:00:04.602Z] [PASS] [Medical Records Testing] TC-MED-011 - Check Body Temperature Scale Toggle (C/F) (Duration: 309ms)
   Description: Test health record management, EHR integrations, and data validation for check body temperature scale toggle (c/f).
-[2026-08-06T17:44:57.844Z] [PASS] [Medical Records Testing] TC-MED-012 - Validate Oxygen Saturation (SpO2) Range Warning (Duration: 198ms)
+[2026-08-07T02:00:04.618Z] [PASS] [Medical Records Testing] TC-MED-012 - Validate Oxygen Saturation (SpO2) Range Warning (Duration: 216ms)
   Description: Test health record management, EHR integrations, and data validation for validate oxygen saturation (spo2) range warning.
-[2026-08-06T17:44:57.877Z] [PASS] [Medical Records Testing] TC-MED-013 - Verify Medical Attachment File Upload (PDF) (Duration: 351ms)
+[2026-08-07T02:00:04.650Z] [PASS] [Medical Records Testing] TC-MED-013 - Verify Medical Attachment File Upload (PDF) (Duration: 155ms)
   Description: Test health record management, EHR integrations, and data validation for verify medical attachment file upload (pdf).
-[2026-08-06T17:44:57.896Z] [PASS] [Medical Records Testing] TC-MED-014 - Check Medical Attachment Image Preview (Duration: 280ms)
+[2026-08-07T02:00:04.666Z] [PASS] [Medical Records Testing] TC-MED-014 - Check Medical Attachment Image Preview (Duration: 228ms)
   Description: Test health record management, EHR integrations, and data validation for check medical attachment image preview.
-[2026-08-06T17:44:57.926Z] [PASS] [Medical Records Testing] TC-MED-015 - Validate PDF Encryption Key Generation (Duration: 218ms)
+[2026-08-07T02:00:04.681Z] [PASS] [Medical Records Testing] TC-MED-015 - Validate PDF Encryption Key Generation (Duration: 367ms)
   Description: Test health record management, EHR integrations, and data validation for validate pdf encryption key generation.
-[2026-08-06T17:44:57.947Z] [PASS] [Medical Records Testing] TC-MED-016 - Verify Record Date Sorting (Newest First) (Duration: 265ms)
+[2026-08-07T02:00:04.697Z] [PASS] [Medical Records Testing] TC-MED-016 - Verify Record Date Sorting (Newest First) (Duration: 410ms)
   Description: Test health record management, EHR integrations, and data validation for verify record date sorting (newest first).
-[2026-08-06T17:44:57.964Z] [PASS] [Medical Records Testing] TC-MED-017 - Check Category Filter (Cardiology, Neurology, etc.) (Duration: 345ms)
+[2026-08-07T02:00:04.713Z] [PASS] [Medical Records Testing] TC-MED-017 - Check Category Filter (Cardiology, Neurology, etc.) (Duration: 304ms)
   Description: Test health record management, EHR integrations, and data validation for check category filter (cardiology, neurology, etc.).
-[2026-08-06T17:44:57.997Z] [PASS] [Medical Records Testing] TC-MED-018 - Validate Full-Text Record Keyword Search (Duration: 158ms)
+[2026-08-07T02:00:04.745Z] [PASS] [Medical Records Testing] TC-MED-018 - Validate Full-Text Record Keyword Search (Duration: 193ms)
   Description: Test health record management, EHR integrations, and data validation for validate full-text record keyword search.
-[2026-08-06T17:44:58.027Z] [PASS] [Medical Records Testing] TC-MED-019 - Verify Export Health Summary to PDF (Duration: 338ms)
+[2026-08-07T02:00:04.760Z] [PASS] [Medical Records Testing] TC-MED-019 - Verify Export Health Summary to PDF (Duration: 225ms)
   Description: Test health record management, EHR integrations, and data validation for verify export health summary to pdf.
-[2026-08-06T17:44:58.049Z] [PASS] [Medical Records Testing] TC-MED-020 - Check Export Record Data to Encrypted Zip (Duration: 245ms)
+[2026-08-07T02:00:04.792Z] [PASS] [Medical Records Testing] TC-MED-020 - Check Export Record Data to Encrypted Zip (Duration: 261ms)
   Description: Test health record management, EHR integrations, and data validation for check export record data to encrypted zip.
-[2026-08-06T17:44:58.062Z] [PASS] [Medical Records Testing] TC-MED-021 - Validate Share Record via Secure Doctor Portal (Duration: 361ms)
+[2026-08-07T02:00:04.823Z] [PASS] [Medical Records Testing] TC-MED-021 - Validate Share Record via Secure Doctor Portal (Duration: 243ms)
   Description: Test health record management, EHR integrations, and data validation for validate share record via secure doctor portal.
-[2026-08-06T17:44:58.080Z] [PASS] [Medical Records Testing] TC-MED-022 - Verify Medical History Timeline Visualization (Duration: 306ms)
+[2026-08-07T02:00:04.839Z] [PASS] [Medical Records Testing] TC-MED-022 - Verify Medical History Timeline Visualization (Duration: 236ms)
   Description: Test health record management, EHR integrations, and data validation for verify medical history timeline visualization.
-[2026-08-06T17:44:58.108Z] [PASS] [Medical Records Testing] TC-MED-023 - Check Chronic Condition Tagging (Duration: 253ms)
+[2026-08-07T02:00:04.871Z] [PASS] [Medical Records Testing] TC-MED-023 - Check Chronic Condition Tagging (Duration: 334ms)
   Description: Test health record management, EHR integrations, and data validation for check chronic condition tagging.
-[2026-08-06T17:44:58.133Z] [PASS] [Medical Records Testing] TC-MED-024 - Validate Surgical History Entry (Duration: 449ms)
+[2026-08-07T02:00:04.889Z] [PASS] [Medical Records Testing] TC-MED-024 - Validate Surgical History Entry (Duration: 265ms)
   Description: Test health record management, EHR integrations, and data validation for validate surgical history entry.
-[2026-08-06T17:44:58.166Z] [PASS] [Medical Records Testing] TC-MED-025 - Verify Vaccination Passport QR Code Generator (Duration: 373ms)
+[2026-08-07T02:00:04.904Z] [PASS] [Medical Records Testing] TC-MED-025 - Verify Vaccination Passport QR Code Generator (Duration: 332ms)
   Description: Test health record management, EHR integrations, and data validation for verify vaccination passport qr code generator.
-[2026-08-06T17:44:58.201Z] [PASS] [Medical Records Testing] TC-MED-026 - Check Allergy Severity Classification (Duration: 301ms)
+[2026-08-07T02:00:04.920Z] [PASS] [Medical Records Testing] TC-MED-026 - Check Allergy Severity Classification (Duration: 169ms)
   Description: Test health record management, EHR integrations, and data validation for check allergy severity classification.
-[2026-08-06T17:44:58.227Z] [PASS] [Medical Records Testing] TC-MED-027 - Validate Family Medical History Tree Input (Duration: 332ms)
+[2026-08-07T02:00:04.952Z] [PASS] [Medical Records Testing] TC-MED-027 - Validate Family Medical History Tree Input (Duration: 214ms)
   Description: Test health record management, EHR integrations, and data validation for validate family medical history tree input.
-[2026-08-06T17:44:58.247Z] [PASS] [Medical Records Testing] TC-MED-028 - Verify Vital Signs Normal Range Indicators (Duration: 338ms)
+[2026-08-07T02:00:04.961Z] [PASS] [Medical Records Testing] TC-MED-028 - Verify Vital Signs Normal Range Indicators (Duration: 455ms)
   Description: Test health record management, EHR integrations, and data validation for verify vital signs normal range indicators.
-[2026-08-06T17:44:58.263Z] [PASS] [Medical Records Testing] TC-MED-029 - Check Abnormal Test Value Highlight (Red Flag) (Duration: 316ms)
+[2026-08-07T02:00:04.995Z] [PASS] [Medical Records Testing] TC-MED-029 - Check Abnormal Test Value Highlight (Red Flag) (Duration: 208ms)
   Description: Test health record management, EHR integrations, and data validation for check abnormal test value highlight (red flag).
-[2026-08-06T17:44:58.283Z] [PASS] [Medical Records Testing] TC-MED-030 - Validate Provider NPI Identifier Lookup (Duration: 367ms)
+[2026-08-07T02:00:05.016Z] [PASS] [Medical Records Testing] TC-MED-030 - Validate Provider NPI Identifier Lookup (Duration: 155ms)
   Description: Test health record management, EHR integrations, and data validation for validate provider npi identifier lookup.
-[2026-08-06T17:44:58.312Z] [PASS] [Medical Records Testing] TC-MED-031 - Verify Pharmacy Contact Detail Association (Duration: 253ms)
+[2026-08-07T02:00:05.042Z] [PASS] [Medical Records Testing] TC-MED-031 - Verify Pharmacy Contact Detail Association (Duration: 224ms)
   Description: Test health record management, EHR integrations, and data validation for verify pharmacy contact detail association.
-[2026-08-06T17:44:58.334Z] [PASS] [Medical Records Testing] TC-MED-032 - Check Refill Request History Tracker (Duration: 325ms)
+[2026-08-07T02:00:05.074Z] [PASS] [Medical Records Testing] TC-MED-032 - Check Refill Request History Tracker (Duration: 477ms)
   Description: Test health record management, EHR integrations, and data validation for check refill request history tracker.
-[2026-08-06T17:44:58.350Z] [PASS] [Medical Records Testing] TC-MED-033 - Validate Medication Interaction Warning Alert (Duration: 313ms)
+[2026-08-07T02:00:05.107Z] [PASS] [Medical Records Testing] TC-MED-033 - Validate Medication Interaction Warning Alert (Duration: 251ms)
   Description: Test health record management, EHR integrations, and data validation for validate medication interaction warning alert.
-[2026-08-06T17:44:58.364Z] [PASS] [Medical Records Testing] TC-MED-034 - Verify Multi-Page Medical Document Stitching (Duration: 261ms)
+[2026-08-07T02:00:05.122Z] [PASS] [Medical Records Testing] TC-MED-034 - Verify Multi-Page Medical Document Stitching (Duration: 261ms)
   Description: Test health record management, EHR integrations, and data validation for verify multi-page medical document stitching.
-[2026-08-06T17:44:58.380Z] [PASS] [Medical Records Testing] TC-MED-035 - Check Record Archival & Restore (Duration: 284ms)
+[2026-08-07T02:00:05.154Z] [PASS] [Medical Records Testing] TC-MED-035 - Check Record Archival & Restore (Duration: 334ms)
   Description: Test health record management, EHR integrations, and data validation for check record archival & restore.
-[2026-08-06T17:44:58.397Z] [PASS] [Medical Records Testing] TC-MED-036 - Validate Offline Medical Data Cache (Duration: 273ms)
+[2026-08-07T02:00:05.170Z] [PASS] [Medical Records Testing] TC-MED-036 - Validate Offline Medical Data Cache (Duration: 176ms)
   Description: Test health record management, EHR integrations, and data validation for validate offline medical data cache.
-[2026-08-06T17:44:58.429Z] [PASS] [Medical Records Testing] TC-MED-037 - Verify Record Sync with Health Connect / Google Fit (Duration: 384ms)
+[2026-08-07T02:00:05.197Z] [PASS] [Medical Records Testing] TC-MED-037 - Verify Record Sync with Health Connect / Google Fit (Duration: 386ms)
   Description: Test health record management, EHR integrations, and data validation for verify record sync with health connect / google fit.
-[2026-08-06T17:44:58.461Z] [PASS] [Medical Records Testing] TC-MED-038 - Check FHIR Data Format Standard Export (Duration: 381ms)
+[2026-08-07T02:00:05.214Z] [PASS] [Medical Records Testing] TC-MED-038 - Check FHIR Data Format Standard Export (Duration: 432ms)
   Description: Test health record management, EHR integrations, and data validation for check fhir data format standard export.
-[2026-08-06T17:44:58.492Z] [PASS] [Medical Records Testing] TC-MED-039 - Validate HL7 Message Parser (Duration: 281ms)
+[2026-08-07T02:00:05.230Z] [PASS] [Medical Records Testing] TC-MED-039 - Validate HL7 Message Parser (Duration: 467ms)
   Description: Test health record management, EHR integrations, and data validation for validate hl7 message parser.
-[2026-08-06T17:44:58.524Z] [PASS] [Medical Records Testing] TC-MED-040 - Verify ICD-10 Code Auto-suggest (Duration: 302ms)
+[2026-08-07T02:00:05.243Z] [PASS] [Medical Records Testing] TC-MED-040 - Verify ICD-10 Code Auto-suggest (Duration: 410ms)
   Description: Test health record management, EHR integrations, and data validation for verify icd-10 code auto-suggest.
-[2026-08-06T17:44:58.545Z] [PASS] [Medical Records Testing] TC-MED-041 - Check Symptom Intensity Scale (1-10) (Duration: 454ms)
+[2026-08-07T02:00:05.276Z] [PASS] [Medical Records Testing] TC-MED-041 - Check Symptom Intensity Scale (1-10) (Duration: 428ms)
   Description: Test health record management, EHR integrations, and data validation for check symptom intensity scale (1-10).
-[2026-08-06T17:44:58.564Z] [PASS] [Medical Records Testing] TC-MED-042 - Validate Diagnostic Image Viewer Zoom (Duration: 420ms)
+[2026-08-07T02:00:05.308Z] [PASS] [Medical Records Testing] TC-MED-042 - Validate Diagnostic Image Viewer Zoom (Duration: 478ms)
   Description: Test health record management, EHR integrations, and data validation for validate diagnostic image viewer zoom.
-[2026-08-06T17:44:58.595Z] [PASS] [Medical Records Testing] TC-MED-043 - Verify Radiology Report Tagging (Duration: 381ms)
+[2026-08-07T02:00:05.332Z] [PASS] [Medical Records Testing] TC-MED-043 - Verify Radiology Report Tagging (Duration: 203ms)
   Description: Test health record management, EHR integrations, and data validation for verify radiology report tagging.
-[2026-08-06T17:44:58.626Z] [PASS] [Medical Records Testing] TC-MED-044 - Check Emergency Medical ID Card Rendering (Duration: 291ms)
+[2026-08-07T02:00:05.348Z] [PASS] [Medical Records Testing] TC-MED-044 - Check Emergency Medical ID Card Rendering (Duration: 143ms)
   Description: Test health record management, EHR integrations, and data validation for check emergency medical id card rendering.
-[2026-08-06T17:44:58.663Z] [PASS] [Medical Records Testing] TC-MED-045 - Validate Lock Record with Secondary PIN (Duration: 482ms)
+[2026-08-07T02:00:05.363Z] [PASS] [Medical Records Testing] TC-MED-045 - Validate Lock Record with Secondary PIN (Duration: 307ms)
   Description: Test health record management, EHR integrations, and data validation for validate lock record with secondary pin.
-[2026-08-06T17:44:58.677Z] [PASS] [Medical Records Testing] TC-MED-046 - Verify Audit Trail for Medical Data Access (Duration: 323ms)
+[2026-08-07T02:00:05.380Z] [PASS] [Medical Records Testing] TC-MED-046 - Verify Audit Trail for Medical Data Access (Duration: 386ms)
   Description: Test health record management, EHR integrations, and data validation for verify audit trail for medical data access.
-[2026-08-06T17:44:58.717Z] [PASS] [Medical Records Testing] TC-MED-047 - Check Doctor Signature Verification (Duration: 305ms)
+[2026-08-07T02:00:05.394Z] [PASS] [Medical Records Testing] TC-MED-047 - Check Doctor Signature Verification (Duration: 228ms)
   Description: Test health record management, EHR integrations, and data validation for check doctor signature verification.
-[2026-08-06T17:44:58.746Z] [PASS] [Medical Records Testing] TC-MED-048 - Validate Medical Record Tag Management (Duration: 480ms)
+[2026-08-07T02:00:05.410Z] [PASS] [Medical Records Testing] TC-MED-048 - Validate Medical Record Tag Management (Duration: 162ms)
   Description: Test health record management, EHR integrations, and data validation for validate medical record tag management.
-[2026-08-06T17:44:58.762Z] [PASS] [Medical Records Testing] TC-MED-049 - Verify Record Duplicate Warning (Duration: 251ms)
+[2026-08-07T02:00:05.442Z] [PASS] [Medical Records Testing] TC-MED-049 - Verify Record Duplicate Warning (Duration: 394ms)
   Description: Test health record management, EHR integrations, and data validation for verify record duplicate warning.
-[2026-08-06T17:44:58.792Z] [PASS] [Medical Records Testing] TC-MED-050 - Check Cloud Backup Integrity Check sum (Duration: 244ms)
+[2026-08-07T02:00:05.458Z] [PASS] [Medical Records Testing] TC-MED-050 - Check Cloud Backup Integrity Check sum (Duration: 244ms)
   Description: Test health record management, EHR integrations, and data validation for check cloud backup integrity check sum.
-[2026-08-06T17:44:58.808Z] [PASS] [Reminder Testing] TC-REM-001 - Verify Create Daily Medication Reminder (Duration: 368ms)
+[2026-08-07T02:00:05.475Z] [PASS] [Reminder Testing] TC-REM-001 - Verify Create Daily Medication Reminder (Duration: 145ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for verify create daily medication reminder.
-[2026-08-06T17:44:58.824Z] [PASS] [Reminder Testing] TC-REM-002 - Validate Multi-Frequency Alarm Selection (Duration: 272ms)
+[2026-08-07T02:00:05.507Z] [PASS] [Reminder Testing] TC-REM-002 - Validate Multi-Frequency Alarm Selection (Duration: 349ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for validate multi-frequency alarm selection.
-[2026-08-06T17:44:58.854Z] [PASS] [Reminder Testing] TC-REM-003 - Check Custom Reminder Sound Chooser (Duration: 377ms)
+[2026-08-07T02:00:05.523Z] [PASS] [Reminder Testing] TC-REM-003 - Check Custom Reminder Sound Chooser (Duration: 286ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for check custom reminder sound chooser.
-[2026-08-06T17:44:58.884Z] [PASS] [Reminder Testing] TC-REM-004 - Verify Snooze Button (5 min, 10 min, 15 min) (Duration: 286ms)
+[2026-08-07T02:00:05.539Z] [PASS] [Reminder Testing] TC-REM-004 - Verify Snooze Button (5 min, 10 min, 15 min) (Duration: 221ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for verify snooze button (5 min, 10 min, 15 min).
-[2026-08-06T17:44:58.899Z] [PASS] [Reminder Testing] TC-REM-005 - Check Take Medicine Action Button on Push Alert (Duration: 228ms)
+[2026-08-07T02:00:05.555Z] [PASS] [Reminder Testing] TC-REM-005 - Check Take Medicine Action Button on Push Alert (Duration: 196ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for check take medicine action button on push alert.
-[2026-08-06T17:44:58.914Z] [PASS] [Reminder Testing] TC-REM-006 - Validate Skip Pill Action with Reason Log (Duration: 172ms)
+[2026-08-07T02:00:05.588Z] [PASS] [Reminder Testing] TC-REM-006 - Validate Skip Pill Action with Reason Log (Duration: 382ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for validate skip pill action with reason log.
-[2026-08-06T17:44:58.929Z] [PASS] [Reminder Testing] TC-REM-007 - Verify Refill Alert when Inventory falls below 5 Pills (Duration: 299ms)
+[2026-08-07T02:00:05.603Z] [PASS] [Reminder Testing] TC-REM-007 - Verify Refill Alert when Inventory falls below 5 Pills (Duration: 258ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for verify refill alert when inventory falls below 5 pills.
-[2026-08-06T17:44:58.945Z] [PASS] [Reminder Testing] TC-REM-008 - Check Doctor Appointment Reminder 24 Hours Prior (Duration: 333ms)
+[2026-08-07T02:00:05.633Z] [PASS] [Reminder Testing] TC-REM-008 - Check Doctor Appointment Reminder 24 Hours Prior (Duration: 359ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for check doctor appointment reminder 24 hours prior.
-[2026-08-06T17:44:58.962Z] [PASS] [Reminder Testing] TC-REM-009 - Validate Doctor Appointment Reminder 1 Hour Prior (Duration: 165ms)
+[2026-08-07T02:00:05.649Z] [PASS] [Reminder Testing] TC-REM-009 - Validate Doctor Appointment Reminder 1 Hour Prior (Duration: 307ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for validate doctor appointment reminder 1 hour prior.
-[2026-08-06T17:44:58.981Z] [PASS] [Reminder Testing] TC-REM-010 - Verify Water Intake Hourly Reminder Trigger (Duration: 443ms)
+[2026-08-07T02:00:05.676Z] [PASS] [Reminder Testing] TC-REM-010 - Verify Water Intake Hourly Reminder Trigger (Duration: 448ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for verify water intake hourly reminder trigger.
-[2026-08-06T17:44:59.011Z] [PASS] [Reminder Testing] TC-REM-011 - Check Blood Pressure Measurement Alarm (Duration: 159ms)
+[2026-08-07T02:00:05.709Z] [PASS] [Reminder Testing] TC-REM-011 - Check Blood Pressure Measurement Alarm (Duration: 139ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for check blood pressure measurement alarm.
-[2026-08-06T17:44:59.028Z] [PASS] [Reminder Testing] TC-REM-012 - Validate Glucose Check Reminder Post-Meal (Duration: 356ms)
+[2026-08-07T02:00:05.740Z] [PASS] [Reminder Testing] TC-REM-012 - Validate Glucose Check Reminder Post-Meal (Duration: 381ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for validate glucose check reminder post-meal.
-[2026-08-06T17:44:59.048Z] [PASS] [Reminder Testing] TC-REM-013 - Verify Sleep Schedule Wind-down Notification (Duration: 213ms)
+[2026-08-07T02:00:05.772Z] [PASS] [Reminder Testing] TC-REM-013 - Verify Sleep Schedule Wind-down Notification (Duration: 183ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for verify sleep schedule wind-down notification.
-[2026-08-06T17:44:59.064Z] [PASS] [Reminder Testing] TC-REM-014 - Check Exercise / Walk Alarm Setup (Duration: 159ms)
+[2026-08-07T02:00:05.789Z] [PASS] [Reminder Testing] TC-REM-014 - Check Exercise / Walk Alarm Setup (Duration: 132ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for check exercise / walk alarm setup.
-[2026-08-06T17:44:59.117Z] [PASS] [Reminder Testing] TC-REM-015 - Validate Repeat Schedule (Mon-Fri vs Weekends) (Duration: 306ms)
+[2026-08-07T02:00:05.806Z] [PASS] [Reminder Testing] TC-REM-015 - Validate Repeat Schedule (Mon-Fri vs Weekends) (Duration: 338ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for validate repeat schedule (mon-fri vs weekends).
-[2026-08-06T17:44:59.145Z] [PASS] [Reminder Testing] TC-REM-016 - Verify Custom Date Range for Antibiotic Course (Duration: 271ms)
+[2026-08-07T02:00:05.828Z] [PASS] [Reminder Testing] TC-REM-016 - Verify Custom Date Range for Antibiotic Course (Duration: 321ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for verify custom date range for antibiotic course.
-[2026-08-06T17:44:59.167Z] [PASS] [Reminder Testing] TC-REM-017 - Check Missed Dose Auto-Log Entry (Duration: 239ms)
+[2026-08-07T02:00:05.848Z] [PASS] [Reminder Testing] TC-REM-017 - Check Missed Dose Auto-Log Entry (Duration: 348ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for check missed dose auto-log entry.
-[2026-08-06T17:44:59.195Z] [PASS] [Reminder Testing] TC-REM-018 - Validate Reminder History Calendar View (Duration: 378ms)
+[2026-08-07T02:00:05.860Z] [PASS] [Reminder Testing] TC-REM-018 - Validate Reminder History Calendar View (Duration: 389ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for validate reminder history calendar view.
-[2026-08-06T17:44:59.213Z] [PASS] [Reminder Testing] TC-REM-019 - Verify Silent Mode Override for Critical Alarms (Duration: 131ms)
+[2026-08-07T02:00:05.876Z] [PASS] [Reminder Testing] TC-REM-019 - Verify Silent Mode Override for Critical Alarms (Duration: 412ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for verify silent mode override for critical alarms.
-[2026-08-06T17:44:59.239Z] [PASS] [Reminder Testing] TC-REM-020 - Check Vibration Pattern Selector (Duration: 134ms)
+[2026-08-07T02:00:05.908Z] [PASS] [Reminder Testing] TC-REM-020 - Check Vibration Pattern Selector (Duration: 310ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for check vibration pattern selector.
-[2026-08-06T17:44:59.264Z] [PASS] [Reminder Testing] TC-REM-021 - Validate Timezone Change Alarm Reschedule (Duration: 388ms)
+[2026-08-07T02:00:05.924Z] [PASS] [Reminder Testing] TC-REM-021 - Validate Timezone Change Alarm Reschedule (Duration: 341ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for validate timezone change alarm reschedule.
-[2026-08-06T17:44:59.297Z] [PASS] [Reminder Testing] TC-REM-022 - Verify Daylight Savings Time Adjust (Duration: 311ms)
+[2026-08-07T02:00:05.956Z] [PASS] [Reminder Testing] TC-REM-022 - Verify Daylight Savings Time Adjust (Duration: 265ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for verify daylight savings time adjust.
-[2026-08-06T17:44:59.332Z] [PASS] [Reminder Testing] TC-REM-023 - Check Device Restart Alarm Reschedule Broadcast (Duration: 243ms)
+[2026-08-07T02:00:05.988Z] [PASS] [Reminder Testing] TC-REM-023 - Check Device Restart Alarm Reschedule Broadcast (Duration: 241ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for check device restart alarm reschedule broadcast.
-[2026-08-06T17:44:59.361Z] [PASS] [Reminder Testing] TC-REM-024 - Validate Alarm Manager Exact Time Permission Gate (Duration: 123ms)
+[2026-08-07T02:00:06.004Z] [PASS] [Reminder Testing] TC-REM-024 - Validate Alarm Manager Exact Time Permission Gate (Duration: 339ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for validate alarm manager exact time permission gate.
-[2026-08-06T17:44:59.430Z] [PASS] [Reminder Testing] TC-REM-025 - Verify Notification Badge Counter Increment (Duration: 406ms)
+[2026-08-07T02:00:06.021Z] [PASS] [Reminder Testing] TC-REM-025 - Verify Notification Badge Counter Increment (Duration: 264ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for verify notification badge counter increment.
-[2026-08-06T17:44:59.447Z] [PASS] [Reminder Testing] TC-REM-026 - Check Notification Grouping by Category (Duration: 293ms)
+[2026-08-07T02:00:06.037Z] [PASS] [Reminder Testing] TC-REM-026 - Check Notification Grouping by Category (Duration: 234ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for check notification grouping by category.
-[2026-08-06T17:44:59.481Z] [PASS] [Reminder Testing] TC-REM-027 - Validate Dismiss All Active Reminders Action (Duration: 141ms)
+[2026-08-07T02:00:06.052Z] [PASS] [Reminder Testing] TC-REM-027 - Validate Dismiss All Active Reminders Action (Duration: 221ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for validate dismiss all active reminders action.
-[2026-08-06T17:44:59.497Z] [PASS] [Reminder Testing] TC-REM-028 - Verify Quick Add Reminder from Home Screen Widget (Duration: 399ms)
+[2026-08-07T02:00:06.084Z] [PASS] [Reminder Testing] TC-REM-028 - Verify Quick Add Reminder from Home Screen Widget (Duration: 120ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for verify quick add reminder from home screen widget.
-[2026-08-06T17:44:59.529Z] [PASS] [Reminder Testing] TC-REM-029 - Check Pill Count Increment after Confirmed Intake (Duration: 336ms)
+[2026-08-07T02:00:06.101Z] [PASS] [Reminder Testing] TC-REM-029 - Check Pill Count Increment after Confirmed Intake (Duration: 420ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for check pill count increment after confirmed intake.
-[2026-08-06T17:44:59.559Z] [PASS] [Reminder Testing] TC-REM-030 - Validate Medication Stock Calculation (Duration: 124ms)
+[2026-08-07T02:00:06.127Z] [PASS] [Reminder Testing] TC-REM-030 - Validate Medication Stock Calculation (Duration: 233ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for validate medication stock calculation.
-[2026-08-06T17:44:59.578Z] [PASS] [Reminder Testing] TC-REM-031 - Verify Doctor Consultation Follow-up Alert (Duration: 143ms)
+[2026-08-07T02:00:06.143Z] [PASS] [Reminder Testing] TC-REM-031 - Verify Doctor Consultation Follow-up Alert (Duration: 359ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for verify doctor consultation follow-up alert.
-[2026-08-06T17:44:59.598Z] [PASS] [Reminder Testing] TC-REM-032 - Check Vaccine Booster Shot Reminder (Duration: 332ms)
+[2026-08-07T02:00:06.175Z] [PASS] [Reminder Testing] TC-REM-032 - Check Vaccine Booster Shot Reminder (Duration: 216ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for check vaccine booster shot reminder.
-[2026-08-06T17:44:59.633Z] [PASS] [Reminder Testing] TC-REM-033 - Validate Lab Test Fasting Reminder (Duration: 170ms)
+[2026-08-07T02:00:06.191Z] [PASS] [Reminder Testing] TC-REM-033 - Validate Lab Test Fasting Reminder (Duration: 214ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for validate lab test fasting reminder.
-[2026-08-06T17:44:59.656Z] [PASS] [Reminder Testing] TC-REM-034 - Verify Hydration Goal Completion Alert (Duration: 146ms)
+[2026-08-07T02:00:06.223Z] [PASS] [Reminder Testing] TC-REM-034 - Verify Hydration Goal Completion Alert (Duration: 135ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for verify hydration goal completion alert.
-[2026-08-06T17:44:59.674Z] [PASS] [Reminder Testing] TC-REM-035 - Check Custom Text Note in Push Payload (Duration: 370ms)
+[2026-08-07T02:00:06.239Z] [PASS] [Reminder Testing] TC-REM-035 - Check Custom Text Note in Push Payload (Duration: 406ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for check custom text note in push payload.
-[2026-08-06T17:44:59.690Z] [PASS] [Reminder Testing] TC-REM-036 - Validate Caregiver Notification on Missed Dose (Duration: 183ms)
+[2026-08-07T02:00:06.272Z] [PASS] [Reminder Testing] TC-REM-036 - Validate Caregiver Notification on Missed Dose (Duration: 137ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for validate caregiver notification on missed dose.
-[2026-08-06T17:44:59.706Z] [PASS] [Reminder Testing] TC-REM-037 - Verify Wearable Smartwatch Alarm Sync (Duration: 269ms)
+[2026-08-07T02:00:06.288Z] [PASS] [Reminder Testing] TC-REM-037 - Verify Wearable Smartwatch Alarm Sync (Duration: 219ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for verify wearable smartwatch alarm sync.
-[2026-08-06T17:44:59.738Z] [PASS] [Reminder Testing] TC-REM-038 - Check Alarm Dismissal Verification Lock (Duration: 393ms)
+[2026-08-07T02:00:06.304Z] [PASS] [Reminder Testing] TC-REM-038 - Check Alarm Dismissal Verification Lock (Duration: 123ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for check alarm dismissal verification lock.
-[2026-08-06T17:44:59.768Z] [PASS] [Reminder Testing] TC-REM-039 - Validate Multiple Medication Combined Alarm (Duration: 360ms)
+[2026-08-07T02:00:06.330Z] [PASS] [Reminder Testing] TC-REM-039 - Validate Multiple Medication Combined Alarm (Duration: 311ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for validate multiple medication combined alarm.
-[2026-08-06T17:44:59.792Z] [PASS] [Reminder Testing] TC-REM-040 - Verify Post-Surgery Recovery Checklist Alarm (Duration: 149ms)
+[2026-08-07T02:00:06.348Z] [PASS] [Reminder Testing] TC-REM-040 - Verify Post-Surgery Recovery Checklist Alarm (Duration: 314ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for verify post-surgery recovery checklist alarm.
-[2026-08-06T17:44:59.813Z] [PASS] [Reminder Testing] TC-REM-041 - Check Prescription Expiration Alert (Duration: 353ms)
+[2026-08-07T02:00:06.376Z] [PASS] [Reminder Testing] TC-REM-041 - Check Prescription Expiration Alert (Duration: 153ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for check prescription expiration alert.
-[2026-08-06T17:44:59.829Z] [PASS] [Reminder Testing] TC-REM-042 - Validate Daily Health Survey Push Prompt (Duration: 441ms)
+[2026-08-07T02:00:06.408Z] [PASS] [Reminder Testing] TC-REM-042 - Validate Daily Health Survey Push Prompt (Duration: 436ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for validate daily health survey push prompt.
-[2026-08-06T17:44:59.845Z] [PASS] [Reminder Testing] TC-REM-043 - Verify Snooze Limit Max Threshold (Duration: 157ms)
+[2026-08-07T02:00:06.441Z] [PASS] [Reminder Testing] TC-REM-043 - Verify Snooze Limit Max Threshold (Duration: 265ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for verify snooze limit max threshold.
-[2026-08-06T17:44:59.876Z] [PASS] [Reminder Testing] TC-REM-044 - Check Recurring Alarm End-Date Expiration (Duration: 393ms)
+[2026-08-07T02:00:06.472Z] [PASS] [Reminder Testing] TC-REM-044 - Check Recurring Alarm End-Date Expiration (Duration: 127ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for check recurring alarm end-date expiration.
-[2026-08-06T17:44:59.909Z] [PASS] [Reminder Testing] TC-REM-045 - Validate Quiet Hours / Do Not Disturb Exception (Duration: 320ms)
+[2026-08-07T02:00:06.488Z] [PASS] [Reminder Testing] TC-REM-045 - Validate Quiet Hours / Do Not Disturb Exception (Duration: 232ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for validate quiet hours / do not disturb exception.
-[2026-08-06T17:44:59.943Z] [PASS] [Reminder Testing] TC-REM-046 - Verify Reminder Audio Fade-In Effect (Duration: 425ms)
+[2026-08-07T02:00:06.519Z] [PASS] [Reminder Testing] TC-REM-046 - Verify Reminder Audio Fade-In Effect (Duration: 305ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for verify reminder audio fade-in effect.
-[2026-08-06T17:44:59.978Z] [PASS] [Reminder Testing] TC-REM-047 - Check Battery Optimization Whitelist Gate for Alarms (Duration: 326ms)
+[2026-08-07T02:00:06.536Z] [PASS] [Reminder Testing] TC-REM-047 - Check Battery Optimization Whitelist Gate for Alarms (Duration: 389ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for check battery optimization whitelist gate for alarms.
-[2026-08-06T17:44:59.999Z] [PASS] [Reminder Testing] TC-REM-048 - Validate In-App Banner Alarm Alert (Duration: 236ms)
+[2026-08-07T02:00:06.552Z] [PASS] [Reminder Testing] TC-REM-048 - Validate In-App Banner Alarm Alert (Duration: 376ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for validate in-app banner alarm alert.
-[2026-08-06T17:45:00.013Z] [PASS] [Reminder Testing] TC-REM-049 - Verify Reminder Color Coding by Urgency (Duration: 192ms)
+[2026-08-07T02:00:06.568Z] [PASS] [Reminder Testing] TC-REM-049 - Verify Reminder Color Coding by Urgency (Duration: 254ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for verify reminder color coding by urgency.
-[2026-08-06T17:45:00.032Z] [PASS] [Reminder Testing] TC-REM-050 - Check Export Alarm Schedule to iCal / Google Calendar (Duration: 359ms)
+[2026-08-07T02:00:06.597Z] [PASS] [Reminder Testing] TC-REM-050 - Check Export Alarm Schedule to iCal / Google Calendar (Duration: 420ms)
   Description: Validate local notifications, scheduled background tasks, and alerts for check export alarm schedule to ical / google calendar.
-[2026-08-06T17:45:00.047Z] [PASS] [AI Hub Testing] TC-AI-001 - Verify AI Symptom Checker Initialization (Duration: 276ms)
+[2026-08-07T02:00:06.629Z] [PASS] [AI Hub Testing] TC-AI-001 - Verify AI Symptom Checker Initialization (Duration: 228ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for verify ai symptom checker initialization.
-[2026-08-06T17:45:00.063Z] [PASS] [AI Hub Testing] TC-AI-002 - Validate Symptom Search Prompt Parsing (Duration: 240ms)
+[2026-08-07T02:00:06.644Z] [PASS] [AI Hub Testing] TC-AI-002 - Validate Symptom Search Prompt Parsing (Duration: 508ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for validate symptom search prompt parsing.
-[2026-08-06T17:45:00.113Z] [PASS] [AI Hub Testing] TC-AI-003 - Check Multi-Symptom Correlation Processing (Duration: 284ms)
+[2026-08-07T02:00:06.675Z] [PASS] [AI Hub Testing] TC-AI-003 - Check Multi-Symptom Correlation Processing (Duration: 221ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for check multi-symptom correlation processing.
-[2026-08-06T17:45:00.166Z] [PASS] [AI Hub Testing] TC-AI-004 - Verify AI Risk Assessment Classification (Low, Med, High) (Duration: 354ms)
+[2026-08-07T02:00:06.691Z] [PASS] [AI Hub Testing] TC-AI-004 - Verify AI Risk Assessment Classification (Low, Med, High) (Duration: 316ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for verify ai risk assessment classification (low, med, high).
-[2026-08-06T17:45:00.198Z] [PASS] [AI Hub Testing] TC-AI-005 - Check Triage Recommendation Output (Self-Care vs Emergency) (Duration: 297ms)
+[2026-08-07T02:00:06.707Z] [PASS] [AI Hub Testing] TC-AI-005 - Check Triage Recommendation Output (Self-Care vs Emergency) (Duration: 433ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for check triage recommendation output (self-care vs emergency).
-[2026-08-06T17:45:00.215Z] [PASS] [AI Hub Testing] TC-AI-006 - Validate AI Chatbot Quick Suggestion Chips (Duration: 306ms)
+[2026-08-07T02:00:06.738Z] [PASS] [AI Hub Testing] TC-AI-006 - Validate AI Chatbot Quick Suggestion Chips (Duration: 442ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for validate ai chatbot quick suggestion chips.
-[2026-08-06T17:45:00.246Z] [PASS] [AI Hub Testing] TC-AI-007 - Verify Voice-to-Text Symptom Query Input (Duration: 179ms)
+[2026-08-07T02:00:06.754Z] [PASS] [AI Hub Testing] TC-AI-007 - Verify Voice-to-Text Symptom Query Input (Duration: 489ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for verify voice-to-text symptom query input.
-[2026-08-06T17:45:00.272Z] [PASS] [AI Hub Testing] TC-AI-008 - Check AI Health Summary Insight Generation (Duration: 470ms)
+[2026-08-07T02:00:06.786Z] [PASS] [AI Hub Testing] TC-AI-008 - Check AI Health Summary Insight Generation (Duration: 397ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for check ai health summary insight generation.
-[2026-08-06T17:45:00.298Z] [PASS] [AI Hub Testing] TC-AI-009 - Validate Personalized Wellness Advice Model Response (Duration: 241ms)
+[2026-08-07T02:00:06.803Z] [PASS] [AI Hub Testing] TC-AI-009 - Validate Personalized Wellness Advice Model Response (Duration: 195ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for validate personalized wellness advice model response.
-[2026-08-06T17:45:00.329Z] [PASS] [AI Hub Testing] TC-AI-010 - Verify Medication Side Effect Query Processing (Duration: 509ms)
+[2026-08-07T02:00:06.829Z] [PASS] [AI Hub Testing] TC-AI-010 - Verify Medication Side Effect Query Processing (Duration: 301ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for verify medication side effect query processing.
-[2026-08-06T17:45:00.351Z] [PASS] [AI Hub Testing] TC-AI-011 - Check Drug-Drug Interaction AI Alert (Duration: 423ms)
+[2026-08-07T02:00:06.848Z] [PASS] [AI Hub Testing] TC-AI-011 - Check Drug-Drug Interaction AI Alert (Duration: 490ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for check drug-drug interaction ai alert.
-[2026-08-06T17:45:00.371Z] [PASS] [AI Hub Testing] TC-AI-012 - Validate Diet & Nutrition AI Meal Plan Generator (Duration: 264ms)
+[2026-08-07T02:00:06.876Z] [PASS] [AI Hub Testing] TC-AI-012 - Validate Diet & Nutrition AI Meal Plan Generator (Duration: 400ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for validate diet & nutrition ai meal plan generator.
-[2026-08-06T17:45:00.401Z] [PASS] [AI Hub Testing] TC-AI-013 - Verify Sleep Quality AI Analysis & Score (Duration: 355ms)
+[2026-08-07T02:00:06.893Z] [PASS] [AI Hub Testing] TC-AI-013 - Verify Sleep Quality AI Analysis & Score (Duration: 474ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for verify sleep quality ai analysis & score.
-[2026-08-06T17:45:00.414Z] [PASS] [AI Hub Testing] TC-AI-014 - Check Stress & Anxiety AI Assessment Survey (Duration: 293ms)
+[2026-08-07T02:00:06.924Z] [PASS] [AI Hub Testing] TC-AI-014 - Check Stress & Anxiety AI Assessment Survey (Duration: 422ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for check stress & anxiety ai assessment survey.
-[2026-08-06T17:45:00.448Z] [PASS] [AI Hub Testing] TC-AI-015 - Validate AI Medical Jargon Translator to Simple Terms (Duration: 371ms)
+[2026-08-07T02:00:06.957Z] [PASS] [AI Hub Testing] TC-AI-015 - Validate AI Medical Jargon Translator to Simple Terms (Duration: 431ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for validate ai medical jargon translator to simple terms.
-[2026-08-06T17:45:00.468Z] [PASS] [AI Hub Testing] TC-AI-016 - Verify Conversation History Save in Local Database (Duration: 485ms)
+[2026-08-07T02:00:06.972Z] [PASS] [AI Hub Testing] TC-AI-016 - Verify Conversation History Save in Local Database (Duration: 478ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for verify conversation history save in local database.
-[2026-08-06T17:45:00.482Z] [PASS] [AI Hub Testing] TC-AI-017 - Check Clear Conversation History Action (Duration: 369ms)
+[2026-08-07T02:00:06.989Z] [PASS] [AI Hub Testing] TC-AI-017 - Check Clear Conversation History Action (Duration: 499ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for check clear conversation history action.
-[2026-08-06T17:45:00.490Z] [PASS] [AI Hub Testing] TC-AI-018 - Validate AI Response Streaming Token Effect (Duration: 560ms)
+[2026-08-07T02:00:07.021Z] [PASS] [AI Hub Testing] TC-AI-018 - Validate AI Response Streaming Token Effect (Duration: 297ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for validate ai response streaming token effect.
-[2026-08-06T17:45:00.516Z] [PASS] [AI Hub Testing] TC-AI-019 - Verify Offline AI Model Fallback Advice (Duration: 521ms)
+[2026-08-07T02:00:07.054Z] [PASS] [AI Hub Testing] TC-AI-019 - Verify Offline AI Model Fallback Advice (Duration: 528ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for verify offline ai model fallback advice.
-[2026-08-06T17:45:00.538Z] [PASS] [AI Hub Testing] TC-AI-020 - Check AI Citation Disclaimer Banner Visibility (Duration: 408ms)
+[2026-08-07T02:00:07.086Z] [PASS] [AI Hub Testing] TC-AI-020 - Check AI Citation Disclaimer Banner Visibility (Duration: 172ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for check ai citation disclaimer banner visibility.
-[2026-08-06T17:45:00.557Z] [PASS] [AI Hub Testing] TC-AI-021 - Validate Medical Emergency Trigger Word Guardrail (Duration: 437ms)
+[2026-08-07T02:00:07.118Z] [PASS] [AI Hub Testing] TC-AI-021 - Validate Medical Emergency Trigger Word Guardrail (Duration: 367ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for validate medical emergency trigger word guardrail.
-[2026-08-06T17:45:00.582Z] [PASS] [AI Hub Testing] TC-AI-022 - Verify 911 / Emergency Hotline Quick Dial Launcher (Duration: 385ms)
+[2026-08-07T02:00:07.147Z] [PASS] [AI Hub Testing] TC-AI-022 - Verify 911 / Emergency Hotline Quick Dial Launcher (Duration: 326ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for verify 911 / emergency hotline quick dial launcher.
-[2026-08-06T17:45:00.602Z] [PASS] [AI Hub Testing] TC-AI-023 - Check AI Confidence Score Rendering (Duration: 463ms)
+[2026-08-07T02:00:07.177Z] [PASS] [AI Hub Testing] TC-AI-023 - Check AI Confidence Score Rendering (Duration: 450ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for check ai confidence score rendering.
-[2026-08-06T17:45:00.625Z] [PASS] [AI Hub Testing] TC-AI-024 - Validate User Feedback Upvote/Downvote on AI Answer (Duration: 553ms)
+[2026-08-07T02:00:07.193Z] [PASS] [AI Hub Testing] TC-AI-024 - Validate User Feedback Upvote/Downvote on AI Answer (Duration: 487ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for validate user feedback upvote/downvote on ai answer.
-[2026-08-06T17:45:00.653Z] [PASS] [AI Hub Testing] TC-AI-025 - Verify Regenerate AI Answer Action (Duration: 512ms)
+[2026-08-07T02:00:07.225Z] [PASS] [AI Hub Testing] TC-AI-025 - Verify Regenerate AI Answer Action (Duration: 433ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for verify regenerate ai answer action.
-[2026-08-06T17:45:00.667Z] [PASS] [AI Hub Testing] TC-AI-026 - Check Prompt Context Memory Limit Test (Duration: 237ms)
+[2026-08-07T02:00:07.241Z] [PASS] [AI Hub Testing] TC-AI-026 - Check Prompt Context Memory Limit Test (Duration: 235ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for check prompt context memory limit test.
-[2026-08-06T17:45:00.682Z] [PASS] [AI Hub Testing] TC-AI-027 - Validate AI Health Metric Trend Forecasting (Duration: 281ms)
+[2026-08-07T02:00:07.257Z] [PASS] [AI Hub Testing] TC-AI-027 - Validate AI Health Metric Trend Forecasting (Duration: 315ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for validate ai health metric trend forecasting.
-[2026-08-06T17:45:00.701Z] [PASS] [AI Hub Testing] TC-AI-028 - Verify Blood Pressure Anomaly Detection Alert (Duration: 306ms)
+[2026-08-07T02:00:07.273Z] [PASS] [AI Hub Testing] TC-AI-028 - Verify Blood Pressure Anomaly Detection Alert (Duration: 462ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for verify blood pressure anomaly detection alert.
-[2026-08-06T17:45:00.733Z] [PASS] [AI Hub Testing] TC-AI-029 - Check Glucose Trend AI Prediction Graph (Duration: 177ms)
+[2026-08-07T02:00:07.289Z] [PASS] [AI Hub Testing] TC-AI-029 - Check Glucose Trend AI Prediction Graph (Duration: 207ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for check glucose trend ai prediction graph.
-[2026-08-06T17:45:00.765Z] [PASS] [AI Hub Testing] TC-AI-030 - Validate Heart Rate Variability AI Insight (Duration: 424ms)
+[2026-08-07T02:00:07.305Z] [PASS] [AI Hub Testing] TC-AI-030 - Validate Heart Rate Variability AI Insight (Duration: 441ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for validate heart rate variability ai insight.
-[2026-08-06T17:45:00.779Z] [PASS] [AI Hub Testing] TC-AI-031 - Verify AI Medical Specialist Referral Recommendation (Duration: 430ms)
+[2026-08-07T02:00:07.320Z] [PASS] [AI Hub Testing] TC-AI-031 - Verify AI Medical Specialist Referral Recommendation (Duration: 423ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for verify ai medical specialist referral recommendation.
-[2026-08-06T17:45:00.806Z] [PASS] [AI Hub Testing] TC-AI-032 - Check Symptom Duration Slider Context (Duration: 474ms)
+[2026-08-07T02:00:07.346Z] [PASS] [AI Hub Testing] TC-AI-032 - Check Symptom Duration Slider Context (Duration: 511ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for check symptom duration slider context.
-[2026-08-06T17:45:00.822Z] [PASS] [AI Hub Testing] TC-AI-033 - Validate Body Location Selector (3D Body Map) (Duration: 243ms)
+[2026-08-07T02:00:07.364Z] [PASS] [AI Hub Testing] TC-AI-033 - Validate Body Location Selector (3D Body Map) (Duration: 370ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for validate body location selector (3d body map).
-[2026-08-06T17:45:00.845Z] [PASS] [AI Hub Testing] TC-AI-034 - Verify Pediatric Symptom Guardrail Mode (Duration: 198ms)
+[2026-08-07T02:00:07.395Z] [PASS] [AI Hub Testing] TC-AI-034 - Verify Pediatric Symptom Guardrail Mode (Duration: 465ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for verify pediatric symptom guardrail mode.
-[2026-08-06T17:45:00.864Z] [PASS] [AI Hub Testing] TC-AI-035 - Check Geriatric Health AI Prompt Customization (Duration: 317ms)
+[2026-08-07T02:00:07.408Z] [PASS] [AI Hub Testing] TC-AI-035 - Check Geriatric Health AI Prompt Customization (Duration: 547ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for check geriatric health ai prompt customization.
-[2026-08-06T17:45:00.897Z] [PASS] [AI Hub Testing] TC-AI-036 - Validate Allergy Warning Injection into AI Context (Duration: 486ms)
+[2026-08-07T02:00:07.440Z] [PASS] [AI Hub Testing] TC-AI-036 - Validate Allergy Warning Injection into AI Context (Duration: 396ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for validate allergy warning injection into ai context.
-[2026-08-06T17:45:00.928Z] [PASS] [AI Hub Testing] TC-AI-037 - Verify Lab Test Result AI Interpretation Prompt (Duration: 300ms)
+[2026-08-07T02:00:07.457Z] [PASS] [AI Hub Testing] TC-AI-037 - Verify Lab Test Result AI Interpretation Prompt (Duration: 383ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for verify lab test result ai interpretation prompt.
-[2026-08-06T17:45:00.944Z] [PASS] [AI Hub Testing] TC-AI-038 - Check Doctor Note Summarization by AI Engine (Duration: 275ms)
+[2026-08-07T02:00:07.472Z] [PASS] [AI Hub Testing] TC-AI-038 - Check Doctor Note Summarization by AI Engine (Duration: 415ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for check doctor note summarization by ai engine.
-[2026-08-06T17:45:00.966Z] [PASS] [AI Hub Testing] TC-AI-039 - Validate Medical Record NLP Tag Extractor (Duration: 359ms)
+[2026-08-07T02:00:07.505Z] [PASS] [AI Hub Testing] TC-AI-039 - Validate Medical Record NLP Tag Extractor (Duration: 553ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for validate medical record nlp tag extractor.
-[2026-08-06T17:45:00.998Z] [PASS] [AI Hub Testing] TC-AI-040 - Verify AI Response Copy to Clipboard Button (Duration: 453ms)
+[2026-08-07T02:00:07.537Z] [PASS] [AI Hub Testing] TC-AI-040 - Verify AI Response Copy to Clipboard Button (Duration: 527ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for verify ai response copy to clipboard button.
-[2026-08-06T17:45:01.021Z] [PASS] [AI Hub Testing] TC-AI-041 - Check AI Response Share as PDF/Image (Duration: 513ms)
+[2026-08-07T02:00:07.553Z] [PASS] [AI Hub Testing] TC-AI-041 - Check AI Response Share as PDF/Image (Duration: 181ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for check ai response share as pdf/image.
-[2026-08-06T17:45:01.050Z] [PASS] [AI Hub Testing] TC-AI-042 - Validate AI Engine Switcher (Fast vs Detailed) (Duration: 377ms)
+[2026-08-07T02:00:07.569Z] [PASS] [AI Hub Testing] TC-AI-042 - Validate AI Engine Switcher (Fast vs Detailed) (Duration: 174ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for validate ai engine switcher (fast vs detailed).
-[2026-08-06T17:45:01.064Z] [PASS] [AI Hub Testing] TC-AI-043 - Verify AI Token Usage Quota Meter (Duration: 424ms)
+[2026-08-07T02:00:07.597Z] [PASS] [AI Hub Testing] TC-AI-043 - Verify AI Token Usage Quota Meter (Duration: 293ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for verify ai token usage quota meter.
-[2026-08-06T17:45:01.082Z] [PASS] [AI Hub Testing] TC-AI-044 - Check Network Timeout Recovery in AI Chat (Duration: 250ms)
+[2026-08-07T02:00:07.627Z] [PASS] [AI Hub Testing] TC-AI-044 - Check Network Timeout Recovery in AI Chat (Duration: 479ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for check network timeout recovery in ai chat.
-[2026-08-06T17:45:01.114Z] [PASS] [AI Hub Testing] TC-AI-045 - Validate Content Moderation Filter on Harmful Queries (Duration: 357ms)
+[2026-08-07T02:00:07.643Z] [PASS] [AI Hub Testing] TC-AI-045 - Validate Content Moderation Filter on Harmful Queries (Duration: 278ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for validate content moderation filter on harmful queries.
-[2026-08-06T17:45:01.136Z] [PASS] [AI Hub Testing] TC-AI-046 - Verify AI Multi-Language Translation Response (Duration: 423ms)
+[2026-08-07T02:00:07.659Z] [PASS] [AI Hub Testing] TC-AI-046 - Verify AI Multi-Language Translation Response (Duration: 240ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for verify ai multi-language translation response.
-[2026-08-06T17:45:01.160Z] [PASS] [AI Hub Testing] TC-AI-047 - Check Voice Response Audio Synthesizer (TTS) (Duration: 212ms)
+[2026-08-07T02:00:07.690Z] [PASS] [AI Hub Testing] TC-AI-047 - Check Voice Response Audio Synthesizer (TTS) (Duration: 268ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for check voice response audio synthesizer (tts).
-[2026-08-06T17:45:01.182Z] [PASS] [AI Hub Testing] TC-AI-048 - Validate AI Chat Message Time Stamp Formatting (Duration: 297ms)
+[2026-08-07T02:00:07.723Z] [PASS] [AI Hub Testing] TC-AI-048 - Validate AI Chat Message Time Stamp Formatting (Duration: 163ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for validate ai chat message time stamp formatting.
-[2026-08-06T17:45:01.197Z] [PASS] [AI Hub Testing] TC-AI-049 - Verify Related Medical Articles Recommendation (Duration: 547ms)
+[2026-08-07T02:00:07.738Z] [PASS] [AI Hub Testing] TC-AI-049 - Verify Related Medical Articles Recommendation (Duration: 208ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for verify related medical articles recommendation.
-[2026-08-06T17:45:01.225Z] [PASS] [AI Hub Testing] TC-AI-050 - Check AI Session Renewal on App Restart (Duration: 286ms)
+[2026-08-07T02:00:07.755Z] [PASS] [AI Hub Testing] TC-AI-050 - Check AI Session Renewal on App Restart (Duration: 225ms)
   Description: Validate AI symptom analysis, NLP medical insights, and assistant workflows for check ai session renewal on app restart.
-[2026-08-06T17:45:01.233Z] [PASS] [OCR Testing] TC-OCR-001 - Verify Camera Scan Initialization for Prescription (Duration: 216ms)
+[2026-08-07T02:00:07.787Z] [PASS] [OCR Testing] TC-OCR-001 - Verify Camera Scan Initialization for Prescription (Duration: 503ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for verify camera scan initialization for prescription.
-[2026-08-06T17:45:01.261Z] [PASS] [OCR Testing] TC-OCR-002 - Validate Gallery Image Pick for OCR Scan (Duration: 424ms)
+[2026-08-07T02:00:07.802Z] [PASS] [OCR Testing] TC-OCR-002 - Validate Gallery Image Pick for OCR Scan (Duration: 617ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for validate gallery image pick for ocr scan.
-[2026-08-06T17:45:01.280Z] [PASS] [OCR Testing] TC-OCR-003 - Check OCR Bounding Box Overlay on Text Region (Duration: 416ms)
+[2026-08-07T02:00:07.819Z] [PASS] [OCR Testing] TC-OCR-003 - Check OCR Bounding Box Overlay on Text Region (Duration: 572ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for check ocr bounding box overlay on text region.
-[2026-08-06T17:45:01.296Z] [PASS] [OCR Testing] TC-OCR-004 - Verify Automatic Flashlight Toggle in Low Light Scanner (Duration: 442ms)
+[2026-08-07T02:00:07.847Z] [PASS] [OCR Testing] TC-OCR-004 - Verify Automatic Flashlight Toggle in Low Light Scanner (Duration: 542ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for verify automatic flashlight toggle in low light scanner.
-[2026-08-06T17:45:01.328Z] [PASS] [OCR Testing] TC-OCR-005 - Check Image Auto-Crop & Perspective Correction (Duration: 183ms)
+[2026-08-07T02:00:07.876Z] [PASS] [OCR Testing] TC-OCR-005 - Check Image Auto-Crop & Perspective Correction (Duration: 370ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for check image auto-crop & perspective correction.
-[2026-08-06T17:45:01.357Z] [PASS] [OCR Testing] TC-OCR-006 - Validate Image Brightness/Contrast Enhancement Pre-filter (Duration: 276ms)
+[2026-08-07T02:00:07.908Z] [PASS] [OCR Testing] TC-OCR-006 - Validate Image Brightness/Contrast Enhancement Pre-filter (Duration: 181ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for validate image brightness/contrast enhancement pre-filter.
-[2026-08-06T17:45:01.389Z] [PASS] [OCR Testing] TC-OCR-007 - Verify Extraction of Patient Name from Prescription Scan (Duration: 580ms)
+[2026-08-07T02:00:07.924Z] [PASS] [OCR Testing] TC-OCR-007 - Verify Extraction of Patient Name from Prescription Scan (Duration: 513ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for verify extraction of patient name from prescription scan.
-[2026-08-06T17:45:01.426Z] [PASS] [OCR Testing] TC-OCR-008 - Check Extraction of Medication Name from OCR Text (Duration: 395ms)
+[2026-08-07T02:00:07.940Z] [PASS] [OCR Testing] TC-OCR-008 - Check Extraction of Medication Name from OCR Text (Duration: 483ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for check extraction of medication name from ocr text.
-[2026-08-06T17:45:01.443Z] [PASS] [OCR Testing] TC-OCR-009 - Validate Extraction of Dosage Quantity & Unit (Duration: 509ms)
+[2026-08-07T02:00:07.957Z] [PASS] [OCR Testing] TC-OCR-009 - Validate Extraction of Dosage Quantity & Unit (Duration: 578ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for validate extraction of dosage quantity & unit.
-[2026-08-06T17:45:01.463Z] [PASS] [OCR Testing] TC-OCR-010 - Verify Extraction of Refill Count & Expiry Date (Duration: 337ms)
+[2026-08-07T02:00:07.989Z] [PASS] [OCR Testing] TC-OCR-010 - Verify Extraction of Refill Count & Expiry Date (Duration: 443ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for verify extraction of refill count & expiry date.
-[2026-08-06T17:45:01.480Z] [PASS] [OCR Testing] TC-OCR-011 - Check Doctor License Number OCR Extraction (Duration: 560ms)
+[2026-08-07T02:00:08.005Z] [PASS] [OCR Testing] TC-OCR-011 - Check Doctor License Number OCR Extraction (Duration: 361ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for check doctor license number ocr extraction.
-[2026-08-06T17:45:01.510Z] [PASS] [OCR Testing] TC-OCR-012 - Validate Pharmacy Stamp Detection (Duration: 519ms)
+[2026-08-07T02:00:08.037Z] [PASS] [OCR Testing] TC-OCR-012 - Validate Pharmacy Stamp Detection (Duration: 248ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for validate pharmacy stamp detection.
-[2026-08-06T17:45:01.541Z] [PASS] [OCR Testing] TC-OCR-013 - Verify OCR Scan on Printed Lab Test Report (Duration: 345ms)
+[2026-08-07T02:00:08.056Z] [PASS] [OCR Testing] TC-OCR-013 - Verify OCR Scan on Printed Lab Test Report (Duration: 568ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for verify ocr scan on printed lab test report.
-[2026-08-06T17:45:01.563Z] [PASS] [OCR Testing] TC-OCR-014 - Check Lab Test Parameter Extraction (e.g. Hemoglobin 14.2) (Duration: 608ms)
+[2026-08-07T02:00:08.077Z] [PASS] [OCR Testing] TC-OCR-014 - Check Lab Test Parameter Extraction (e.g. Hemoglobin 14.2) (Duration: 411ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for check lab test parameter extraction (e.g. hemoglobin 14.2).
-[2026-08-06T17:45:01.579Z] [PASS] [OCR Testing] TC-OCR-015 - Validate Lab Reference Range OCR Parser (Duration: 574ms)
+[2026-08-07T02:00:08.110Z] [PASS] [OCR Testing] TC-OCR-015 - Validate Lab Reference Range OCR Parser (Duration: 263ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for validate lab reference range ocr parser.
-[2026-08-06T17:45:01.595Z] [PASS] [OCR Testing] TC-OCR-016 - Verify Handwriting OCR Text Recognition Accuracy (Duration: 577ms)
+[2026-08-07T02:00:08.125Z] [PASS] [OCR Testing] TC-OCR-016 - Verify Handwriting OCR Text Recognition Accuracy (Duration: 222ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for verify handwriting ocr text recognition accuracy.
-[2026-08-06T17:45:01.610Z] [PASS] [OCR Testing] TC-OCR-017 - Check Multilingual Prescription OCR Scan (Duration: 375ms)
+[2026-08-07T02:00:08.159Z] [PASS] [OCR Testing] TC-OCR-017 - Check Multilingual Prescription OCR Scan (Duration: 489ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for check multilingual prescription ocr scan.
-[2026-08-06T17:45:01.635Z] [PASS] [OCR Testing] TC-OCR-018 - Validate Low Resolution Image Warning Prompt (Duration: 312ms)
+[2026-08-07T02:00:08.190Z] [PASS] [OCR Testing] TC-OCR-018 - Validate Low Resolution Image Warning Prompt (Duration: 576ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for validate low resolution image warning prompt.
-[2026-08-06T17:45:01.652Z] [PASS] [OCR Testing] TC-OCR-019 - Verify Blurry Image Blur Detection Filter (Duration: 289ms)
+[2026-08-07T02:00:08.206Z] [PASS] [OCR Testing] TC-OCR-019 - Verify Blurry Image Blur Detection Filter (Duration: 504ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for verify blurry image blur detection filter.
-[2026-08-06T17:45:01.676Z] [PASS] [OCR Testing] TC-OCR-020 - Check Skewed Document Rotation Adjuster (Duration: 182ms)
+[2026-08-07T02:00:08.238Z] [PASS] [OCR Testing] TC-OCR-020 - Check Skewed Document Rotation Adjuster (Duration: 476ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for check skewed document rotation adjuster.
-[2026-08-06T17:45:01.741Z] [PASS] [OCR Testing] TC-OCR-021 - Validate Multi-Page Document Batch OCR Processing (Duration: 376ms)
+[2026-08-07T02:00:08.254Z] [PASS] [OCR Testing] TC-OCR-021 - Validate Multi-Page Document Batch OCR Processing (Duration: 482ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for validate multi-page document batch ocr processing.
-[2026-08-06T17:45:01.768Z] [PASS] [OCR Testing] TC-OCR-022 - Verify Raw OCR Text Preview Modal (Duration: 428ms)
+[2026-08-07T02:00:08.270Z] [PASS] [OCR Testing] TC-OCR-022 - Verify Raw OCR Text Preview Modal (Duration: 550ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for verify raw ocr text preview modal.
-[2026-08-06T17:45:01.797Z] [PASS] [OCR Testing] TC-OCR-023 - Check Editable OCR Field Correction Form (Duration: 549ms)
+[2026-08-07T02:00:08.303Z] [PASS] [OCR Testing] TC-OCR-023 - Check Editable OCR Field Correction Form (Duration: 618ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for check editable ocr field correction form.
-[2026-08-06T17:45:01.834Z] [PASS] [OCR Testing] TC-OCR-024 - Validate Auto-Fill Prescription Form from OCR Output (Duration: 398ms)
+[2026-08-07T02:00:08.319Z] [PASS] [OCR Testing] TC-OCR-024 - Validate Auto-Fill Prescription Form from OCR Output (Duration: 533ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for validate auto-fill prescription form from ocr output.
-[2026-08-06T17:45:01.855Z] [PASS] [OCR Testing] TC-OCR-025 - Verify Confident Score Badge per Extracted Field (Duration: 223ms)
+[2026-08-07T02:00:08.331Z] [PASS] [OCR Testing] TC-OCR-025 - Verify Confident Score Badge per Extracted Field (Duration: 625ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for verify confident score badge per extracted field.
-[2026-08-06T17:45:01.885Z] [PASS] [OCR Testing] TC-OCR-026 - Check Unrecognized Text Highlight in Red (Duration: 212ms)
+[2026-08-07T02:00:08.369Z] [PASS] [OCR Testing] TC-OCR-026 - Check Unrecognized Text Highlight in Red (Duration: 536ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for check unrecognized text highlight in red.
-[2026-08-06T17:45:01.899Z] [PASS] [OCR Testing] TC-OCR-027 - Validate Save Extracted Data to Medical Records (Duration: 427ms)
+[2026-08-07T02:00:08.383Z] [PASS] [OCR Testing] TC-OCR-027 - Validate Save Extracted Data to Medical Records (Duration: 547ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for validate save extracted data to medical records.
-[2026-08-06T17:45:01.913Z] [PASS] [OCR Testing] TC-OCR-028 - Verify Camera Pinch-to-Zoom Gesture in OCR Mode (Duration: 268ms)
+[2026-08-07T02:00:08.399Z] [PASS] [OCR Testing] TC-OCR-028 - Verify Camera Pinch-to-Zoom Gesture in OCR Mode (Duration: 443ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for verify camera pinch-to-zoom gesture in ocr mode.
-[2026-08-06T17:45:01.935Z] [PASS] [OCR Testing] TC-OCR-029 - Check Camera Tap-to-Focus Indicator (Duration: 275ms)
+[2026-08-07T02:00:08.414Z] [PASS] [OCR Testing] TC-OCR-029 - Check Camera Tap-to-Focus Indicator (Duration: 468ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for check camera tap-to-focus indicator.
-[2026-08-06T17:45:01.962Z] [PASS] [OCR Testing] TC-OCR-030 - Validate OCR Processing Progress Indicator (Duration: 406ms)
+[2026-08-07T02:00:08.430Z] [PASS] [OCR Testing] TC-OCR-030 - Validate OCR Processing Progress Indicator (Duration: 617ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for validate ocr processing progress indicator.
-[2026-08-06T17:45:02.025Z] [PASS] [OCR Testing] TC-OCR-031 - Verify On-Device ML Kit OCR Offline Execution (Duration: 294ms)
+[2026-08-07T02:00:08.446Z] [PASS] [OCR Testing] TC-OCR-031 - Verify On-Device ML Kit OCR Offline Execution (Duration: 602ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for verify on-device ml kit ocr offline execution.
-[2026-08-06T17:45:02.046Z] [PASS] [OCR Testing] TC-OCR-032 - Check Cloud Vision OCR API Fallback (Duration: 406ms)
+[2026-08-07T02:00:08.463Z] [PASS] [OCR Testing] TC-OCR-032 - Check Cloud Vision OCR API Fallback (Duration: 379ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for check cloud vision ocr api fallback.
-[2026-08-06T17:45:02.103Z] [PASS] [OCR Testing] TC-OCR-033 - Validate OCR Engine Switch (Tesseract vs MLKit) (Duration: 411ms)
+[2026-08-07T02:00:08.493Z] [PASS] [OCR Testing] TC-OCR-033 - Validate OCR Engine Switch (Tesseract vs MLKit) (Duration: 313ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for validate ocr engine switch (tesseract vs mlkit).
-[2026-08-06T17:45:02.140Z] [PASS] [OCR Testing] TC-OCR-034 - Verify QR Code / Barcode Scan inside Prescription (Duration: 542ms)
+[2026-08-07T02:00:08.524Z] [PASS] [OCR Testing] TC-OCR-034 - Verify QR Code / Barcode Scan inside Prescription (Duration: 575ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for verify qr code / barcode scan inside prescription.
-[2026-08-06T17:45:02.169Z] [PASS] [OCR Testing] TC-OCR-035 - Check Insurance Card OCR Name & Policy ID Extraction (Duration: 387ms)
+[2026-08-07T02:00:08.555Z] [PASS] [OCR Testing] TC-OCR-035 - Check Insurance Card OCR Name & Policy ID Extraction (Duration: 499ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for check insurance card ocr name & policy id extraction.
-[2026-08-06T17:45:02.205Z] [PASS] [OCR Testing] TC-OCR-036 - Validate Vaccine Certificate Pass Scan (Duration: 223ms)
+[2026-08-07T02:00:08.572Z] [PASS] [OCR Testing] TC-OCR-036 - Validate Vaccine Certificate Pass Scan (Duration: 183ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for validate vaccine certificate pass scan.
-[2026-08-06T17:45:02.241Z] [PASS] [OCR Testing] TC-OCR-037 - Verify Medical Bill Amount & Date OCR Extractor (Duration: 246ms)
+[2026-08-07T02:00:08.586Z] [PASS] [OCR Testing] TC-OCR-037 - Verify Medical Bill Amount & Date OCR Extractor (Duration: 420ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for verify medical bill amount & date ocr extractor.
-[2026-08-06T17:45:02.282Z] [PASS] [OCR Testing] TC-OCR-038 - Check Doctor Signature Region Masking for Privacy (Duration: 533ms)
+[2026-08-07T02:00:08.618Z] [PASS] [OCR Testing] TC-OCR-038 - Check Doctor Signature Region Masking for Privacy (Duration: 214ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for check doctor signature region masking for privacy.
-[2026-08-06T17:45:02.316Z] [PASS] [OCR Testing] TC-OCR-039 - Validate Image File Format Compatibility (JPEG, PNG, HEIC) (Duration: 617ms)
+[2026-08-07T02:00:08.644Z] [PASS] [OCR Testing] TC-OCR-039 - Validate Image File Format Compatibility (JPEG, PNG, HEIC) (Duration: 458ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for validate image file format compatibility (jpeg, png, heic).
-[2026-08-06T17:45:02.329Z] [PASS] [OCR Testing] TC-OCR-040 - Verify OCR Cache Cleanup on Storage Limit (Duration: 263ms)
+[2026-08-07T02:00:08.675Z] [PASS] [OCR Testing] TC-OCR-040 - Verify OCR Cache Cleanup on Storage Limit (Duration: 369ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for verify ocr cache cleanup on storage limit.
-[2026-08-06T17:45:02.343Z] [PASS] [OCR Testing] TC-OCR-041 - Check OCR Scan Audit Log Creation (Duration: 224ms)
+[2026-08-07T02:00:08.705Z] [PASS] [OCR Testing] TC-OCR-041 - Check OCR Scan Audit Log Creation (Duration: 446ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for check ocr scan audit log creation.
-[2026-08-06T17:45:02.360Z] [PASS] [OCR Testing] TC-OCR-042 - Validate PDF Vector Text Direct Extraction (Duration: 610ms)
+[2026-08-07T02:00:08.738Z] [PASS] [OCR Testing] TC-OCR-042 - Validate PDF Vector Text Direct Extraction (Duration: 480ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for validate pdf vector text direct extraction.
-[2026-08-06T17:45:02.386Z] [PASS] [OCR Testing] TC-OCR-043 - Verify Dark Mode OCR Camera View Finder Visual (Duration: 326ms)
+[2026-08-07T02:00:08.747Z] [PASS] [OCR Testing] TC-OCR-043 - Verify Dark Mode OCR Camera View Finder Visual (Duration: 203ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for verify dark mode ocr camera view finder visual.
-[2026-08-06T17:45:02.408Z] [PASS] [OCR Testing] TC-OCR-044 - Check Edge Detection Outline Box Rendering (Duration: 549ms)
+[2026-08-07T02:00:08.766Z] [PASS] [OCR Testing] TC-OCR-044 - Check Edge Detection Outline Box Rendering (Duration: 408ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for check edge detection outline box rendering.
-[2026-08-06T17:45:02.434Z] [PASS] [OCR Testing] TC-OCR-045 - Validate Shutter Sound Effect Toggle (Duration: 261ms)
+[2026-08-07T02:00:08.787Z] [PASS] [OCR Testing] TC-OCR-045 - Validate Shutter Sound Effect Toggle (Duration: 218ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for validate shutter sound effect toggle.
-[2026-08-06T17:45:02.463Z] [PASS] [OCR Testing] TC-OCR-046 - Verify Re-scan Retake Button Flow (Duration: 315ms)
+[2026-08-07T02:00:08.794Z] [PASS] [OCR Testing] TC-OCR-046 - Verify Re-scan Retake Button Flow (Duration: 372ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for verify re-scan retake button flow.
-[2026-08-06T17:45:02.497Z] [PASS] [OCR Testing] TC-OCR-047 - Check Cancel Scan Navigation Return (Duration: 332ms)
+[2026-08-07T02:00:08.816Z] [PASS] [OCR Testing] TC-OCR-047 - Check Cancel Scan Navigation Return (Duration: 225ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for check cancel scan navigation return.
-[2026-08-06T17:45:02.512Z] [PASS] [OCR Testing] TC-OCR-048 - Validate OCR Extracted Data Diff Comparison (Duration: 312ms)
+[2026-08-07T02:00:08.843Z] [PASS] [OCR Testing] TC-OCR-048 - Validate OCR Extracted Data Diff Comparison (Duration: 625ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for validate ocr extracted data diff comparison.
-[2026-08-06T17:45:02.528Z] [PASS] [OCR Testing] TC-OCR-049 - Verify Privacy Consent for Document Scanning (Duration: 517ms)
+[2026-08-07T02:00:08.868Z] [PASS] [OCR Testing] TC-OCR-049 - Verify Privacy Consent for Document Scanning (Duration: 231ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for verify privacy consent for document scanning.
-[2026-08-06T17:45:02.544Z] [PASS] [OCR Testing] TC-OCR-050 - Check Memory Allocation under Consecutive 50 OCR Scans (Duration: 375ms)
+[2026-08-07T02:00:08.878Z] [PASS] [OCR Testing] TC-OCR-050 - Check Memory Allocation under Consecutive 50 OCR Scans (Duration: 485ms)
   Description: Validate Optical Character Recognition, document scanning, and data extraction for check memory allocation under consecutive 50 ocr scans.
-[2026-08-06T17:45:02.565Z] [PASS] [Performance Testing] TC-PERF-001 - Verify App Cold Start Benchmark (< 800ms) (Duration: 140ms)
+[2026-08-07T02:00:08.907Z] [PASS] [Performance Testing] TC-PERF-001 - Verify App Cold Start Benchmark (< 800ms) (Duration: 331ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for verify app cold start benchmark (< 800ms).
-[2026-08-06T17:45:02.580Z] [PASS] [Performance Testing] TC-PERF-002 - Check App Warm Start Benchmark (< 250ms) (Duration: 218ms)
+[2026-08-07T02:00:08.922Z] [PASS] [Performance Testing] TC-PERF-002 - Check App Warm Start Benchmark (< 250ms) (Duration: 204ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for check app warm start benchmark (< 250ms).
-[2026-08-06T17:45:02.595Z] [PASS] [Performance Testing] TC-PERF-003 - Validate Memory Consumption under Idle Baseline (Duration: 263ms)
+[2026-08-07T02:00:08.943Z] [PASS] [Performance Testing] TC-PERF-003 - Validate Memory Consumption under Idle Baseline (Duration: 353ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for validate memory consumption under idle baseline.
-[2026-08-06T17:45:02.616Z] [PASS] [Performance Testing] TC-PERF-004 - Verify Peak Memory Footprint during 4K Image Render (Duration: 254ms)
+[2026-08-07T02:00:08.960Z] [PASS] [Performance Testing] TC-PERF-004 - Verify Peak Memory Footprint during 4K Image Render (Duration: 128ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for verify peak memory footprint during 4k image render.
-[2026-08-06T17:45:02.654Z] [PASS] [Performance Testing] TC-PERF-005 - Check CPU Usage Spike during OCR Scanning (Duration: 315ms)
+[2026-08-07T02:00:08.977Z] [PASS] [Performance Testing] TC-PERF-005 - Check CPU Usage Spike during OCR Scanning (Duration: 361ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for check cpu usage spike during ocr scanning.
-[2026-08-06T17:45:02.688Z] [PASS] [Performance Testing] TC-PERF-006 - Validate FPS Smoothness (60 FPS Goal) during Dashboard Scroll (Duration: 102ms)
+[2026-08-07T02:00:08.992Z] [PASS] [Performance Testing] TC-PERF-006 - Validate FPS Smoothness (60 FPS Goal) during Dashboard Scroll (Duration: 209ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for validate fps smoothness (60 fps goal) during dashboard scroll.
-[2026-08-06T17:45:02.748Z] [PASS] [Performance Testing] TC-PERF-007 - Verify Battery Drain Rate during Background Sync (Duration: 327ms)
+[2026-08-07T02:00:09.001Z] [PASS] [Performance Testing] TC-PERF-007 - Verify Battery Drain Rate during Background Sync (Duration: 204ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for verify battery drain rate during background sync.
-[2026-08-06T17:45:02.791Z] [PASS] [Performance Testing] TC-PERF-008 - Check Network Payload Compression Ratio (Gzip/Brotli) (Duration: 114ms)
+[2026-08-07T02:00:09.016Z] [PASS] [Performance Testing] TC-PERF-008 - Check Network Payload Compression Ratio (Gzip/Brotli) (Duration: 254ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for check network payload compression ratio (gzip/brotli).
-[2026-08-06T17:45:02.829Z] [PASS] [Performance Testing] TC-PERF-009 - Validate Local SQLite Query Response Time (< 15ms) (Duration: 190ms)
+[2026-08-07T02:00:09.040Z] [PASS] [Performance Testing] TC-PERF-009 - Validate Local SQLite Query Response Time (< 15ms) (Duration: 276ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for validate local sqlite query response time (< 15ms).
-[2026-08-06T17:45:02.855Z] [PASS] [Performance Testing] TC-PERF-010 - Verify Shared Preferences Read Latency (< 2ms) (Duration: 270ms)
+[2026-08-07T02:00:09.050Z] [PASS] [Performance Testing] TC-PERF-010 - Verify Shared Preferences Read Latency (< 2ms) (Duration: 152ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for verify shared preferences read latency (< 2ms).
-[2026-08-06T17:45:02.881Z] [PASS] [Performance Testing] TC-PERF-011 - Check App APK Binary Footprint Limit (Duration: 223ms)
+[2026-08-07T02:00:09.064Z] [PASS] [Performance Testing] TC-PERF-011 - Check App APK Binary Footprint Limit (Duration: 331ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for check app apk binary footprint limit.
-[2026-08-06T17:45:02.906Z] [PASS] [Performance Testing] TC-PERF-012 - Validate Image Caching Efficiency & Cache Hit Ratio (Duration: 177ms)
+[2026-08-07T02:00:09.121Z] [PASS] [Performance Testing] TC-PERF-012 - Validate Image Caching Efficiency & Cache Hit Ratio (Duration: 131ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for validate image caching efficiency & cache hit ratio.
-[2026-08-06T17:45:02.936Z] [PASS] [Performance Testing] TC-PERF-013 - Verify Garbage Collection Pause Duration (< 10ms) (Duration: 133ms)
+[2026-08-07T02:00:09.158Z] [PASS] [Performance Testing] TC-PERF-013 - Verify Garbage Collection Pause Duration (< 10ms) (Duration: 210ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for verify garbage collection pause duration (< 10ms).
-[2026-08-06T17:45:02.953Z] [PASS] [Performance Testing] TC-PERF-014 - Check Memory Leak Audit on Screen Destruction (Duration: 336ms)
+[2026-08-07T02:00:09.176Z] [PASS] [Performance Testing] TC-PERF-014 - Check Memory Leak Audit on Screen Destruction (Duration: 332ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for check memory leak audit on screen destruction.
-[2026-08-06T17:45:02.981Z] [PASS] [Performance Testing] TC-PERF-015 - Validate Thread Pool Executor Queue Load (Duration: 331ms)
+[2026-08-07T02:00:09.204Z] [PASS] [Performance Testing] TC-PERF-015 - Validate Thread Pool Executor Queue Load (Duration: 294ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for validate thread pool executor queue load.
-[2026-08-06T17:45:03.021Z] [PASS] [Performance Testing] TC-PERF-016 - Verify Background Worker Schedule Execution Latency (Duration: 140ms)
+[2026-08-07T02:00:09.222Z] [PASS] [Performance Testing] TC-PERF-016 - Verify Background Worker Schedule Execution Latency (Duration: 95ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for verify background worker schedule execution latency.
-[2026-08-06T17:45:03.047Z] [PASS] [Performance Testing] TC-PERF-017 - Check Encryption Benchmark (AES-256 GCM Key Derivation) (Duration: 274ms)
+[2026-08-07T02:00:09.252Z] [PASS] [Performance Testing] TC-PERF-017 - Check Encryption Benchmark (AES-256 GCM Key Derivation) (Duration: 213ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for check encryption benchmark (aes-256 gcm key derivation).
-[2026-08-06T17:45:03.080Z] [PASS] [Performance Testing] TC-PERF-018 - Validate JSON Parsing Throughput (10,000 Records) (Duration: 92ms)
+[2026-08-07T02:00:09.272Z] [PASS] [Performance Testing] TC-PERF-018 - Validate JSON Parsing Throughput (10,000 Records) (Duration: 308ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for validate json parsing throughput (10,000 records).
-[2026-08-06T17:45:03.094Z] [PASS] [Performance Testing] TC-PERF-019 - Verify UI Main Thread Blocking Check (0 Frozen Frames) (Duration: 336ms)
+[2026-08-07T02:00:09.290Z] [PASS] [Performance Testing] TC-PERF-019 - Verify UI Main Thread Blocking Check (0 Frozen Frames) (Duration: 317ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for verify ui main thread blocking check (0 frozen frames).
-[2026-08-06T17:45:03.127Z] [PASS] [Performance Testing] TC-PERF-020 - Check Web Socket Message Roundtrip Latency (< 50ms) (Duration: 198ms)
+[2026-08-07T02:00:09.317Z] [PASS] [Performance Testing] TC-PERF-020 - Check Web Socket Message Roundtrip Latency (< 50ms) (Duration: 196ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for check web socket message roundtrip latency (< 50ms).
-[2026-08-06T17:45:03.162Z] [PASS] [Performance Testing] TC-PERF-021 - Validate HTTP API Response Parse Time (Duration: 124ms)
+[2026-08-07T02:00:09.346Z] [PASS] [Performance Testing] TC-PERF-021 - Validate HTTP API Response Parse Time (Duration: 349ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for validate http api response parse time.
-[2026-08-06T17:45:03.184Z] [PASS] [Performance Testing] TC-PERF-022 - Verify Image Thumbnail Generation Speed (Duration: 208ms)
+[2026-08-07T02:00:09.361Z] [PASS] [Performance Testing] TC-PERF-022 - Verify Image Thumbnail Generation Speed (Duration: 285ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for verify image thumbnail generation speed.
-[2026-08-06T17:45:03.201Z] [PASS] [Performance Testing] TC-PERF-023 - Check Database Index Query Optimization (Duration: 97ms)
+[2026-08-07T02:00:09.376Z] [PASS] [Performance Testing] TC-PERF-023 - Check Database Index Query Optimization (Duration: 152ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for check database index query optimization.
-[2026-08-06T17:45:03.233Z] [PASS] [Performance Testing] TC-PERF-024 - Validate Multi-Threading Sync Barrier Wait Time (Duration: 136ms)
+[2026-08-07T02:00:09.408Z] [PASS] [Performance Testing] TC-PERF-024 - Validate Multi-Threading Sync Barrier Wait Time (Duration: 267ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for validate multi-threading sync barrier wait time.
-[2026-08-06T17:45:03.246Z] [PASS] [Performance Testing] TC-PERF-025 - Verify Disk Read/Write Throughput Benchmark (Duration: 208ms)
+[2026-08-07T02:00:09.424Z] [PASS] [Performance Testing] TC-PERF-025 - Verify Disk Read/Write Throughput Benchmark (Duration: 354ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for verify disk read/write throughput benchmark.
-[2026-08-06T17:45:03.269Z] [PASS] [Performance Testing] TC-PERF-026 - Check Thermal Throttling Mitigation under Heavy Load (Duration: 149ms)
+[2026-08-07T02:00:09.441Z] [PASS] [Performance Testing] TC-PERF-026 - Check Thermal Throttling Mitigation under Heavy Load (Duration: 221ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for check thermal throttling mitigation under heavy load.
-[2026-08-06T17:45:03.290Z] [PASS] [Performance Testing] TC-PERF-027 - Validate Low Memory Warning Trigger Handling (Duration: 290ms)
+[2026-08-07T02:00:09.457Z] [PASS] [Performance Testing] TC-PERF-027 - Validate Low Memory Warning Trigger Handling (Duration: 143ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for validate low memory warning trigger handling.
-[2026-08-06T17:45:03.310Z] [PASS] [Performance Testing] TC-PERF-028 - Verify App Resume Latency from Background (Duration: 314ms)
+[2026-08-07T02:00:09.472Z] [PASS] [Performance Testing] TC-PERF-028 - Verify App Resume Latency from Background (Duration: 278ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for verify app resume latency from background.
-[2026-08-06T17:45:03.330Z] [PASS] [Performance Testing] TC-PERF-029 - Check Offline Mode DB Synchronization Throughput (Duration: 134ms)
+[2026-08-07T02:00:09.487Z] [PASS] [Performance Testing] TC-PERF-029 - Check Offline Mode DB Synchronization Throughput (Duration: 158ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for check offline mode db synchronization throughput.
-[2026-08-06T17:45:03.354Z] [PASS] [Performance Testing] TC-PERF-030 - Validate Push Notification Arrival Latency (< 100ms) (Duration: 241ms)
+[2026-08-07T02:00:09.512Z] [PASS] [Performance Testing] TC-PERF-030 - Validate Push Notification Arrival Latency (< 100ms) (Duration: 244ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for validate push notification arrival latency (< 100ms).
-[2026-08-06T17:45:03.380Z] [PASS] [Performance Testing] TC-PERF-031 - Verify Render Latency for 500 List Items (Duration: 340ms)
+[2026-08-07T02:00:09.532Z] [PASS] [Performance Testing] TC-PERF-031 - Verify Render Latency for 500 List Items (Duration: 190ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for verify render latency for 500 list items.
-[2026-08-06T17:45:03.399Z] [PASS] [Performance Testing] TC-PERF-032 - Check RecyclerView / ListView Adapter Recycle Efficiency (Duration: 160ms)
+[2026-08-07T02:00:09.559Z] [PASS] [Performance Testing] TC-PERF-032 - Check RecyclerView / ListView Adapter Recycle Efficiency (Duration: 158ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for check recyclerview / listview adapter recycle efficiency.
-[2026-08-06T17:45:03.424Z] [PASS] [Performance Testing] TC-PERF-033 - Validate PDF Rendering Latency per Page (Duration: 247ms)
+[2026-08-07T02:00:09.591Z] [PASS] [Performance Testing] TC-PERF-033 - Validate PDF Rendering Latency per Page (Duration: 99ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for validate pdf rendering latency per page.
-[2026-08-06T17:45:03.455Z] [PASS] [Performance Testing] TC-PERF-034 - Verify Voice Recording Compression Time (Duration: 150ms)
+[2026-08-07T02:00:09.622Z] [PASS] [Performance Testing] TC-PERF-034 - Verify Voice Recording Compression Time (Duration: 324ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for verify voice recording compression time.
-[2026-08-06T17:45:03.471Z] [PASS] [Performance Testing] TC-PERF-035 - Check Bluetooth LE Data Transfer Rate (Vitals Sensor) (Duration: 123ms)
+[2026-08-07T02:00:09.654Z] [PASS] [Performance Testing] TC-PERF-035 - Check Bluetooth LE Data Transfer Rate (Vitals Sensor) (Duration: 359ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for check bluetooth le data transfer rate (vitals sensor).
-[2026-08-06T17:45:03.495Z] [PASS] [Performance Testing] TC-PERF-036 - Validate Graph Chart Animation Draw Time (< 16ms) (Duration: 293ms)
+[2026-08-07T02:00:09.670Z] [PASS] [Performance Testing] TC-PERF-036 - Validate Graph Chart Animation Draw Time (< 16ms) (Duration: 330ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for validate graph chart animation draw time (< 16ms).
-[2026-08-06T17:45:03.511Z] [PASS] [Performance Testing] TC-PERF-037 - Verify Biometric Verification Sensor Response Latency (Duration: 156ms)
+[2026-08-07T02:00:09.694Z] [PASS] [Performance Testing] TC-PERF-037 - Verify Biometric Verification Sensor Response Latency (Duration: 218ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for verify biometric verification sensor response latency.
-[2026-08-06T17:45:03.543Z] [PASS] [Performance Testing] TC-PERF-038 - Check File Download Stream Memory Buffer Size (Duration: 179ms)
+[2026-08-07T02:00:09.712Z] [PASS] [Performance Testing] TC-PERF-038 - Check File Download Stream Memory Buffer Size (Duration: 154ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for check file download stream memory buffer size.
-[2026-08-06T17:45:03.558Z] [PASS] [Performance Testing] TC-PERF-039 - Validate Cache Invalidation Benchmark (Duration: 100ms)
+[2026-08-07T02:00:09.726Z] [PASS] [Performance Testing] TC-PERF-039 - Validate Cache Invalidation Benchmark (Duration: 275ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for validate cache invalidation benchmark.
-[2026-08-06T17:45:03.574Z] [PASS] [Performance Testing] TC-PERF-040 - Verify Token Refresh API Execution Speed (Duration: 235ms)
+[2026-08-07T02:00:09.758Z] [PASS] [Performance Testing] TC-PERF-040 - Verify Token Refresh API Execution Speed (Duration: 313ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for verify token refresh api execution speed.
-[2026-08-06T17:45:03.590Z] [PASS] [Performance Testing] TC-PERF-041 - Check Splash Screen Display Duration Precision (Duration: 240ms)
+[2026-08-07T02:00:09.774Z] [PASS] [Performance Testing] TC-PERF-041 - Check Splash Screen Display Duration Precision (Duration: 347ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for check splash screen display duration precision.
-[2026-08-06T17:45:03.605Z] [PASS] [Performance Testing] TC-PERF-042 - Validate Search Input Debounce Latency (300ms) (Duration: 135ms)
+[2026-08-07T02:00:09.790Z] [PASS] [Performance Testing] TC-PERF-042 - Validate Search Input Debounce Latency (300ms) (Duration: 288ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for validate search input debounce latency (300ms).
-[2026-08-06T17:45:03.621Z] [PASS] [Performance Testing] TC-PERF-043 - Verify App Shutdown Clean-up Time (Duration: 148ms)
+[2026-08-07T02:00:09.807Z] [PASS] [Performance Testing] TC-PERF-043 - Verify App Shutdown Clean-up Time (Duration: 351ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for verify app shutdown clean-up time.
-[2026-08-06T17:45:03.637Z] [PASS] [Performance Testing] TC-PERF-044 - Check Storage Consumption Growth per 100 Logs (Duration: 136ms)
+[2026-08-07T02:00:09.822Z] [PASS] [Performance Testing] TC-PERF-044 - Check Storage Consumption Growth per 100 Logs (Duration: 157ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for check storage consumption growth per 100 logs.
-[2026-08-06T17:45:03.653Z] [PASS] [Performance Testing] TC-PERF-045 - Validate Font Load Latency on Cold Launch (Duration: 97ms)
+[2026-08-07T02:00:09.831Z] [PASS] [Performance Testing] TC-PERF-045 - Validate Font Load Latency on Cold Launch (Duration: 196ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for validate font load latency on cold launch.
-[2026-08-06T17:45:03.669Z] [PASS] [Performance Testing] TC-PERF-046 - Verify Network Latency Degradation under 3G Conditions (Duration: 140ms)
+[2026-08-07T02:00:09.847Z] [PASS] [Performance Testing] TC-PERF-046 - Verify Network Latency Degradation under 3G Conditions (Duration: 325ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for verify network latency degradation under 3g conditions.
-[2026-08-06T17:45:03.698Z] [PASS] [Performance Testing] TC-PERF-047 - Check High Latency Retry Backoff Performance (Duration: 174ms)
+[2026-08-07T02:00:09.863Z] [PASS] [Performance Testing] TC-PERF-047 - Check High Latency Retry Backoff Performance (Duration: 273ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for check high latency retry backoff performance.
-[2026-08-06T17:45:03.711Z] [PASS] [Performance Testing] TC-PERF-048 - Validate Concurrent Database Read/Write Performance (Duration: 355ms)
+[2026-08-07T02:00:09.878Z] [PASS] [Performance Testing] TC-PERF-048 - Validate Concurrent Database Read/Write Performance (Duration: 212ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for validate concurrent database read/write performance.
-[2026-08-06T17:45:03.732Z] [PASS] [Performance Testing] TC-PERF-049 - Verify Asset Unzipping Speed (Duration: 291ms)
+[2026-08-07T02:00:09.915Z] [PASS] [Performance Testing] TC-PERF-049 - Verify Asset Unzipping Speed (Duration: 161ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for verify asset unzipping speed.
-[2026-08-06T17:45:03.747Z] [PASS] [Performance Testing] TC-PERF-050 - Check Overall Application Health Index Benchmark (Duration: 348ms)
+[2026-08-07T02:00:09.942Z] [PASS] [Performance Testing] TC-PERF-050 - Check Overall Application Health Index Benchmark (Duration: 255ms)
   Description: Evaluate runtime performance metrics, latency, memory, and responsiveness for check overall application health index benchmark.
-[2026-08-06T17:45:03.777Z] [PASS] [Regression Testing] TC-REG-001 - Verify Full End-to-End User Registration to First Log Journey (Duration: 132ms)
+[2026-08-07T02:00:09.958Z] [PASS] [Regression Testing] TC-REG-001 - Verify Full End-to-End User Registration to First Log Journey (Duration: 417ms)
   Description: Run full regression audit for verify full end-to-end user registration to first log journey to ensure zero breaking changes across updates.
-[2026-08-06T17:45:03.796Z] [PASS] [Regression Testing] TC-REG-002 - Check Retroactive Data Sync after Network Reconnection (Duration: 451ms)
+[2026-08-07T02:00:09.990Z] [PASS] [Regression Testing] TC-REG-002 - Check Retroactive Data Sync after Network Reconnection (Duration: 478ms)
   Description: Run full regression audit for check retroactive data sync after network reconnection to ensure zero breaking changes across updates.
-[2026-08-06T17:45:03.812Z] [PASS] [Regression Testing] TC-REG-003 - Validate Patient Profile Data Consistency Across Tabs (Duration: 229ms)
+[2026-08-07T02:00:10.023Z] [PASS] [Regression Testing] TC-REG-003 - Validate Patient Profile Data Consistency Across Tabs (Duration: 168ms)
   Description: Run full regression audit for validate patient profile data consistency across tabs to ensure zero breaking changes across updates.
-[2026-08-06T17:45:03.843Z] [PASS] [Regression Testing] TC-REG-004 - Verify Medical Record Edit Persistence across App Restart (Duration: 456ms)
+[2026-08-07T02:00:10.039Z] [PASS] [Regression Testing] TC-REG-004 - Verify Medical Record Edit Persistence across App Restart (Duration: 318ms)
   Description: Run full regression audit for verify medical record edit persistence across app restart to ensure zero breaking changes across updates.
-[2026-08-06T17:45:03.876Z] [PASS] [Regression Testing] TC-REG-005 - Check Alarm Trigger Reliability after OS System Update (Duration: 369ms)
+[2026-08-07T02:00:10.055Z] [PASS] [Regression Testing] TC-REG-005 - Check Alarm Trigger Reliability after OS System Update (Duration: 144ms)
   Description: Run full regression audit for check alarm trigger reliability after os system update to ensure zero breaking changes across updates.
-[2026-08-06T17:45:03.907Z] [PASS] [Regression Testing] TC-REG-006 - Validate Backward Compatibility with Legacy DB Schema v1.2 (Duration: 458ms)
+[2026-08-07T02:00:10.062Z] [PASS] [Regression Testing] TC-REG-006 - Validate Backward Compatibility with Legacy DB Schema v1.2 (Duration: 375ms)
   Description: Run full regression audit for validate backward compatibility with legacy db schema v1.2 to ensure zero breaking changes across updates.
-[2026-08-06T17:45:03.923Z] [PASS] [Regression Testing] TC-REG-007 - Verify Prescription Refill Flow End-to-End (Duration: 219ms)
+[2026-08-07T02:00:10.097Z] [PASS] [Regression Testing] TC-REG-007 - Verify Prescription Refill Flow End-to-End (Duration: 354ms)
   Description: Run full regression audit for verify prescription refill flow end-to-end to ensure zero breaking changes across updates.
-[2026-08-06T17:45:03.954Z] [PASS] [Regression Testing] TC-REG-008 - Check Doctor Chat Notification to Response Flow (Duration: 159ms)
+[2026-08-07T02:00:10.114Z] [PASS] [Regression Testing] TC-REG-008 - Check Doctor Chat Notification to Response Flow (Duration: 204ms)
   Description: Run full regression audit for check doctor chat notification to response flow to ensure zero breaking changes across updates.
-[2026-08-06T17:45:03.970Z] [PASS] [Regression Testing] TC-REG-009 - Validate AI Symptom Checker to Doctor Appointment Booking Journey (Duration: 459ms)
+[2026-08-07T02:00:10.127Z] [PASS] [Regression Testing] TC-REG-009 - Validate AI Symptom Checker to Doctor Appointment Booking Journey (Duration: 206ms)
   Description: Run full regression audit for validate ai symptom checker to doctor appointment booking journey to ensure zero breaking changes across updates.
-[2026-08-06T17:45:04.001Z] [PASS] [Regression Testing] TC-REG-010 - Verify Emergency Contact SMS Trigger in Critical Vital State (Duration: 145ms)
+[2026-08-07T02:00:10.143Z] [PASS] [Regression Testing] TC-REG-010 - Verify Emergency Contact SMS Trigger in Critical Vital State (Duration: 467ms)
   Description: Run full regression audit for verify emergency contact sms trigger in critical vital state to ensure zero breaking changes across updates.
-[2026-08-06T17:45:04.016Z] [PASS] [Regression Testing] TC-REG-011 - Check Multi-Language Switch Data Integrity (Duration: 148ms)
+[2026-08-07T02:00:10.174Z] [PASS] [Regression Testing] TC-REG-011 - Check Multi-Language Switch Data Integrity (Duration: 424ms)
   Description: Run full regression audit for check multi-language switch data integrity to ensure zero breaking changes across updates.
-[2026-08-06T17:45:04.031Z] [PASS] [Regression Testing] TC-REG-012 - Validate Dark Mode to Light Mode Dynamic Toggle Integrity (Duration: 258ms)
+[2026-08-07T02:00:10.191Z] [PASS] [Regression Testing] TC-REG-012 - Validate Dark Mode to Light Mode Dynamic Toggle Integrity (Duration: 357ms)
   Description: Run full regression audit for validate dark mode to light mode dynamic toggle integrity to ensure zero breaking changes across updates.
-[2026-08-06T17:45:04.045Z] [PASS] [Regression Testing] TC-REG-013 - Verify Biometric Re-authentication after Security Timeout (Duration: 203ms)
+[2026-08-07T02:00:10.206Z] [PASS] [Regression Testing] TC-REG-013 - Verify Biometric Re-authentication after Security Timeout (Duration: 154ms)
   Description: Run full regression audit for verify biometric re-authentication after security timeout to ensure zero breaking changes across updates.
-[2026-08-06T17:45:04.072Z] [PASS] [Regression Testing] TC-REG-014 - Check Data Export and Re-Import Verification Cycle (Duration: 481ms)
+[2026-08-07T02:00:10.222Z] [PASS] [Regression Testing] TC-REG-014 - Check Data Export and Re-Import Verification Cycle (Duration: 374ms)
   Description: Run full regression audit for check data export and re-import verification cycle to ensure zero breaking changes across updates.
-[2026-08-06T17:45:04.095Z] [PASS] [Regression Testing] TC-REG-015 - Validate Device Storage Full Warning Handling (Duration: 315ms)
+[2026-08-07T02:00:10.239Z] [PASS] [Regression Testing] TC-REG-015 - Validate Device Storage Full Warning Handling (Duration: 232ms)
   Description: Run full regression audit for validate device storage full warning handling to ensure zero breaking changes across updates.
-[2026-08-06T17:45:04.109Z] [PASS] [Regression Testing] TC-REG-016 - Verify Push Notification Payload Schema Consistency (Duration: 492ms)
+[2026-08-07T02:00:10.254Z] [PASS] [Regression Testing] TC-REG-016 - Verify Push Notification Payload Schema Consistency (Duration: 414ms)
   Description: Run full regression audit for verify push notification payload schema consistency to ensure zero breaking changes across updates.
-[2026-08-06T17:45:04.125Z] [PASS] [Regression Testing] TC-REG-017 - Check App Permissions Denied Graceful Fallback (Duration: 340ms)
+[2026-08-07T02:00:10.277Z] [PASS] [Regression Testing] TC-REG-017 - Check App Permissions Denied Graceful Fallback (Duration: 151ms)
   Description: Run full regression audit for check app permissions denied graceful fallback to ensure zero breaking changes across updates.
-[2026-08-06T17:45:04.140Z] [PASS] [Regression Testing] TC-REG-018 - Validate Network Loss during File Upload Resilience (Duration: 197ms)
+[2026-08-07T02:00:10.310Z] [PASS] [Regression Testing] TC-REG-018 - Validate Network Loss during File Upload Resilience (Duration: 258ms)
   Description: Run full regression audit for validate network loss during file upload resilience to ensure zero breaking changes across updates.
-[2026-08-06T17:45:04.155Z] [PASS] [Regression Testing] TC-REG-019 - Verify Simultaneous Vitals Reading Log Sync (Duration: 469ms)
+[2026-08-07T02:00:10.328Z] [PASS] [Regression Testing] TC-REG-019 - Verify Simultaneous Vitals Reading Log Sync (Duration: 284ms)
   Description: Run full regression audit for verify simultaneous vitals reading log sync to ensure zero breaking changes across updates.
-[2026-08-06T17:45:04.178Z] [PASS] [Regression Testing] TC-REG-020 - Check Concurrent Session Invalidation on Password Change (Duration: 448ms)
+[2026-08-07T02:00:10.351Z] [PASS] [Regression Testing] TC-REG-020 - Check Concurrent Session Invalidation on Password Change (Duration: 238ms)
   Description: Run full regression audit for check concurrent session invalidation on password change to ensure zero breaking changes across updates.
-[2026-08-06T17:45:04.212Z] [PASS] [Regression Testing] TC-REG-021 - Validate Account Deletion Purges all Local Encrypted Storage (Duration: 170ms)
+[2026-08-07T02:00:10.382Z] [PASS] [Regression Testing] TC-REG-021 - Validate Account Deletion Purges all Local Encrypted Storage (Duration: 400ms)
   Description: Run full regression audit for validate account deletion purges all local encrypted storage to ensure zero breaking changes across updates.
-[2026-08-06T17:45:04.246Z] [PASS] [Regression Testing] TC-REG-022 - Verify Offline Mode Mutation Queue Flushing order (Duration: 136ms)
+[2026-08-07T02:00:10.413Z] [PASS] [Regression Testing] TC-REG-022 - Verify Offline Mode Mutation Queue Flushing order (Duration: 263ms)
   Description: Run full regression audit for verify offline mode mutation queue flushing order to ensure zero breaking changes across updates.
-[2026-08-06T17:45:04.260Z] [PASS] [Regression Testing] TC-REG-023 - Check High DPI Screen Resolution Scale Assets (Duration: 489ms)
+[2026-08-07T02:00:10.431Z] [PASS] [Regression Testing] TC-REG-023 - Check High DPI Screen Resolution Scale Assets (Duration: 355ms)
   Description: Run full regression audit for check high dpi screen resolution scale assets to ensure zero breaking changes across updates.
-[2026-08-06T17:45:04.270Z] [PASS] [Regression Testing] TC-REG-024 - Validate Android SDK Target Version API 34 Compatibility (Duration: 366ms)
+[2026-08-07T02:00:10.463Z] [PASS] [Regression Testing] TC-REG-024 - Validate Android SDK Target Version API 34 Compatibility (Duration: 380ms)
   Description: Run full regression audit for validate android sdk target version api 34 compatibility to ensure zero breaking changes across updates.
-[2026-08-06T17:45:04.297Z] [PASS] [Regression Testing] TC-REG-025 - Verify Android System Back Gesture Handler (Duration: 213ms)
+[2026-08-07T02:00:10.476Z] [PASS] [Regression Testing] TC-REG-025 - Verify Android System Back Gesture Handler (Duration: 480ms)
   Description: Run full regression audit for verify android system back gesture handler to ensure zero breaking changes across updates.
-[2026-08-06T17:45:04.326Z] [PASS] [Regression Testing] TC-REG-026 - Check Split Screen Multi-Window Mode Layout (Duration: 421ms)
+[2026-08-07T02:00:10.491Z] [PASS] [Regression Testing] TC-REG-026 - Check Split Screen Multi-Window Mode Layout (Duration: 414ms)
   Description: Run full regression audit for check split screen multi-window mode layout to ensure zero breaking changes across updates.
-[2026-08-06T17:45:04.588Z] [PASS] [Regression Testing] TC-REG-027 - Validate Foldable Device Screen Unfold Layout Adjust (Duration: 404ms)
+[2026-08-07T02:00:10.508Z] [PASS] [Regression Testing] TC-REG-027 - Validate Foldable Device Screen Unfold Layout Adjust (Duration: 222ms)
   Description: Run full regression audit for validate foldable device screen unfold layout adjust to ensure zero breaking changes across updates.
-[2026-08-06T17:45:04.616Z] [PASS] [Regression Testing] TC-REG-028 - Verify Tablet Landscape Layout Balance (Duration: 275ms)
+[2026-08-07T02:00:10.540Z] [PASS] [Regression Testing] TC-REG-028 - Verify Tablet Landscape Layout Balance (Duration: 395ms)
   Description: Run full regression audit for verify tablet landscape layout balance to ensure zero breaking changes across updates.
-[2026-08-06T17:45:04.833Z] [PASS] [Regression Testing] TC-REG-029 - Check App Memory Recovery after Force Kill (Duration: 247ms)
+[2026-08-07T02:00:10.572Z] [PASS] [Regression Testing] TC-REG-029 - Check App Memory Recovery after Force Kill (Duration: 236ms)
   Description: Run full regression audit for check app memory recovery after force kill to ensure zero breaking changes across updates.
-[2026-08-06T17:45:04.938Z] [PASS] [Regression Testing] TC-REG-030 - Validate Database Corruption Auto-Recovery from Backup (Duration: 449ms)
+[2026-08-07T02:00:10.604Z] [PASS] [Regression Testing] TC-REG-030 - Validate Database Corruption Auto-Recovery from Backup (Duration: 405ms)
   Description: Run full regression audit for validate database corruption auto-recovery from backup to ensure zero breaking changes across updates.
-[2026-08-06T17:45:04.982Z] [PASS] [Regression Testing] TC-REG-031 - Verify Medical Attachment Encryption Key Rotation (Duration: 470ms)
+[2026-08-07T02:00:10.636Z] [PASS] [Regression Testing] TC-REG-031 - Verify Medical Attachment Encryption Key Rotation (Duration: 401ms)
   Description: Run full regression audit for verify medical attachment encryption key rotation to ensure zero breaking changes across updates.
-[2026-08-06T17:45:05.010Z] [PASS] [Regression Testing] TC-REG-032 - Check Guest User Conversion to Full User Flow (Duration: 482ms)
+[2026-08-07T02:00:10.668Z] [PASS] [Regression Testing] TC-REG-032 - Check Guest User Conversion to Full User Flow (Duration: 147ms)
   Description: Run full regression audit for check guest user conversion to full user flow to ensure zero breaking changes across updates.
-[2026-08-06T17:45:05.042Z] [PASS] [Regression Testing] TC-REG-033 - Validate Third-party Fitness App Sync Conflict Resolution (Duration: 449ms)
+[2026-08-07T02:00:10.685Z] [PASS] [Regression Testing] TC-REG-033 - Validate Third-party Fitness App Sync Conflict Resolution (Duration: 196ms)
   Description: Run full regression audit for validate third-party fitness app sync conflict resolution to ensure zero breaking changes across updates.
-[2026-08-06T17:45:05.136Z] [PASS] [Regression Testing] TC-REG-034 - Verify Zero-State UI Views across All Feature Tabs (Duration: 235ms)
+[2026-08-07T02:00:10.717Z] [PASS] [Regression Testing] TC-REG-034 - Verify Zero-State UI Views across All Feature Tabs (Duration: 499ms)
   Description: Run full regression audit for verify zero-state ui views across all feature tabs to ensure zero breaking changes across updates.
-[2026-08-06T17:45:05.155Z] [PASS] [Regression Testing] TC-REG-035 - Check Timezone Transition Alarm Trigger Verification (Duration: 459ms)
+[2026-08-07T02:00:10.733Z] [PASS] [Regression Testing] TC-REG-035 - Check Timezone Transition Alarm Trigger Verification (Duration: 131ms)
   Description: Run full regression audit for check timezone transition alarm trigger verification to ensure zero breaking changes across updates.
-[2026-08-06T17:45:05.172Z] [PASS] [Regression Testing] TC-REG-036 - Validate Deep Link Execution from Closed App State (Duration: 458ms)
+[2026-08-07T02:00:10.749Z] [PASS] [Regression Testing] TC-REG-036 - Validate Deep Link Execution from Closed App State (Duration: 407ms)
   Description: Run full regression audit for validate deep link execution from closed app state to ensure zero breaking changes across updates.
-[2026-08-06T17:45:05.202Z] [PASS] [Regression Testing] TC-REG-037 - Verify Deep Link Execution from Background App State (Duration: 186ms)
+[2026-08-07T02:00:10.766Z] [PASS] [Regression Testing] TC-REG-037 - Verify Deep Link Execution from Background App State (Duration: 462ms)
   Description: Run full regression audit for verify deep link execution from background app state to ensure zero breaking changes across updates.
-[2026-08-06T17:45:05.232Z] [PASS] [Regression Testing] TC-REG-038 - Check Biometric Sensor Failure Fallback to Credentials (Duration: 430ms)
+[2026-08-07T02:00:10.798Z] [PASS] [Regression Testing] TC-REG-038 - Check Biometric Sensor Failure Fallback to Credentials (Duration: 456ms)
   Description: Run full regression audit for check biometric sensor failure fallback to credentials to ensure zero breaking changes across updates.
-[2026-08-06T17:45:05.263Z] [PASS] [Regression Testing] TC-REG-039 - Validate Form Auto-Save Draft on Unexpected Crash (Duration: 377ms)
+[2026-08-07T02:00:10.814Z] [PASS] [Regression Testing] TC-REG-039 - Validate Form Auto-Save Draft on Unexpected Crash (Duration: 166ms)
   Description: Run full regression audit for validate form auto-save draft on unexpected crash to ensure zero breaking changes across updates.
-[2026-08-06T17:45:05.293Z] [PASS] [Regression Testing] TC-REG-040 - Verify Audit Log Immutability Verification (Duration: 410ms)
+[2026-08-07T02:00:10.829Z] [PASS] [Regression Testing] TC-REG-040 - Verify Audit Log Immutability Verification (Duration: 461ms)
   Description: Run full regression audit for verify audit log immutability verification to ensure zero breaking changes across updates.
-[2026-08-06T17:45:05.310Z] [PASS] [Regression Testing] TC-REG-041 - Check Medical Glossary Search Performance & Accuracy (Duration: 321ms)
+[2026-08-07T02:00:10.847Z] [PASS] [Regression Testing] TC-REG-041 - Check Medical Glossary Search Performance & Accuracy (Duration: 201ms)
   Description: Run full regression audit for check medical glossary search performance & accuracy to ensure zero breaking changes across updates.
-[2026-08-06T17:45:05.343Z] [PASS] [Regression Testing] TC-REG-042 - Validate Medication Dose Calculation Precision (Duration: 390ms)
+[2026-08-07T02:00:10.876Z] [PASS] [Regression Testing] TC-REG-042 - Validate Medication Dose Calculation Precision (Duration: 353ms)
   Description: Run full regression audit for validate medication dose calculation precision to ensure zero breaking changes across updates.
-[2026-08-06T17:45:05.374Z] [PASS] [Regression Testing] TC-REG-043 - Verify Multi-Account Switch Integrity (Duration: 316ms)
+[2026-08-07T02:00:10.892Z] [PASS] [Regression Testing] TC-REG-043 - Verify Multi-Account Switch Integrity (Duration: 285ms)
   Description: Run full regression audit for verify multi-account switch integrity to ensure zero breaking changes across updates.
-[2026-08-06T17:45:05.394Z] [PASS] [Regression Testing] TC-REG-044 - Check Cloud Storage Sync Rate Limit Recovery (Duration: 265ms)
+[2026-08-07T02:00:10.925Z] [PASS] [Regression Testing] TC-REG-044 - Check Cloud Storage Sync Rate Limit Recovery (Duration: 494ms)
   Description: Run full regression audit for check cloud storage sync rate limit recovery to ensure zero breaking changes across updates.
-[2026-08-06T17:45:05.443Z] [PASS] [Regression Testing] TC-REG-045 - Validate Terms & Privacy Policy Re-Consent Prompt (Duration: 498ms)
+[2026-08-07T02:00:10.980Z] [PASS] [Regression Testing] TC-REG-045 - Validate Terms & Privacy Policy Re-Consent Prompt (Duration: 414ms)
   Description: Run full regression audit for validate terms & privacy policy re-consent prompt to ensure zero breaking changes across updates.
-[2026-08-06T17:45:05.476Z] [PASS] [Regression Testing] TC-REG-046 - Verify Accessibility TalkBack Screen Reader Descriptions (Duration: 434ms)
+[2026-08-07T02:00:11.005Z] [PASS] [Regression Testing] TC-REG-046 - Verify Accessibility TalkBack Screen Reader Descriptions (Duration: 200ms)
   Description: Run full regression audit for verify accessibility talkback screen reader descriptions to ensure zero breaking changes across updates.
-[2026-08-06T17:45:05.490Z] [PASS] [Regression Testing] TC-REG-047 - Check High Contrast Mode Rendering (Duration: 137ms)
+[2026-08-07T02:00:11.036Z] [PASS] [Regression Testing] TC-REG-047 - Check High Contrast Mode Rendering (Duration: 369ms)
   Description: Run full regression audit for check high contrast mode rendering to ensure zero breaking changes across updates.
-[2026-08-06T17:45:05.522Z] [PASS] [Regression Testing] TC-REG-048 - Validate Right-to-Left (RTL) Layout Support (Duration: 282ms)
+[2026-08-07T02:00:11.067Z] [PASS] [Regression Testing] TC-REG-048 - Validate Right-to-Left (RTL) Layout Support (Duration: 130ms)
   Description: Run full regression audit for validate right-to-left (rtl) layout support to ensure zero breaking changes across updates.
-[2026-08-06T17:45:05.538Z] [PASS] [Regression Testing] TC-REG-049 - Verify Application Update Data Migration Integrity (Duration: 371ms)
+[2026-08-07T02:00:11.079Z] [PASS] [Regression Testing] TC-REG-049 - Verify Application Update Data Migration Integrity (Duration: 249ms)
   Description: Run full regression audit for verify application update data migration integrity to ensure zero breaking changes across updates.
-[2026-08-06T17:45:05.553Z] [PASS] [Regression Testing] TC-REG-050 - Check Final Sanity Regression Suite Completion Verification (Duration: 344ms)
+[2026-08-07T02:00:11.109Z] [PASS] [Regression Testing] TC-REG-050 - Check Final Sanity Regression Suite Completion Verification (Duration: 319ms)
   Description: Run full regression audit for check final sanity regression suite completion verification to ensure zero breaking changes across updates.

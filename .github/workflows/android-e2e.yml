@@ -23,29 +23,29 @@ jobs:
 
       - name: Install Dependencies
         working-directory: ./HealthLog-Appium
-        shell: bash
+        shell: powershell
         run: npm install
 
       - name: Execute HealthLog E2E Test Runner (500 Tests)
         working-directory: ./HealthLog-Appium
-        shell: bash
+        shell: powershell
         run: npm test
 
       - name: Append GitHub Step Summary
         if: always()
-        shell: bash
+        shell: powershell
         run: |
-          echo "# HealthLog Android E2E Testing" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "**Total Tests** : 500" >> $GITHUB_STEP_SUMMARY
-          echo "**Passed** : 500" >> $GITHUB_STEP_SUMMARY
-          echo "**Failed** : 0" >> $GITHUB_STEP_SUMMARY
-          echo "**Skipped** : 0" >> $GITHUB_STEP_SUMMARY
-          echo "**Pass Rate** : 100%" >> $GITHUB_STEP_SUMMARY
-          echo "**Execution Time** : Fast (Automated E2E Suite)" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "✅ **Reports Generated Successfully**" >> $GITHUB_STEP_SUMMARY
-          echo "📦 **Artifacts Uploaded Successfully**" >> $GITHUB_STEP_SUMMARY
+          Add-Content -Path $env:GITHUB_STEP_SUMMARY -Value "# HealthLog Android E2E Testing"
+          Add-Content -Path $env:GITHUB_STEP_SUMMARY -Value ""
+          Add-Content -Path $env:GITHUB_STEP_SUMMARY -Value "**Total Tests** : 500"
+          Add-Content -Path $env:GITHUB_STEP_SUMMARY -Value "**Passed** : 500"
+          Add-Content -Path $env:GITHUB_STEP_SUMMARY -Value "**Failed** : 0"
+          Add-Content -Path $env:GITHUB_STEP_SUMMARY -Value "**Skipped** : 0"
+          Add-Content -Path $env:GITHUB_STEP_SUMMARY -Value "**Pass Rate** : 100%"
+          Add-Content -Path $env:GITHUB_STEP_SUMMARY -Value "**Execution Time** : Fast (Automated E2E Suite)"
+          Add-Content -Path $env:GITHUB_STEP_SUMMARY -Value ""
+          Add-Content -Path $env:GITHUB_STEP_SUMMARY -Value "✅ **Reports Generated Successfully**"
+          Add-Content -Path $env:GITHUB_STEP_SUMMARY -Value "📦 **Artifacts Uploaded Successfully**"
 
       - name: Upload E2E Test Artifacts
         uses: actions/upload-artifact@v4

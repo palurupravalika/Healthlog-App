@@ -17,7 +17,6 @@
   "author": "HealthLog QA Engineering Team",
   "license": "MIT",
   "dependencies": {
-    "exceljs": "^4.4.0",
-    "fast-csv": "^4.3.6"
+    "xlsx": "^0.18.5"
   }
 }
